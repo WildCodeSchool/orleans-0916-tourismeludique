@@ -8,7 +8,10 @@
 
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>mTourisme-Ludique</title>
-
+    
+                            <!-- CSS Perso -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
     						<!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -24,20 +27,23 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <link href="stylesheet_main1.css" rel="stylesheet">
+    <link href="stylesheet_notre_philosophie.css" rel="stylesheet">
   </head>
 
 <body>
 	<header>
-			
-
-
+        <?php include ('header.php'); ?>
 	</header>
-	
+
+
+
+	<main>
 	<?php   include ("main1.php");  ?>
+	</main>
+
 
 	<footer>
-		
+		<?php include 'footer.php' ?>
 
 
 	</footer>
