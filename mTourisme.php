@@ -38,7 +38,8 @@
 
 
 	<main>
-	<?php   include ("main1.php");  ?>
+	<?php   include ("notre_philosophie.php");  ?>
+    <?php   include ("trois_points.php");  ?>
 	</main>
 
 
