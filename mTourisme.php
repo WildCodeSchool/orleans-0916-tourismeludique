@@ -32,12 +32,7 @@
 
 	</header>
 	
-	<main>
-		
-
-
-
-	</main>
+	<?php   include ("main1.php");  ?>
 
 	<footer>
 		

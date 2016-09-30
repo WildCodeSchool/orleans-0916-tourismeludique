@@ -4,11 +4,11 @@
         <!----- Partie 1 : Notre philosophie ----->
         <div class="row">
             <!----- Espace vide à gauche ----->
-            <div class="col-xs-0 col-sm-0 col-md-1 col-lg-1">
+            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="background-color: lightblue";></div>
 
             <!----- Image ----->
             <div class="col-xs-6 col-sm-6 col-md-5 col-lg-5">
-                <img src="" alt="image dans lentille photo">
+                <img src="image/lens_reflect.png" alt="image dans lentille photo" width="50%" height="50%">
             </div>
 
             <!----- titre + text ----->
@@ -18,9 +18,11 @@
             </div>
 
             <!----- Espace vide à droite ----->
-            <div class="col-xs-0 col-sm-0 col-md-1 col-lg-1">
-
+            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="background-color: blueviolet";></div>
+            
         </div>
+
+
     </div>
 </main>
 
