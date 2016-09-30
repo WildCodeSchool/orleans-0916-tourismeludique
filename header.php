@@ -4,7 +4,7 @@
 <div class="jumbotron">
 	<div class="container-fluid">
 		<div class="col-lg-12 col-md-12">
-			<img class="img-responsive logo" src="image/Logo_mTourismeLudique_red(1).jpg" alt="Logo mTourimse-Ludique">
+			<img class="img-responsive logo" src="image/Logo_mTourismeLudique_Noir.png" alt="Logo mTourimse-Ludique">
 		</div>
 	</div>
 </div>
@@ -13,7 +13,7 @@
 <!-- Navbar -->
 
 <div id="nav">
-  <div class="navbar navbar-inverse navbar-fixed">
+  <div class="navbar navbar-inverse">
     <div class="container-fluid">
       <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
       <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -31,8 +31,6 @@
       </div>		
     </div>
   </div>
-</div>
-<div>
 </div>
 
   <!-- Fin Navbar -->
