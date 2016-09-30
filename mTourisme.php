@@ -8,7 +8,10 @@
 
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>mTourisme-Ludique</title>
-
+    
+                            <!-- CSS Perso -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
     						<!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -27,9 +30,7 @@
 
 <body>
 	<header>
-			
-
-
+        <?php include ('header.php'); ?>
 	</header>
 	
 	<main>
