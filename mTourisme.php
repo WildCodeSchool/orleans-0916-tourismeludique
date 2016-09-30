@@ -27,20 +27,20 @@
 
 <body>
 	<header>
-			
+
 
 
 	</header>
-	
+
 	<main>
-		
+
 
 
 
 	</main>
 
 	<footer>
-		
+		<?php include 'footer.php' ?>
 
 
 	</footer>
