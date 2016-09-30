@@ -3,5 +3,21 @@
 }
 
 .hidden-xs {
-    display: none;
+    display: ;
+}
+
+.hidden-sm {
+    display: ;
+}
+
+.titre_trois_points {
+    text-align: center;
+}
+
+.img_trois_points {
+    margin: auto;
+}
+
+.text_trois_points {
+    text-align: center;
 }
