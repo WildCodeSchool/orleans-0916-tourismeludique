@@ -32,16 +32,16 @@
 	<header>
         <?php include ('header.php'); ?>
 	</header>
-	
+
 	<main>
-		
+
 
 
 
 	</main>
 
 	<footer>
-		
+		<?php include 'footer.php' ?>
 
 
 	</footer>
