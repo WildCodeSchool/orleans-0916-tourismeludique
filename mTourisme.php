@@ -11,6 +11,7 @@
 
                             <!-- CSS Perso -->
     <link rel="stylesheet" type="text/css" href="css/stylesheetHeader.css">
+    <link rel="stylesheet" type="text/css" href="css/stylesheetForm.css">
 
 
     						<!-- Bootstrap -->
@@ -41,6 +42,7 @@
 	<main>
 	<?php   include ("notre_philosophie.php");  ?>
     <?php   include ("trois_points.php");  ?>
+    <?php include ("form.php"); ?>
 	</main>
 
 

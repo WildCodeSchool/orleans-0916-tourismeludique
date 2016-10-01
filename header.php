@@ -38,7 +38,7 @@
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
           <li><a href="#">Actualité</a></li>
-          <li><a href="#">Notre concept</a></li>
+          <li><a href="#">Notre philosophie</a></li>
           <li><a href="#">Géomotifs</a></li>
           <li><a href="#">Nous contacter</a></li>
         </ul>
