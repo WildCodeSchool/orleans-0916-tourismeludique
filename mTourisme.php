@@ -10,7 +10,8 @@
     <title>mTourisme-Ludique</title>
 
                             <!-- CSS Perso -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/stylesheetHeader.css">
+
 
     						<!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">

@@ -1,4 +1,4 @@
-<!-- Jumbotron -->
+<!----------------------------------------------- JUMBOTRON ----------------------------------------------------------->
 <html>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <div class="jumbotron">
@@ -8,14 +8,28 @@
 		</div>
 	</div>
 </div>
-<!-- Fin Jumbotron -->
+<!--------------------------------------------- / JUMBOTRON ----------------------------------------------------------->
 
-<!-- Navbar -->
+<!---------------------------------------------- NAVBAR --------------------------------------------------------------->
+<!---------------------------------------------- SCRIPT STICKY NAV ---------------------------------------------------->
+<script>
+    $(window).scroll(function (event) {
+        // A chaque fois que l'utilisateur va scroller (descendre la page)
+        var y = $(this).scrollTop(); // On récupérer la valeur du scroll vertical
 
+        //si cette valeur > à 700 on ajouter la class
+        if (y >= 700) {
+            $('.navbar').addClass('fixed');
+        } else {
+            // sinon, on l'enlève
+            $('.navbar').removeClass('fixed');
+        }
+    });
+</script>
+<!----------------------------------------------/ SCRIPT STICKY NAV --------------------------------------------------->
 <div id="nav">
   <div class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+    <div class="container-fluid menu">
       <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="glyphicon glyphicon-bar"></span>
         <span class="glyphicon glyphicon-bar"></span>
@@ -32,6 +46,5 @@
     </div>
   </div>
 </div>
-
-  <!-- Fin Navbar -->
+<!---------------------------------------------/ NAVBAR --------------------------------------------------------------->
 </html>
