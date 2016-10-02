@@ -10,11 +10,11 @@
         <h2 class="titreForm">Une idée? Un projet?<br/>Contactez-nous</h2>
         <form method="post" action="formPost.php">
             <div class="form-group">
-                <label for="Nom">Nom</label>
+                <label for="Nom">Nom *</label>
                 <input type="Nom" class="form-control" id="Nom" placeholder="Votre nom..." required>
             </div>
             <div class="form-group">
-                <label for="Prenom">Prénom</label>
+                <label for="Prenom">Prénom *</label>
                 <input type="Prenom" class="form-control" id="Prenom" placeholder="Votre prénom..."required>
             </div>
             <div class="form-group">
@@ -22,11 +22,11 @@
                 <input type="Entreprise" class="form-control" id="Entreprise" placeholder="Votre entreprise, société organisme..."required>
             </div>
             <div class="form-group">
-                <label for="Email">Mail</label>
+                <label for="Email">Mail *</label>
                 <input type="email" class="form-control" id="Email" placeholder="Votre Email..."required>
             </div>
             <div class="form-group">
-                <label for="Message">Message</label>
+                <label for="Message">Message *</label>
                 <textarea name="Message" class="form-control" placeholder="Votre message..." required></textarea>
             </div>
             <div class="form-group">

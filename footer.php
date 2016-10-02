@@ -13,7 +13,7 @@
                     </div>
                     <div class="col-lg-1 col-lg-offset-4">
                          <a href="#ancre">Réalisé par :</a><br/>
-                         <img src="image/logo_wild.png" alt="logo wildcodeschool">
+                         <img src="image/logo_wild.png" class="img-responsive" alt="logo wildcodeschool">
                     </div>
                </div>
           </div>
