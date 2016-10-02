@@ -1,5 +1,5 @@
 <html>
-<div class="container-fluid actu">
+<div class="container-fluid actu" id="ancreActu">
     <div class="actutext col-lg-9">
         <h1>Actualité</h1>
         <p>
@@ -10,7 +10,7 @@
         <img src="image/cath-4.jpg" class="img-responsive imgActu" alt="Photo illustration actu">
     </div>
 </div>
-
+<hr />
 
 
 

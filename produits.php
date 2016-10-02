@@ -1,4 +1,4 @@
-<div class=" container-fluid produits">
+<div class=" container-fluid produits" id="ancreProduit">
     <div class="produitsText col-lg-6">
         <h1>Nos Produits</h1>
         <h2>Géomotifs</h2>
@@ -12,6 +12,6 @@
         <a href="https://play.google.com/store/apps/details?id=com.mazedia.wezit.geomotifs" target="_blank"><img src="image/googlePlay.png" class="img-responsive logo" alt="Telecharger dans Google Play"></a>
     </div>
     <div class="produitsImg col-lg-6">
-        <img src="image/lens_reflect.png" class="img-responsive lens" alt="image produit">
+        <img src="image/lens_reflect.png" class="img-responsive lensRight" alt="image produit">
     </div>
 </div>

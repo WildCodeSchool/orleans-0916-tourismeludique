@@ -1,4 +1,4 @@
-<div class="sectionForm" xmlns="http://www.w3.org/1999/html">
+<div class="sectionForm" id="ancreForm">
     <div class="col-lg-6 hidden-xs">
         <p class="accrocheForm">
             Vous souhaitez mettre en valeur votre patrimoine architecural, promouvoir votre commune,...

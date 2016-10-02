@@ -37,10 +37,46 @@
       </a>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li><a href="#">Actualité</a></li>
-          <li><a href="#">Notre philosophie</a></li>
-          <li><a href="#">Géomotifs</a></li>
-          <li><a href="#">Nous contacter</a></li>
+          <script>
+            $(document).ready(function (){
+              $("#actu").click(function (){
+                $('html, body').animate({
+                  scrollTop: $("#ancreActu").offset().top
+                }, 1000);
+              });
+            });
+          </script>         
+          <li><a href="#" id="actu" >Actualité</a></li>
+          <script>
+            $(document).ready(function (){
+              $("#philo").click(function (){
+                $('html, body').animate({
+                  scrollTop: $("#ancrePhilo").offset().top
+                }, 1000);
+              });
+            });
+          </script>          
+          <li><a href="#" id="philo" >Notre philosophie</a></li>
+          <script>
+            $(document).ready(function (){
+              $("#produit").click(function (){
+                $('html, body').animate({
+                  scrollTop: $("#ancreProduit").offset().top
+                }, 1000);
+              });
+            });
+          </script>
+          <li><a href="#" id="produit">Géomotifs</a></li>
+          <script>
+            $(document).ready(function (){
+              $("#nousContacter").click(function (){
+                $('html, body').animate({
+                  scrollTop: $("#ancreForm").offset().top
+                }, 1000);
+              });
+            });
+          </script>
+          <li><a href="#" id="nousContacter">Nous contacter</a></li>
         </ul>
       </div>		
     </div>
