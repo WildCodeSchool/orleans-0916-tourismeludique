@@ -12,9 +12,10 @@
                             <!-- CSS Perso -->
     <link rel="stylesheet" type="text/css" href="css/stylesheetHeader.css">
     <link rel="stylesheet" type="text/css" href="css/stylesheetForm.css">
+    <link rel="stylesheet" type="text/css" href="css/stylesheetActu.css">
 
 
-    						<!-- Bootstrap -->
+    <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -40,6 +41,7 @@
 
 
 	<main>
+    <?php include ('actu.php'); ?>
 	<?php   include ("notre_philosophie.php");  ?>
     <?php   include ("trois_points.php");  ?>
     <?php include ("form.php"); ?>

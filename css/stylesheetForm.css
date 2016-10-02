@@ -1,8 +1,23 @@
+.sectionForm {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 .lens {
     width: 40%;
     height: 40%;
     margin: auto;
+    padding-top: 5%;
 }
 .form-group {
-    margin-right: 20%;
+    margin-right: 10%;
+}
+.titreForm {
+    text-align: center;
+}
+.accrocheForm {
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15%;
 }
