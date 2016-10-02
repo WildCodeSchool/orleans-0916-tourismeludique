@@ -1,17 +1,17 @@
-<!----------------------------------------------- JUMBOTRON ----------------------------------------------------------->
+<!-- JUMBOTRON -->
 <html>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <div class="jumbotron">
 	<div class="container-fluid">
 		<div class="col-lg-12 col-md-12">
-			<img class="img-responsive logo" src="image/Logo_mTourismeLudique_Noir.png" alt="Logo mTourimse-Ludique">
+			<img class="img-responsive logoHeader" src="image/Logo_mTourismeLudique_Noir.png" alt="Logo mTourimse-Ludique">
 		</div>
 	</div>
 </div>
-<!--------------------------------------------- / JUMBOTRON ----------------------------------------------------------->
+<!-- FIN JUMBOTRON -->
 
-<!---------------------------------------------- NAVBAR --------------------------------------------------------------->
-<!---------------------------------------------- SCRIPT STICKY NAV ---------------------------------------------------->
+<!-- NAVBAR -->
+<!-- SCRIPT NAVBAR STICKY-->
 <script>
     $(window).scroll(function (event) {
         // A chaque fois que l'utilisateur va scroller (descendre la page)
@@ -26,7 +26,7 @@
         }
     });
 </script>
-<!----------------------------------------------/ SCRIPT STICKY NAV --------------------------------------------------->
+<!-- FIN SCRIPT NAVBAR STICKY-->
 <div id="nav">
   <div class="navbar navbar-inverse">
     <div class="container-fluid menu">
@@ -46,5 +46,5 @@
     </div>
   </div>
 </div>
-<!---------------------------------------------/ NAVBAR --------------------------------------------------------------->
+<!-- FIN NAVBAR -->
 </html>

@@ -8,6 +8,8 @@
             Quis aut quod consequatur autem beatae illo. Iste saepe tempora voluptas minus. Debitis perferendis error 
             ullam adipisci ea distinctio sit in.
         </p>
+        <a href="https://itunes.apple.com/fr/app/geomotifs/id935219020" target="_blank"><img src="image/appStore.svg" class="img-responsive logo" alt="Telecharger dans l'app store"></a>
+        <a href="https://play.google.com/store/apps/details?id=com.mazedia.wezit.geomotifs" target="_blank"><img src="image/googlePlay.png" class="img-responsive logo" alt="Telecharger dans Google Play"></a>
     </div>
     <div class="produitsImg col-lg-6">
         <img src="image/lens_reflect.png" class="img-responsive lens" alt="image produit">
