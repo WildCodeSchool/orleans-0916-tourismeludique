@@ -1,7 +1,6 @@
 <!-- JUMBOTRON -->
 <html>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<div class="jumbotron">
+<div class="jumbotron" id="ancreHome">
 	<div class="container-fluid">
 		<div class="col-lg-12 col-md-12">
 			<img class="img-responsive logoHeader" src="image/Logo_mTourismeLudique_Noir.png" alt="Logo mTourimse-Ludique">
@@ -30,13 +29,27 @@
 <div id="nav">
   <div class="navbar navbar-inverse">
     <div class="container-fluid menu">
-      <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="glyphicon glyphicon-bar"></span>
-        <span class="glyphicon glyphicon-bar"></span>
-        <span class="glyphicon glyphicon-bar"></span>
-      </a>
-      <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+          data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+      </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <script>
+          $(document).ready(function (){
+            $("#home").click(function (){
+              $('html, body').animate({
+                scrollTop: $("#ancreHome").offset().top
+              }, 1000);
+            });
+          });
+        </script>         
+        <li><a href="#" id="home" ><span class="glyphicon glyphicon-home"></span></a></li>
           <script>
             $(document).ready(function (){
               $("#actu").click(function (){
