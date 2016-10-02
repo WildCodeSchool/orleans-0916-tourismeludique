@@ -13,6 +13,9 @@
     <link rel="stylesheet" type="text/css" href="css/stylesheetHeader.css">
     <link rel="stylesheet" type="text/css" href="css/stylesheetForm.css">
     <link rel="stylesheet" type="text/css" href="css/stylesheetActu.css">
+    <link rel="stylesheet" type="text/css" href="css/stylesheetProduits.css">
+    <link rel="stylesheet" type="text/css" href="css/stylesheetSectionImage.css">
+
 
 
     <!-- Bootstrap -->
@@ -44,6 +47,8 @@
     <?php include ('actu.php'); ?>
 	<?php   include ("notre_philosophie.php");  ?>
     <?php   include ("trois_points.php");  ?>
+    <?php include ('produits.php'); ?>
+    <?php include ('sectionImage.php'); ?>
     <?php include ("form.php"); ?>
 	</main>
 
