@@ -1,0 +1,27 @@
+/*********************************************** HEADER ***************************************************************/
+.jumbotron {
+	height: 90vh;
+	width: 100vw;
+}
+
+.logoHeader {
+	margin: auto;
+}
+
+.navbar.fixed {
+    position:fixed;
+    top:0;
+    z-index:1000;
+    opacity: 0.7;
+    width: 100%;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+/*********************************************** / HEADER *************************************************************/
