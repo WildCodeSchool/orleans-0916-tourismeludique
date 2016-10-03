@@ -1,6 +1,7 @@
 <!-- JUMBOTRON -->
 <html>
-<div class="jumbotron" id="ancreHome">
+<header>
+<div class="jumbotron backgroundHeader" id="ancreHome" >
 	<div class="container-fluid">
 		<div class="col-lg-12 col-md-12">
 			<img class="img-responsive logoHeader" src="image/Logo_mTourismeLudique_Noir.png" alt="Logo mTourimse-Ludique">
@@ -13,7 +14,7 @@
 <!-- SCRIPT NAVBAR STICKY-->
 <script>
     $(window).scroll(function (event) {
-        // A chaque fois que l'utilisateur va scroller (descendre la page)
+        // A chaque fois que l'utilisateur va scroller
         var y = $(this).scrollTop(); // On récupérer la valeur du scroll vertical
 
         //si cette valeur > à 700 on ajouter la class
@@ -38,6 +39,7 @@
             <span class="icon-bar"></span>
         </button>
       </div>
+
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <script>
@@ -49,7 +51,7 @@
             });
           });
         </script>         
-        <li><a href="#" id="home" ><span class="glyphicon glyphicon-home"></span></a></li>
+        <a href="#" id="home" class="lienMenu"><span class="glyphicon glyphicon-home"></span></a>
           <script>
             $(document).ready(function (){
               $("#actu").click(function (){
@@ -59,7 +61,7 @@
               });
             });
           </script>         
-          <li><a href="#" id="actu" >Actualité</a></li>
+          <a href="#" id="actu" class="lienMenu">Actualité</a>
           <script>
             $(document).ready(function (){
               $("#philo").click(function (){
@@ -69,7 +71,7 @@
               });
             });
           </script>          
-          <li><a href="#" id="philo" >Notre philosophie</a></li>
+          <a href="#" id="philo" class="lienMenu">Notre philosophie</a>
           <script>
             $(document).ready(function (){
               $("#produit").click(function (){
@@ -79,7 +81,7 @@
               });
             });
           </script>
-          <li><a href="#" id="produit">Géomotifs</a></li>
+          <a href="#" id="produit" class="lienMenu">Géomotifs</a>
           <script>
             $(document).ready(function (){
               $("#nousContacter").click(function (){
@@ -89,11 +91,12 @@
               });
             });
           </script>
-          <li><a href="#" id="nousContacter">Nous contacter</a></li>
+          <a href="#"  class="lienMenu" id="nousContacter">Nous contacter</a>
         </ul>
       </div>		
     </div>
   </div>
 </div>
+</header>
 <!-- FIN NAVBAR -->
 </html>

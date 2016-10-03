@@ -15,6 +15,7 @@
     <link rel="stylesheet" type="text/css" href="css/stylesheetActu.css">
     <link rel="stylesheet" type="text/css" href="css/stylesheetProduits.css">
     <link rel="stylesheet" type="text/css" href="css/stylesheetSectionImage.css">
+    <link rel="stylesheet" type="text/css" href="css/stylesheetFooter.css">
 
 
 
@@ -37,10 +38,9 @@
   </head>
 
 <body>
-	<header>
+	<!-- Header -->
         <?php include ('header.php'); ?>
-	</header>
-
+    <!-- Header -->
 
 
 	<main>
