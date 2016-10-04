@@ -19,7 +19,6 @@ p {
 /* trois points */
 
 .point123 {
-
 }
 
 .hidden-xs {
@@ -43,8 +42,10 @@ p {
 }
 
 .banner_trois_points {
-    background-image: url("image/shattered.png");
-    opacity:0.5;
-    /*background-opacity: ;
-    filter: alpha(opacity=);*/
+    background-image: url("image/swirl3.png");
+    border-top:;
+    border-bottom: ;
+    padding-top : 20px;
+    padding-bottom: 20px;
+
 }
