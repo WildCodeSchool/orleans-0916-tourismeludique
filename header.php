@@ -4,7 +4,7 @@
 <div class="jumbotron backgroundHeader" id="ancreHome" >
 	<div class="container-fluid">
 		<div class="col-lg-12 col-md-12">
-			<img class="img-responsive logoHeader" src="image/Logo_mTourismeLudique_red.png" alt="Logo mTourimse-Ludique">
+			<img class="img-responsive logoHeader" src="image/Logo_mTourismeLudique_Noir.png" alt="Logo mTourimse-Ludique">
 		</div>
 	</div>
 </div>
