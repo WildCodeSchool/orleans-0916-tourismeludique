@@ -1,6 +1,6 @@
 <div class="sectionForm" id="ancreForm">
     <div class="row">
-        <div class="col-lg-6 hidden-xs">
+        <div class="col-lg-6 hidden-xs leftSide">
             <p class="accrocheForm">
                 Vous souhaitez mettre en valeur votre patrimoine architecural, promouvoir votre commune...
             </p>
