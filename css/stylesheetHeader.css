@@ -24,14 +24,21 @@ Header {
 .lienMenu {
     color: #0f0f0f;
     font-size: 200%;
+    margin: auto;
 }
 
 .lienMenu:hover {
     text-decoration: none;
+    color: white;
 }
 
 .navbar {
     background-image: url("background-orange.JPG");
+    background-attachment: fixed;
+}
+
+.navbar:hover {
+    color: white;
     background-attachment: fixed;
 }
 
