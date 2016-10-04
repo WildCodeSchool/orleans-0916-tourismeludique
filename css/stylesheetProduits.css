@@ -10,7 +10,13 @@
     width: 40%;
     height: 40%;
     margin: auto;
-    padding-top: 5%;
+    margin-top: 5%;
+}
+
+.lensRight:hover {
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
 }
 
 .logo {

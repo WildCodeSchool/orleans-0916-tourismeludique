@@ -1,20 +1,31 @@
 .sectionForm {
     padding: 5%;
-    padding-bottom: 40%;
+    color: #0f0f0f;
+    background-image: url("../image/P1060347.jpg");
+    background-attachment: fixed;
 }
 
 .lens {
     width: 40%;
     height: 40%;
     margin: auto;
-    padding-top: 5%;
+    margin-top: 5%;
 }
+
+.lens:hover {
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+
 .form-group {
     margin-right: 10%;
 }
+
 .titreForm {
     text-align: center;
 }
+
 .accrocheForm {
     font-size: 150%;
     font-weight: bold;
