@@ -18,6 +18,7 @@
     -ms-transform: rotate(45deg); /* IE 9 */
     -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
     transform: rotate(45deg);
+    transition-duration: 1000ms;
 }
 
 .imgInLens {

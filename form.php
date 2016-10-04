@@ -4,8 +4,8 @@
             <p class="accrocheForm">
                 Vous souhaitez mettre en valeur votre patrimoine architecural, promouvoir votre commune...
             </p>
+            <img src="image/P1030919rond.png" class="img-responsive imgInLens" alt="gargouille">
             <img src="image/lens_reflect.png"  class="img-responsive lens" alt="lentille">
-            <img src="image/P1030919rond.png" class="img-responsive imgInLens" alt="entrelacet">
         </div>
 
         <div class="col-lg-6 col-md-6 col-sm-6">
