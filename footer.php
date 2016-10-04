@@ -1,5 +1,5 @@
 <html>
-     <footer>
+     <footer id="background">
           <div class="container-fluid footer">
                <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
