@@ -4,7 +4,7 @@
 <div class="jumbotron backgroundHeader" id="ancreHome" >
 	<div class="container-fluid">
 		<div class="col-lg-12 col-md-12">
-			<img class="img-responsive logoHeader" src="image/Logo_mTourismeLudique_Noir.png" alt="Logo mTourimse-Ludique">
+			<img class="img-responsive logoHeader" src="image/Logo_mTourismeLudique_red.png" alt="Logo mTourimse-Ludique">
 		</div>
 	</div>
 </div>
@@ -17,7 +17,7 @@
         // A chaque fois que l'utilisateur va scroller
         var y = $(this).scrollTop(); // On récupérer la valeur du scroll vertical
 
-        //si cette valeur > à 700 on ajouter la class
+        //si cette valeur > à 300 on ajouter la class
         if (y >= 300) {
             $('.navbar').addClass('fixed');
         } else {
