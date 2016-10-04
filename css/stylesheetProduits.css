@@ -24,3 +24,12 @@
 	height: 20%;
 	margin: auto;
 }
+
+.video {
+    margin-bottom: 5%;
+}
+
+#ancreProduit {
+     background-image: url(../image/background_produits.jpg);
+     background-repeat: no-repeat;
+}
