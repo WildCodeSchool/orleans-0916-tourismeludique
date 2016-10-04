@@ -1,6 +1,6 @@
 <div class="sectionForm" id="ancreForm">
     <div class="row">
-        <div class="col-lg-6 hidden-xs leftSide">
+        <div class="col-lg-6 col-md-6 col-sm-6 hidden-xs leftSide">
             <p class="accrocheForm">
                 Vous souhaitez mettre en valeur votre patrimoine architecural, promouvoir votre commune...
             </p>
@@ -8,7 +8,7 @@
             <img src="image/P1030919rond.png" class="img-responsive imgInLens" alt="entrelacet">
         </div>
 
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-6 col-sm-6">
             <h2 class="titreForm">Une idée? Un projet?<br/>Contactez-nous</h2>
             <form method="post" action="formPost.php">
                 <div class="form-group">
