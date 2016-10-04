@@ -1,3 +1,7 @@
+h3 {
+    font-size: 2000%;
+}
+
 .sectionForm {
     padding: 5%;
     color: #0f0f0f;
@@ -11,7 +15,6 @@
     width: 40%;
     height: 40%;
     margin-top: 5%;
-    z-index: 1;
 }
 
 .lens:hover {
@@ -34,11 +37,11 @@
 }
 
 .titreForm {
+    font-weight: bold;
     text-align: center;
 }
 
 .accrocheForm {
-    font-size: 150%;
     font-weight: bold;
     text-align: center;
     padding-top: 5%;
