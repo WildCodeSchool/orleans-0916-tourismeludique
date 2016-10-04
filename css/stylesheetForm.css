@@ -12,8 +12,8 @@ h3 {
 .lens {
     position: absolute;
     margin-left: 25%;
-    width: 40%;
-    height: 40%;
+    width: 50%;
+    height: 50%;
     margin-top: 5%;
 }
 
@@ -27,8 +27,8 @@ h3 {
 .imgInLens {
     position: absolute;
     margin-left: 25%;
-    width: 40%;
-    height: 40%;
+    width: 50%;
+    height: 50%;
     margin-top: 5%;
 }
 
