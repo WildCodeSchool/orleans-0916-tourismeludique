@@ -1,12 +1,25 @@
 /* Notre philosophie */
+p {
+    font-size: 1.5em;
+}
 
+.notre_philo {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color:;
+    text-align: center;
+}
 
+.liste_philo {
+    font-size: 1.5em;
+    text-align: left;
+}
 
 
 /* trois points */
 
 .point123 {
-    border: 1px solid black ;
+
 }
 
 .hidden-xs {

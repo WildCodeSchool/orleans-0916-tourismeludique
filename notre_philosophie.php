@@ -2,23 +2,26 @@
     <div class="container-fluid" id="ancreMetier">
 
 <!----- Partie 1 : Notre philosophie ----->
-        <div class="row">
-            <!----- Espace vide à gauche ----->
-            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
-
-            <!----- Image ----->
-            <div class="col-xs-6 col-sm-6 col-md-5 col-lg-5">
-                <img class="img-responsive" src="image/lens_reflect.png" alt="image dans lentille photo" style="width:45%;height:45%">
-            </div>
+        <div class="row notre_philo">
 
             <!----- titre + text ----->
-            <div class="col-xs-6 col-sm-6 col-md-5 col-lg-5">
-                <h2>Notre philosophie</h2>
-                <p>Accedat huc suavitas quaedam oportet sermonum atque morum, haudquaquam mediocre condimentum amicitiae. Tristitia autem et in omni re severitas habet illa quidem gravitatem, sed amicitia remissior esse debet et liberior et dulcior et ad omnem comitatem facilitatemque proclivior.</p>
-            </div>
+            <div class="col-xs-6 col-sm-6 col-md-5 col-lg-12">
+                    <h1>Notre métier</h1>
+                    <p>Créée fin 2013, <strong>m-Tourisme Ludique</strong> est une société d’édition d’applications mobiles, installée dans le Loiret.<br></p>
 
-            <!----- Espace vide à droite ----->
-            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+                <!--- liste sans puces --->
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="hidden-xs hidden-sm col-md-3 col-lg-4"></div>
+                    <ul class="col-xs-12 col-sm-12 col-md-6 col-lg-4 liste_philo" style="list-style-type:none">
+                        <li><strong>Notre vocation :</strong> valoriser votre patrimoine matériels ou immatériels.</li>
+                        <li><strong>Nos atouts :</strong> proposer des outils originaux, ludiques et pédagogiques.</li>
+                        <li><strong>Nos valeurs :</strong> plaisir, curiosité, qualité, partage.</li>
+                    </ul>
+                    <div class="hidden-xs hidden-sm col-md-3 col-lg-4"></div>
+                </div>
+
+
+            </div>
 
         </div>
 
