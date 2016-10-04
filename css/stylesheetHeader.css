@@ -32,6 +32,16 @@ Header {
     color: white;
 }
 
+.lienMenu:active {
+    text-decoration: none;
+    color: white;
+}
+
+.lienMenu:focus {
+    text-decoration: none;
+    color: white;
+}
+
 .navbar {
     background-image: url("background-orange.JPG");
     background-attachment: fixed;

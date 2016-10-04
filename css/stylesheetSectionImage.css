@@ -1,13 +1,14 @@
 .sectionImage {
-	background-image: url(game-image.jpg);
-	width: 100%;
-	height: 800px;
-	opacity: 0.8;
+	background-image: url(../image/game-image-opaque.jpg);
+	background-attachment: fixed;
+	width: 100vw;
+	height: 70vh;
 }
 
 .textImage {
 	text-align: center;
-	padding-top: 400px;
+	margin: auto;
+	padding-top: 18%;
 	font-size: 200%;
 	color: black;
 }
