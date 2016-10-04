@@ -44,11 +44,11 @@
 
 
 	<main>
-    <?php include ('actu.php'); ?>
 	<?php   include ("notre_philosophie.php");  ?>
     <?php   include ("trois_points.php");  ?>
     <?php include ('produits.php'); ?>
     <?php include ('sectionImage.php'); ?>
+    <?php include ('actu.php'); ?>
     <?php include ("form.php"); ?>
 	</main>
 

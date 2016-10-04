@@ -18,7 +18,7 @@
         var y = $(this).scrollTop(); // On récupérer la valeur du scroll vertical
 
         //si cette valeur > à 700 on ajouter la class
-        if (y >= 700) {
+        if (y >= 300) {
             $('.navbar').addClass('fixed');
         } else {
             // sinon, on l'enlève
@@ -54,24 +54,14 @@
         <a href="#" id="home" class="lienMenu"><span class="glyphicon glyphicon-home"></span></a>
           <script>
             $(document).ready(function (){
-              $("#actu").click(function (){
+              $("#metier").click(function (){
                 $('html, body').animate({
-                  scrollTop: $("#ancreActu").offset().top
-                }, 1000);
-              });
-            });
-          </script>         
-          <a href="#" id="actu" class="lienMenu">Actualité</a>
-          <script>
-            $(document).ready(function (){
-              $("#philo").click(function (){
-                $('html, body').animate({
-                  scrollTop: $("#ancrePhilo").offset().top
+                  scrollTop: $("#ancreMetier").offset().top
                 }, 1000);
               });
             });
           </script>          
-          <a href="#" id="philo" class="lienMenu">Notre philosophie</a>
+          <a href="#" id="metier" class="lienMenu">Notre métier</a>
           <script>
             $(document).ready(function (){
               $("#produit").click(function (){
@@ -82,6 +72,16 @@
             });
           </script>
           <a href="#" id="produit" class="lienMenu">Géomotifs</a>
+        <script>
+          $(document).ready(function (){
+            $("#actu").click(function (){
+              $('html, body').animate({
+                scrollTop: $("#ancreActu").offset().top
+              }, 1000);
+            });
+          });
+        </script>
+        <a href="#" id="actu" class="lienMenu">Actualité</a>
           <script>
             $(document).ready(function (){
               $("#nousContacter").click(function (){

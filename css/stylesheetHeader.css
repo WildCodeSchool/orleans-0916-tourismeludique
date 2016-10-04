@@ -7,7 +7,7 @@ Header {
 }
 
 .jumbotron {
-	height: 90vh;
+	height: 40vh;
 	width: 100vw;
 }
 .backgroundHeader {
@@ -16,8 +16,9 @@ Header {
 }
 
 .logoHeader {
+    height: 30vh;
+    width: 60vw;
 	margin: auto;
-    opacity: none;
 }
 
 .lienMenu {
@@ -40,11 +41,13 @@ Header {
     z-index:1000;
     opacity: 0.7;
     width: 100vw;
+    border-style: none;
 }
 
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
+
 }
 
 .navbar .navbar-collapse {
