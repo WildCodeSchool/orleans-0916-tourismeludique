@@ -6,16 +6,26 @@
 }
 
 .lens {
+    position: absolute;
+    margin-left: 25%;
     width: 40%;
     height: 40%;
-    margin: auto;
     margin-top: 5%;
+    z-index: 1;
 }
 
 .lens:hover {
     -ms-transform: rotate(45deg); /* IE 9 */
     -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
     transform: rotate(45deg);
+}
+
+.imgInLens {
+    position: absolute;
+    margin-left: 25%;
+    width: 40%;
+    height: 40%;
+    margin-top: 10%;
 }
 
 .form-group {
