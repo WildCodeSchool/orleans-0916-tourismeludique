@@ -40,5 +40,11 @@ p {
 
 .text_trois_points {
     text-align: center;
+}
 
+.banner_trois_points {
+    background-image: url("image/shattered.png");
+    opacity:0.5;
+    /*background-opacity: ;
+    filter: alpha(opacity=);*/
 }
