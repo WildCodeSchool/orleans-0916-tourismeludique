@@ -6,6 +6,14 @@
             <a href="https://www.facebook.com/mtourismeludique">
                 <img alt="Facebook MTourismeLudique" src="image/logo_FB.png"/>
             </a>
+            <!--- <div id="infos_FB" class="bloc_infos_FB">
+                <div class="nom_bloc_infos">Facebook</div>
+                <div class="text_bloc_infos">
+                    <div id="FB-root" class="FB-reset">
+
+                    </div>
+                </div>
+            </div> --->
         </li>
 
         <!--- Bouton YouTube --->
