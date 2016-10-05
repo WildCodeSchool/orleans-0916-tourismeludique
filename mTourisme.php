@@ -16,6 +16,8 @@
     <link rel="stylesheet" type="text/css" href="css/stylesheetProduits.css">
     <link rel="stylesheet" type="text/css" href="css/stylesheetSectionImage.css">
     <link rel="stylesheet" type="text/css" href="css/stylesheetFooter.css">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet_notre_philosophie.css" >
+    <link rel="stylesheet" type="text/css" href="css/stylesheet_social_network.css" >
 
 
 
@@ -34,18 +36,18 @@
       <script src="https://oss.maxcgdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <link href="stylesheet_notre_philosophie.css" rel="stylesheet">
   </head>
 
 <body>
 	<!-- Header -->
-        <?php include ('header.php'); ?>
+    <?php include ('header.php'); ?>
+    <?php include ('social_network.php'); ?>
     <!-- Header -->
 
 
 	<main>
-	<?php   include ("notre_philosophie.php");  ?>
-    <?php   include ("trois_points.php");  ?>
+	<?php include ("notre_philosophie.php");  ?>
+    <?php include ("trois_points.php");  ?>
     <?php include ('produits.php'); ?>
     <?php include ('sectionImage.php'); ?>
     <?php include ('actu.php'); ?>
