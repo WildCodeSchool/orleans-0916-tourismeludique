@@ -3,6 +3,11 @@
     padding: 5%;
 }
 
+.titreActu {
+    font-family: 'DIN';
+    font-weight: bold;
+}
+
 .imgActu {
     width: 30%;
     height: 30%;

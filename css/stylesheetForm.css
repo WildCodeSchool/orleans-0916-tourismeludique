@@ -33,6 +33,9 @@ h3 {
     margin-top: 5%;
 }
 
+.catForm {
+    font-family: 'DIN';
+}
 
 .form-group {
     margin-right: 10%;
@@ -41,10 +44,12 @@ h3 {
 .titreForm {
     font-weight: bold;
     text-align: center;
+    font-family: 'DIN';
 }
 
 .accrocheForm {
     font-weight: bold;
     text-align: center;
     padding-top: 5%;
+    font-family: 'DIN';
 }

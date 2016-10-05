@@ -21,6 +21,7 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css" >
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
