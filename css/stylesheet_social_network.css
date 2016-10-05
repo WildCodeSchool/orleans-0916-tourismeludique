@@ -2,13 +2,19 @@
     position: fixed;
     top:600px;
     width: 40px;
-
-
+    z-index:1;
 }
 
 ul#banner_social img {
     width : 50px;
     height: 50px;
+    webkit-box-shadow:  0px 10px 10px 0px rgba(0, 0, 0, 0.6);
+    box-shadow:  0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+    /*-webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;*/
 }
 
 ul#banner_social {
@@ -28,7 +34,7 @@ ul#banner_social li {
 
 
 .bloc_infos_FB {
-   /* position: absolute;
+   position: absolute;
     display: none;
     width:300px;
     min-height: 166px;
@@ -36,12 +42,22 @@ ul#banner_social li {
     -ms-word-wrap:;
     word-wrap:break-word;
     overflow-wrap: break-word;
-    background-color: #ffffff;*/
+    background-color: #ffffff;
 }
 
 #FB-root {
-    /*position: absolute;
+   /* position: absolute;
     top: -10000px;
     height: 0px;
     width: 0px;*/
+}
+
+.box_FB {
+    width=340;
+    height=500;
+    border:none;
+    position: absolute;
+    top: 0;
+    right: 10px;
+
 }
