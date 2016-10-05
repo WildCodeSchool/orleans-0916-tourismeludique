@@ -1,5 +1,18 @@
 .footer {
     text-align: center;
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.lienFooter {
+    color: #0f0f0f;
+    font-size: 150%;
+}
+
+.lienFooter:hover {
+    text-decoration: none;
+    color: white;
 }
 
 .logoWild {
@@ -10,4 +23,5 @@
 
 #background {
     background-image: url(background-orange.JPG);
+    background-attachment: fixed;
 }

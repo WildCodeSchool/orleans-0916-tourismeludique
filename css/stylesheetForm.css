@@ -32,6 +32,13 @@ h3 {
     margin-top: 5%;
 }
 
+.imgInLens:hover {
+    -ms-transform: scale(2); /* IE 9 */
+    -webkit-transform: scale(2); /* Chrome, Safari, Opera */
+    transform: scale(2);
+    transition-duration: 1000ms;
+}
+
 .form-group {
     margin-right: 10%;
 }

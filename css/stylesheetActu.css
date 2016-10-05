@@ -12,9 +12,9 @@
 
 .imgActu:hover {
     cursor: pointer;
-    -ms-transform: scale(3); /* IE 9 */
-    -webkit-transform: scale(3); /* Chrome, Safari, Opera */
-    transform: scale(3);
+    -ms-transform: scale(2.5); /* IE 9 */
+    -webkit-transform: scale(2.5); /* Chrome, Safari, Opera */
+    transform: scale(2.5);
     transition-duration: 1000ms;
     z-index: 1;
 }
