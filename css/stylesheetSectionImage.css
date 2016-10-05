@@ -1,7 +1,6 @@
 .sectionImage {
 	background-image: url(../image/game-image-opaque.jpg);
 	background-attachment: fixed;
-	width: 100vw;
 	height: 70vh;
 }
 
