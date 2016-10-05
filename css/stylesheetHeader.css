@@ -23,8 +23,6 @@ Header {
 
 .lienMenu {
     color: #0f0f0f;
-    font-size: 200%;
-    margin: auto;
 }
 
 .lienMenu:hover {
@@ -45,11 +43,14 @@ Header {
 .navbar {
     background-image: url("background-orange.JPG");
     background-attachment: fixed;
+    text-align: center;
+    font-size: 250%;
 }
 
 .navbar:hover {
     color: white;
     background-attachment: fixed;
+    text-decoration: none;
 }
 
 .navbar.fixed {
@@ -58,16 +59,11 @@ Header {
     z-index:1000;
     opacity: 0.7;
     width: 100vw;
-    border-style: none;
 }
 
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
-
 }
 
-.navbar .navbar-collapse {
-    text-align: center;
-}
 /*********************************************** / HEADER *************************************************************/

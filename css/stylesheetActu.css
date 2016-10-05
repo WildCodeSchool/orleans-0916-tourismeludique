@@ -4,7 +4,17 @@
 }
 
 .imgActu {
-	margin: auto;
-    width: 80%;
-    height: 80%;
+    width: 30%;
+    height: 30%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.imgActu:hover {
+    cursor: pointer;
+    -ms-transform: scale(3); /* IE 9 */
+    -webkit-transform: scale(3); /* Chrome, Safari, Opera */
+    transform: scale(3);
+    transition-duration: 1000ms;
+    z-index: 1;
 }
