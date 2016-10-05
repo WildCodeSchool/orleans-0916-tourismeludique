@@ -19,7 +19,8 @@
     <link rel="stylesheet" type="text/css" href="css/stylesheet_notre_philosophie.css" >
     <link rel="stylesheet" type="text/css" href="css/stylesheet_social_network.css" >
 
-
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
