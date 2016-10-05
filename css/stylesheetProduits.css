@@ -32,4 +32,5 @@
 #ancreProduit {
      background-image: url(../image/background_produits.jpg);
      background-repeat: no-repeat;
+     width: 100vw;
 }
