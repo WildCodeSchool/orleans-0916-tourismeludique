@@ -59,5 +59,11 @@ ul#banner_social li {
     position: absolute;
     top: 0;
     right: 10px;
+}
+.fb-page {
+    display: none;
+}
 
+.bouton_facebook_MLT:hover .fb-page {
+    display: block;
 }
