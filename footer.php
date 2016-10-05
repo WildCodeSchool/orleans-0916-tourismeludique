@@ -13,8 +13,8 @@
                          <a class="lienFooter" href="#" id="nousContacter">Nous contacter</a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                         <a class="lienFooter" href="#ancre">Réalisé par :<br/></a>
-                         <a class="lienFooter" href="http://www.wildcodeschool.fr/">Wild Code School</a>
+                         <p>Réalisé par :<br/></p>
+                         <a class="lienFooter" href="http://www.wildcodeschool.fr/" target="_blank">Wild Code School</a>
                     </div>
                </div>
           </div>

@@ -1,6 +1,12 @@
 .actu {
+    font-family: 'DIN';
     text-align: center;
     padding: 5%;
+}
+
+.titreActu {
+    font-family: 'DIN';
+    font-weight: bold;
 }
 
 .imgActu {

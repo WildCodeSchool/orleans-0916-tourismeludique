@@ -1,6 +1,7 @@
 /*********************************************** HEADER ***************************************************************/
 Header {
     background-image: url("background-orange.JPG");
+    background-size: cover;
     background-attachment: fixed;
     width: 100vw;
     color: black;
@@ -13,6 +14,7 @@ Header {
 .backgroundHeader {
     background-image: url("background-orange.JPG");
     background-attachment: fixed;
+    background-size: cover;
 }
 
 .logoHeader {
@@ -43,8 +45,10 @@ Header {
 .navbar {
     background-image: url("background-orange.JPG");
     background-attachment: fixed;
+    background-size: cover;
+    font-family: 'DIN';
     text-align: center;
-    font-size: 200%;
+    font-size: 250%;
 }
 
 .navbar:hover {

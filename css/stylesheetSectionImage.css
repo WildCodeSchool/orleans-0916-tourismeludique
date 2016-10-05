@@ -1,14 +1,15 @@
 .sectionImage {
 	background-image: url(../image/game-image-opaque.jpg);
 	background-attachment: fixed;
-	width: 100vw;
 	height: 70vh;
 }
 
 .textImage {
+	font-family: 'Courgette', cursive;
 	text-align: center;
 	margin: auto;
-	padding-top: 18%;
-	font-size: 200%;
+	padding-top: 15%;
+	font-size: 400%;
 	color: black;
+
 }

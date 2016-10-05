@@ -12,27 +12,27 @@
             <h2 class="titreForm">Une idée? Un projet?<br/>Contactez-nous</h2>
             <form method="post" action="formPost.php">
                 <div class="form-group">
-                    <label for="Nom"><p>Nom *</p></label>
+                    <label for="Nom"><p class="catForm">Nom *</p></label>
                     <input type="Nom" class="form-control" id="Nom" placeholder="Votre nom..." required>
                 </div>
                 <div class="form-group">
-                    <label for="Prenom"><p>Prénom *</p></label>
+                    <label for="Prenom"><p class="catForm">Prénom *</p></label>
                     <input type="Prenom" class="form-control" id="Prenom" placeholder="Votre prénom..."required>
                 </div>
                 <div class="form-group">
-                    <label for="Entreprise"><p>Entreprise, société, organisme...</p></label>
+                    <label for="Entreprise"><p class="catForm">Entreprise, société, organisme...</p></label>
                     <input type="Entreprise" class="form-control" id="Entreprise" placeholder="Votre entreprise, société organisme..."required>
                 </div>
                 <div class="form-group">
-                    <label for="Email"><p>Mail *</p></label>
+                    <label for="Email"><p class="catForm">Mail *</p></label>
                     <input type="email" class="form-control" id="Email" placeholder="Votre Email..."required>
                 </div>
                 <div class="form-group">
-                    <label for="Message"><p>Message *</p></label>
+                    <label for="Message"><p class="catForm">Message *</p></label>
                     <textarea name="Message" class="form-control" placeholder="Votre message..." required></textarea>
                 </div>
                 <div class="form-group">
-                    <button type="submit" class="btn btn-primary"><p>Envoyer</p></button>
+                    <button type="submit" class="btn btn-primary"><p class="catForm">Envoyer</p></button>
                 </div>
             </form>
         </div>
