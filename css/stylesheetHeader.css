@@ -43,8 +43,9 @@ Header {
 .navbar {
     background-image: url("background-orange.JPG");
     background-attachment: fixed;
+    font-family: 'DIN';
     text-align: center;
-    font-size: 200%;
+    font-size: 250%;
 }
 
 .navbar:hover {

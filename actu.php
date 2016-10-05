@@ -3,7 +3,7 @@
     <div class="actutext">
         <h1 class="titreActu">Actualité</h1>
         <p>
-            Retrouvez moi le 05,06 et 07 Novembre au Salon du Tourisme de Paris stand 134
+            Retrouvez moi le 05, 06 et 07 Novembre au Salon du Tourisme de Paris stand 134
         </p>
     </div>
     <div class="photoActu ">
