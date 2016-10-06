@@ -67,7 +67,7 @@ ul#banner_social li {
     height=500;
     border:none;
     position: absolute;
-    top: 0;
+    top: -100px;
     right: 0px;
 }
 

@@ -35,14 +35,14 @@
             </a>
 
             <div class="yt-page" data-href="https://www.youtube.com/channel/UCj_DmGMNzw3DTMUMyYoyoyQ"
-                 data-tabs="timeline"
+                 <!--- data-tabs="timeline"
                  data-small-header="true"
                  data-adapt-container-width="true"
                  data-hide-cover="true"
-                 data-show-facepile="false">
+                 data-show-facepile="false" --->>
 
-                <div class="yt-xytml-parse-ignore">
-                    <a href="https://www.youtube.com/channel/UCj_DmGMNzw3DTMUMyYoyoyQ"></a>
+                <div class="yt-xfbml-parse-ignore">
+                    <a href="https://www.youtube.com/channel/UCj_DmGMNzw3DTMUMyYoyoyQ" target="_blank"></a>
                 </div>
                 <div id="yt-root">
                     <iframe class="box_YT" src="https://www.youtube.com/channel/UCj_DmGMNzw3DTMUMyYoyoyQ"

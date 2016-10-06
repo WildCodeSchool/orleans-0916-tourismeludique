@@ -43,7 +43,7 @@ p {
 
 .banner_trois_points {
 
-    background-image: url("image/swirl3.png");
+    background-image: url("../image/swirl3.png");
     background-color: none;
     background-attachment: fixed;
     padding-top : 20px;
