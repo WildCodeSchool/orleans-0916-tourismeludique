@@ -1,9 +1,12 @@
 .produits {
 	padding: 5%;
+  margin-top: 20%;
+
 }
 
 .produitsText {
 	text-align: center;
+  margin-left: 5%;
 }
 
 .lensRight {
@@ -19,18 +22,22 @@
     transform: rotate(45deg);
 }
 
-.logo {
-	width: 20%;
-	height: 20%;
-	margin: auto;
-}
 
 .video {
     margin-bottom: 5%;
-}
+    padding-right: 5%;
 
-#ancreProduit {
-     background-image: url(../image/background_produits.jpg);
-     background-repeat: no-repeat;
-     width: 100vw;
 }
+ .itunes {
+     width: 10%;
+ 	height: 10%;
+ 	margin: auto;
+     margin-top: 10%;
+ }
+
+ .android {
+     width: 10%;
+ 	height: 10%;
+ 	margin: auto;
+  margin-bottom: 15%;
+ }

@@ -42,10 +42,10 @@ p {
 }
 
 .banner_trois_points {
+
     background-image: url("image/swirl3.png");
     background-color: none;
-    border-top: 0px;
-    border-bottom: 0px;
+    background-attachment: fixed;
     padding-top : 20px;
     padding-bottom: 20px;
 
