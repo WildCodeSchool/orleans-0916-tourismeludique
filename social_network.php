@@ -25,17 +25,7 @@
                     </iframe>
                 </div>
             </div>
-            <!---
-            <div id="infos_FB" class="bloc_infos_FB">
 
-                <div class="nom_bloc_infos">Facebook</div>
-                <div class="text_bloc_infos">
-                    <div id="FB-root" class="FB-reset">
-                        <iframe id="FB_frame-http" name="FB_frame_http" allowtransparency="true" allowfullscreen="true" scrolling="no" aria-hidden="true" title="Facebook Infos" tabindex="-1" style="border: none;" src=" " frameborder="0"></iframe>
-                    </div>
-                </div>
-            </div>
-            --->
         </li>
 
         <!--- Bouton YouTube --->
@@ -43,6 +33,29 @@
             <a href="https://www.youtube.com/channel/UCj_DmGMNzw3DTMUMyYoyoyQ">
                 <img alt="Youtube mTourismeLudique" src="image/logo_YT.png"/>
             </a>
+
+            <div class="yt-page" data-href="https://www.youtube.com/channel/UCj_DmGMNzw3DTMUMyYoyoyQ"
+                 data-tabs="timeline"
+                 data-small-header="true"
+                 data-adapt-container-width="true"
+                 data-hide-cover="true"
+                 data-show-facepile="false">
+
+                <div class="yt-xytml-parse-ignore">
+                    <a href="https://www.youtube.com/channel/UCj_DmGMNzw3DTMUMyYoyoyQ"></a>
+                </div>
+                <div id="yt-root">
+                    <iframe class="box_YT" src="https://www.youtube.com/channel/UCj_DmGMNzw3DTMUMyYoyoyQ"
+                            width="340"
+                            height="500">
+                        <!-- style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"-->
+                    </iframe>
+                </div>
+            </div>
+
+
+
+
         </li>
 
 

@@ -32,19 +32,7 @@ ul#banner_social li {
     margin-right : 60px;
 }
 
-
-.bloc_infos_FB {
-   position: absolute;
-    display: none;
-    width:300px;
-    min-height: 166px;
-    right: 50px;
-    -ms-word-wrap:;
-    word-wrap:break-word;
-    overflow-wrap: break-word;
-    background-color: #ffffff;
-}
-
+/************************* Bouton Facebook ***********************************/
 #FB-root {
    /* position: absolute;
     top: -10000px;
@@ -58,12 +46,37 @@ ul#banner_social li {
     border:none;
     position: absolute;
     top: 0;
-    right: 10px;
+    right: 0px;
 }
+
+/* Option d'affichage de la box Facebook au survol du logo */
 .fb-page {
     display: none;
 }
 
 .bouton_facebook_MLT:hover .fb-page {
+    display: block;
+}
+
+
+
+/************************* Bouton Youtube ***********************************/
+
+.box_YT {
+    width=340;
+    height=500;
+    border:none;
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+
+
+/* Option d'affichage de la box Youtube au survol du logo */
+.yt-page {
+    display: none;
+}
+
+.bouton_youtube:hover .yt-page {
     display: block;
 }

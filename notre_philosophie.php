@@ -11,13 +11,19 @@
 
                 <!--- liste sans puces --->
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <div class="hidden-xs hidden-sm col-md-3 col-lg-4"></div>
-                    <ul class="col-xs-12 col-sm-12 col-md-6 col-lg-4 liste_philo" style="list-style-type:none">
-                        <li><strong>Notre vocation :</strong> valoriser votre patrimoine matériels ou immatériels.</li>
-                        <li><strong>Nos atouts :</strong> proposer des outils originaux, ludiques et pédagogiques.</li>
-                        <li><strong>Nos valeurs :</strong> plaisir, curiosité, qualité, partage.</li>
+                    <div class="hidden-xs hidden-sm col-md-3 col-lg-3"></div>
+                    <ul class="col-xs-12 col-sm-12 col-md-6 col-lg-6 liste_philo" style="list-style-type:none">
+                        <li><strong>Notre vocation :</strong>
+                            Valoriser votre patrimoine matériels ou immatériels.
+                        </li>
+                        <li><strong>Nos atouts :</strong>
+                            Proposer des outils originaux, ludiques et pédagogiques.
+                        </li>
+                        <li><strong>Nos valeurs :</strong>
+                            Plaisir, curiosité, qualité, partage.
+                        </li>
                     </ul>
-                    <div class="hidden-xs hidden-sm col-md-3 col-lg-4"></div>
+                    <div class="hidden-xs hidden-sm col-md-3 col-lg-3"></div>
                 </div>
 
 
