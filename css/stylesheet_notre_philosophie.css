@@ -44,7 +44,6 @@ p {
 .banner_trois_points {
     background-image: url("../image/swirl3.png");
     background-attachment: fixed;
-    background-size: cover;
     padding-top : 20px;
     padding-bottom: 20px;
 
