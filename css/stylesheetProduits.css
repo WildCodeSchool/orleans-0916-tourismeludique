@@ -1,6 +1,5 @@
 .produits {
 	padding: 5%;
-  margin-top: 20%;
 
 }
 
@@ -9,7 +8,7 @@
   margin-left: 5%;
 }
 
-.lensRight {
+ .lensRight {
     width: 40%;
     height: 40%;
     margin: auto;
@@ -22,22 +21,19 @@
     transform: rotate(45deg);
 }
 
-
-.video {
-    margin-bottom: 5%;
-    padding-right: 5%;
-
-}
  .itunes {
-     width: 10%;
- 	height: 10%;
- 	margin: auto;
+     width: 25%;
+ 	height: 25%;
      margin-top: 10%;
+     margin-left: 38%;
+
  }
 
  .android {
-     width: 10%;
- 	height: 10%;
- 	margin: auto;
-  margin-bottom: 15%;
+     width: 25%;
+ 	height: 25%;
+     margin-top: 2%;
+     margin-left: 38%;
+
  }
+
