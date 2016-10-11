@@ -19,7 +19,7 @@
                         col-md-offset-5
                         col-lg-7
                         col-lg-offset-5">
-                        <img class="img-responsive img_trois_points" src="image/atom.png" alt="" width="150px" height="200px">
+                        <img class="img-responsive img_trois_points" src="image/atome_orange_degrade2.png" alt="" width="200px" height="250px">
             </div>
             <div class="hidden-xs
                         hidden-sm
@@ -31,7 +31,7 @@
             </div>
         </div>
 
-<!----- point 2 ----->
+        <!----- point 2 ----->
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 point123">
 
             <!--- titre -->
@@ -45,7 +45,7 @@
                         col-lg-offset-3 titre_trois_points">
                 <h3>Etablir un lien</h3>
                 <div class="hidden-xs hidden-sm col-md-2 col-lg-2"></div>
-            </div> <!--- espace --->
+            </div>
 
             <!--- image --->
             <div class="col-xs-6
@@ -57,7 +57,7 @@
                         col-lg-7
                         col-lg-push-0
                         col-lg-offset-3">
-                        <img class="img-responsive img_trois_points" src="image/atom.png" alt="" width="150px" height="200px">
+                        <img class="img-responsive img_trois_points" src="image/atome_orange_degrade2.png" alt="" width="200px" height="250px">
                         <div class="hidden-xs hidden-sm col-md-2 col-lg-2"></div>
             </div> <!--- espace --->
 
@@ -69,7 +69,7 @@
                         hidden-lg titre_trois_points">
                         <h3>Etablir un lien</h3>
                         <div class="hidden-xs hidden-sm col-md-2 col-lg-2"></div>
-            </div> <!--- espace --->
+            </div>
 
             <!--- texte --->
             <div class="hidden-xs
@@ -84,7 +84,7 @@
         </div>
 
 
-<!----- point 3 ----->
+        <!----- point 3 ----->
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 point123">
             <div class="col-xs-6
                         col-sm-6
@@ -96,7 +96,7 @@
                         col-sm-6
                         col-md-7
                         col-lg-7">
-                        <img class="img-responsive img_trois_points" src="image/atom.png" alt="" width="150px" height="200px">
+                        <img class="img-responsive img_trois_points" src="image/atome_orange_degrade2.png" alt="" width="200px" height="250px">
             </div>
             <div class="hidden-xs
                         hidden-sm
