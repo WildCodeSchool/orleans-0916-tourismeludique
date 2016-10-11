@@ -1,17 +1,37 @@
 <html>
-<div class="container-fluid actu" id="ancreActu">
-    <div class="actutext">
-        <h1 class="titreActu">Actualités</h1>
-        <p>
-            Retrouvez moi le 05, 06 et 07 Novembre au Salon du Tourisme de Paris stand 134
-        </p>
+    <div class="container-fluid actu" id="ancreActu">
+        <h1>Actualités</h1>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <h2>Actu 1</h2>
+                <img src="image/P1030919rond.png" class="img-responsive imgInLens" alt="gargouille">
+                <img src="image/lens_reflect.png"  class="img-responsive lens-actu" alt="lentille">
+                <p class="txtActu">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Consequatur delectus, enim inventore itaque minima nesciunt officia
+                    praesentium quo rem sed vero voluptates. Harum, illo laudantium minus neque quae sunt tenetur!<br/>
+                    <a href="#">En lire plus...</a>
+                </p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <h2>Actu 2</h2>
+                <img src="image/P1030919rond.png" class="img-responsive imgInLens" alt="gargouille">
+                <img src="image/lens_reflect.png"  class="img-responsive lens-actu" alt="lentille">
+                <p class="txtActu">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Consequatur delectus, enim inventore itaque minima nesciunt officia
+                    praesentium quo rem sed vero voluptates. Harum, illo laudantium minus neque quae sunt tenetur!<br/>
+                    <a href="#">En lire plus...</a>
+                </p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <h2>Actu 3</h2>
+                <img src="image/P1030919rond.png" class="img-responsive imgInLens" alt="gargouille">
+                <img src="image/lens_reflect.png"  class="img-responsive lens-actu" alt="lentille">
+                <p class="txtActu">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Consequatur delectus, enim inventore itaque minima nesciunt officia
+                    praesentium quo rem sed vero voluptates. Harum, illo laudantium minus neque quae sunt tenetur!<br/>
+                    <a href="#">En lire plus...</a>
+                </p>
+            </div>
+        </div>
     </div>
-    <div class="photoActu ">
-        <img src="image/cath-4.jpg" class="img-responsive imgActu" alt="Photo illustration actu">
-    </div>
-</div>
-<hr />
-
-
-
 </html>
