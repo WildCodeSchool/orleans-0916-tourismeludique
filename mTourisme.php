@@ -18,7 +18,7 @@
     <link rel="stylesheet" type="text/css" href="css/stylesheetFooter.css">
     <link rel="stylesheet" type="text/css" href="css/stylesheet_notre_philosophie.css" >
     <link rel="stylesheet" type="text/css" href="css/stylesheet_social_network.css" >
-
+    <link rel="stylesheet" type="text/css" href="css/mTourisme.css" >
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/fonts.css" >
@@ -62,6 +62,7 @@
 	<?php include ("notre_philosophie.php");  ?>
     <?php include ("trois_points.php");  ?>
     <?php include ('produits.php'); ?>
+    <img class="iphone hidden-xs" src="image/iPhone-footer.png" alt="iphone geomotifs">
     <?php include ('sectionImage.php'); ?>
     <?php include ('actu.php'); ?>
     <?php include ("form.php"); ?>

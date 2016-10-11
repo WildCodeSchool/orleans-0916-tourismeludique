@@ -3,6 +3,7 @@
 	background-attachment: fixed;
 	background-size: cover;
 	height: 70vh;
+    width: 100vw;
 }
 
 .textImage {
@@ -12,5 +13,14 @@
 	padding-top: 15%;
 	font-size: 400%;
 	color: black;
+}
 
+.guillemets {
+	width: 10%;
+	height: 30%;
+}
+
+.guillemetsdown {
+    width: 10%;
+    height: 30%;
 }
