@@ -8,8 +8,9 @@
 ul#banner_social img {
     width : 50px;
     height: 50px;
+    border-radius: 4px 5px 4px 4px;
     webkit-box-shadow:  0px 10px 10px 0px rgba(0, 0, 0, 0.6);
-    box-shadow:  0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+    box-shadow:  0px 5px 5px 0px rgba(0, 0, 0, 0.4);
     /*-webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
@@ -23,6 +24,7 @@ ul#banner_social {
     vertical-align: baseline;
     float: right;
     right: 60px;
+    top: 250px;
 }
 
 /*  icones  */
@@ -31,7 +33,9 @@ ul#banner_social li {
     width: 50px;
     margin-right : 60px;
 }
-
+ul#banner_social.bouton_home {
+    top: 400px;
+}
 /************************* Bouton Facebook ***********************************/
 #FB-root {
    /* position: absolute;
@@ -47,12 +51,17 @@ ul#banner_social li {
     position: absolute;
     top: 0;
     right: 0px;
+    webkit-box-shadow:  0px 10px 10px 0px rgba(0, 0, 0, 0.6);
+    box-shadow:  0px 5px 5px 0px rgba(0, 0, 0, 0.4);
+
 }
 
 /* Option d'affichage de la box Facebook au survol du logo */
 .fb-page {
     display: none;
+
 }
+
 
 .bouton_facebook_MLT:hover .fb-page {
     display: block;
@@ -79,4 +88,30 @@ ul#banner_social li {
 
 .bouton_youtube:hover .yt-page {
     display: block;
+}
+
+/************************* Bouton retour haut de page ***********************************/
+#logo_home {
+    position: fixed;
+    top:600px;
+    width: 40px;
+    z-index:1;
+}
+
+ul#logo_home img {
+    width : 30px;
+    height: 30px;
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */
+    transform: rotate(90deg); /* Standard syntax */
+
+}
+
+ul#logo_home {
+    list-style-type: none;
+    position: fixed center right;
+    vertical-align: baseline;
+    float: right;
+    right: 60px;
+    top: 700px;
 }
