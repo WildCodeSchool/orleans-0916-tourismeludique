@@ -8,7 +8,11 @@ h3 {
     background-image: url("../image/P1060347.jpg");
     background-attachment: fixed;
     background-size: cover;
+<<<<<<< HEAD
+
+=======
     width: 100vw;
+>>>>>>> 5f832f51620b39183010bff0f2889eae354ee29d
 }
 
 .lens {
