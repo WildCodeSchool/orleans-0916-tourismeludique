@@ -6,8 +6,8 @@
 
             <!----- titre + text ----->
             <div class="col-xs-6 col-sm-6 col-md-5 col-lg-12">
-                    <h1>Notre métier</h1>
-                    <p>Créée fin 2013, <strong>m-Tourisme Ludique</strong> est une société d’édition d’applications mobiles, installée dans le Loiret.<br></p>
+                    <h1 class="titreMetier">Notre métier</h1>
+                    <p class="txt-presentation">Créée fin 2013, <strong>m-Tourisme Ludique</strong> est une société d’édition d’applications mobiles, installée dans le Loiret.<br></p>
 
                 <!--- liste sans puces --->
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">

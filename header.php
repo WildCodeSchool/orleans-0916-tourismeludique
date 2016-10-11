@@ -18,7 +18,7 @@
         var y = $(this).scrollTop(); // On récupérer la valeur du scroll vertical
 
         //si cette valeur > à 300 on ajouter la class
-        if (y >= 300) {
+        if (y >= 300)) {
             $('.navbar').addClass('fixed');
         } else {
             // sinon, on l'enlève
