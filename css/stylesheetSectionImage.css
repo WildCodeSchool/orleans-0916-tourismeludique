@@ -7,8 +7,12 @@
 }
 
 .textImage {
+<<<<<<< HEAD
 	font-family: 'DIN-Regular';
 	font-style: italic;
+=======
+	font-family: 'DIN';
+>>>>>>> 9cbae4ca08d7e9aa3b931cf8cb736779282d4f29
 	text-align: center;
 	margin: auto;
 	padding-top: 12%;

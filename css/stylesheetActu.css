@@ -1,26 +1,33 @@
 .actu {
     font-family: 'DIN';
     text-align: center;
-    padding: 5%;
+    height: 100%;
 }
 
-.titreActu {
-    font-family: 'DIN';
-    font-weight: bold;
-}
-
-.imgActu {
-    width: 30%;
-    height: 30%;
-    margin: auto;
+.lens-actu {
+    position: absolute;
+    top: 10%;
+    margin-left: 25%;
+    width: 50%;
+    height: 50%;
     margin-top: 5%;
+    z-index: 1;
 }
 
-.imgActu:hover {
-    cursor: pointer;
-    -ms-transform: scale(2); /* IE 9 */
-    -webkit-transform: scale(2); /* Chrome, Safari, Opera */
-    transform: scale(2);
+.lens-actu:hover {
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
     transition-duration: 1000ms;
-    z-index: 1;
+}
+
+.imgInLens {
+    position: relative;
+    width: 50%;
+    height: 50%;
+}
+
+.txtActu {
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
