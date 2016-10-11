@@ -35,6 +35,14 @@ p {
 
 .img_trois_points {
     margin: auto;
+    perspective: 1000px;
+}
+
+.img_trois_points:hover {
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+    transition: 0.6s;
+    position: relative;
 }
 
 .text_trois_points {
@@ -48,5 +56,4 @@ p {
     background-attachment: fixed;
     padding-top : 20px;
     padding-bottom: 20px;
-
 }
