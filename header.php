@@ -52,6 +52,7 @@
           });
         </script>         
         <a class="lienMenu" href="#" id="home"><span class="glyphicon glyphicon-home"></span></a>
+
           <script>
             $(document).ready(function (){
               $("#metier").click(function (){

@@ -1,5 +1,5 @@
 <!----- Partie 2 : bandeau 3 pts ----->
-<div class="row">
+<div class="row ">
     <!----- Classe pour background-image ----->
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 banner_trois_points">
 
@@ -11,7 +11,7 @@
                         col-md-offset-5
                         col-lg-7
                         col-lg-offset-5 titre_trois_points">
-                        <h3>Susciter l'intérêt</h3>
+                        <h3 class="titrePoint">Susciter l'intérêt</h3>
             </div>
             <div class="col-xs-6
                         col-sm-6
@@ -27,7 +27,7 @@
                         col-md-offset-5
                         col-lg-7
                         col-lg-offset-5 text_trois_points">
-                        <p>Accedat huc suavitas quaedam oportet sermonum atque morum, haudquaquam mediocre condimentum amicitiae. Tristitia autem et in omni re severitas habet illa quidem gravitatem.</p>
+                        <p class="txtPoint">Accedat huc suavitas quaedam oportet sermonum atque morum, haudquaquam mediocre condimentum amicitiae. Tristitia autem et in omni re severitas habet illa quidem gravitatem.</p>
             </div>
         </div>
 
@@ -43,7 +43,7 @@
                         col-lg-7
                         col-lg-pull-0
                         col-lg-offset-3 titre_trois_points">
-                <h3>Etablir un lien</h3>
+                <h3 class="titrePoint">Etablir un lien</h3>
                 <div class="hidden-xs hidden-sm col-md-2 col-lg-2"></div>
             </div> <!--- espace --->
 
@@ -67,7 +67,7 @@
                         col-sm-offset-0
                         hidden-md
                         hidden-lg titre_trois_points">
-                        <h3>Etablir un lien</h3>
+                        <h3 class="titrePoint">Etablir un lien</h3>
                         <div class="hidden-xs hidden-sm col-md-2 col-lg-2"></div>
             </div> <!--- espace --->
 
@@ -78,7 +78,7 @@
                         col-md-offset-3
                         col-lg-7
                         col-lg-offset-3 text_trois_points">
-                        <p>Accedat huc suavitas quaedam oportet sermonum atque morum, haudquaquam mediocre condimentum amicitiae. Tristitia autem et in omni re severitas habet illa quidem gravitatem.</p>
+                        <p class="txtPoint">Accedat huc suavitas quaedam oportet sermonum atque morum, haudquaquam mediocre condimentum amicitiae. Tristitia autem et in omni re severitas habet illa quidem gravitatem.</p>
                         <div class="hidden-xs hidden-sm col-md-2 col-lg-2"></div>
             </div>
         </div>
@@ -90,7 +90,7 @@
                         col-sm-6
                         col-md-7
                         col-lg-7 titre_trois_points">
-                        <h3>Donner du sens</h3>
+                        <h3 class="titrePoint">Donner du sens</h3>
             </div>
             <div class="col-xs-6
                         col-sm-6
@@ -102,7 +102,7 @@
                         hidden-sm
                         col-md-7
                         col-lg-7 text_trois_points">
-                        <p>Accedat huc suavitas quaedam oportet sermonum atque morum, haudquaquam mediocre condimentum amicitiae. Tristitia autem et in omni re severitas habet illa quidem gravitatem.</p>
+                        <p class="txtPoint">Accedat huc suavitas quaedam oportet sermonum atque morum, haudquaquam mediocre condimentum amicitiae. Tristitia autem et in omni re severitas habet illa quidem gravitatem.</p>
             </div>
             <!--- <div class="hidden-xs
                         hidden-sm
