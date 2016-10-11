@@ -13,10 +13,6 @@
     margin-bottom: 1%;
 }
 
-.underline {
-    text-decoration: underline;
-}
-
 .notre_philo {
     padding-bottom: 20px;
     padding-top: 20px;
@@ -50,6 +46,14 @@
     text-align: center;
 }
 
+.titrePoint {
+    font-size: 200%;
+}
+
+.txtPoint {
+    font-size: 130%;
+}
+
 .img_trois_points {
     margin: auto;
     perspective: 1000px;
@@ -73,4 +77,5 @@
     background-attachment: fixed;
     padding-top : 20px;
     padding-bottom: 20px;
+    font-family: 'DIN';
 }
