@@ -1,7 +1,7 @@
 .footer {
     font-family: 'DIN';
-    color: #0f0f0f;
-    font-size: 150%;
+    color: white;
+    font-size: 200%;
     text-align: center;
     margin: auto;
     padding-top: 2%;
@@ -9,7 +9,7 @@
 }
 
 .lienFooter {
-    color: #0f0f0f;
+    color: white;
 }
 
 .lienFooter:hover {

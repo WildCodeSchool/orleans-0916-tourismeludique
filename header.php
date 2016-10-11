@@ -79,7 +79,7 @@
                         });
                     </script>
                 <div class="col-lg-3">
-                    <a class="lienMenu" href="#" id="actu">Actualité</a>
+                    <a class="lienMenu" href="#" id="actu">Actualités</a>
                 </div>
                     <!-- Contacter -->
                     <script>
