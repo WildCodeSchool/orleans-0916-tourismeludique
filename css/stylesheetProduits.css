@@ -1,3 +1,6 @@
+h2 {
+    max-font-size: 0.2em;
+}
 .produits {
 	padding: 5%;
 }
@@ -21,16 +24,19 @@
 }
 
  .itunes {
-     width: 25%;
- 	height: 25%;
-     margin-top: 10%;
-     margin-left: 38%;
+     width: 37%;
+ 	height: 37%;
+     margin-top: 8%;
+     margin-left: 30%;
  }
 
  .android {
-     width: 25%;
- 	height: 25%;
-     margin-top: 2%;
-     margin-left: 38%;
+     width: 37%;
+ 	height: 37%;
+     margin-top: 5%;
+     margin-left: 30%;
  }
 
+.titre {
+    font-size: 0.2em;
+}
