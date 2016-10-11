@@ -1,3 +1,13 @@
+<script>
+    $(document).ready(function (){
+        $("#home").click(function (){
+            $('html, body').animate({
+                scrollTop: $("#ancreHome").offset().top
+            }, 1000);
+        });
+    });
+</script>
+
 <div class="social_network">
     <ul id="banner_social">
 
@@ -71,9 +81,10 @@
 
         <!--- Bouton haut de page --->
     <ul id="logo_home">
+
         <li>
-            <a href="#home"">
-            <img alt="" src="image/arrow2.png" class="bouton_home"/>
+            <a href="#" id="home">
+                <span class="glyphicon glyphicon-menu-up fa" aria-hidden="true"></span>
             </a>
         </li>
     </ul>

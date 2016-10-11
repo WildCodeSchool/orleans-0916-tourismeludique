@@ -98,13 +98,12 @@ ul#banner_social.bouton_home {
     z-index:1;
 }
 
-ul#logo_home img {
-    width : 30px;
-    height: 30px;
-    -ms-transform: rotate(90deg); /* IE 9 */
-    -webkit-transform: rotate(90deg); /* Safari */
-    transform: rotate(90deg); /* Standard syntax */
-
+.glyphicon-menu-up {
+    font-size: 40px;
+    color: #4e4e4eff;
+    border: 2px solid #4e4e4eff;
+    border-radius: 5px 5px 5px 5px;
+    padding: 2px;
 }
 
 ul#logo_home {
@@ -113,5 +112,5 @@ ul#logo_home {
     vertical-align: baseline;
     float: right;
     right: 60px;
-    top: 700px;
+    top: 820px;
 }
