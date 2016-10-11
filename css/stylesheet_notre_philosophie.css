@@ -13,8 +13,8 @@
     margin-bottom: 1%;
 }
 
-p {
-    font-size: 1.2em;
+.underline {
+    text-decoration: underline;
 }
 
 .notre_philo {
@@ -29,6 +29,7 @@ p {
     font-size: 180%;
     text-align: center;
     margin-bottom: 3%;
+    list-style: none;
 }
 
 
