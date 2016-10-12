@@ -1,6 +1,4 @@
-h2 {
-    max-font-size: 0.2em;
-}
+
 .produits {
 	padding: 5%;
 }
@@ -8,6 +6,15 @@ h2 {
 .produitsText {
 	text-align: center;
   margin-left: 5%;
+    font-family: DIN;
+}
+
+p {
+    font-size: 1.4em;
+}
+
+.geo {
+    font-size: 3em;
 }
 
  .lensRight {
@@ -38,5 +45,6 @@ h2 {
  }
 
 .titre {
-    font-size: 0.2em;
+    font-size: 1.2em;
+    font-family: DIN;
 }
