@@ -2,5 +2,5 @@
 
 Crédits :
 
-// retour Home
-<div>Icons made by <a href="http://www.flaticon.com/authors/anton-saputro" title="Anton Saputro">Anton Saputro</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+// vecteur carte
+ <a href="http://www.freepik.com/free-vector/geolocation-map-pin-set_714012.htm">Designed by Freepik</a>
