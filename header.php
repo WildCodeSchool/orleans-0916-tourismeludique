@@ -52,7 +52,7 @@
                     });
                 </script>
 
-                <li><a class="lienMenu" href="#" id="metier">Notre Métier</a></li>
+                <li class="titreMenu"><a class="lienMenu" href="#" id="metier">Notre Métier</a></li>
                 <script>
                     $(document).ready(function (){
                         $("#produit").click(function (){
@@ -62,7 +62,7 @@
                         });
                     });
                 </script>
-                <li><a class="lienMenu" href="#" id="produit">GéoMOTifs</a></li>
+                <li class="titreMenu"><a class="lienMenu" href="#" id="produit">GéoMOTifs</a></li>
 
                 <script>
                     $(document).ready(function (){
@@ -73,7 +73,7 @@
                         });
                     });
                 </script>
-                <li><a class="lienMenu" href="#" id="actu">Actualités</a></li>
+                <li class="titreMenu"><a class="lienMenu" href="#" id="actu">Actualités</a></li>
                 <script>
                     $(document).ready(function (){
                         $("#nousContacter").click(function (){
@@ -83,7 +83,7 @@
                         });
                     });
                 </script>
-                <li><a class="lienMenu" href="#" id="nousContacter">Nous contacter</a></li>
+                <li class="titreMenu"><a class="lienMenu" href="#" id="nousContacter">Nous contacter</a></li>
             </ul>
     </div>
 </nav>
