@@ -13,8 +13,10 @@
 
         <!--- Bouton Facebook MLT --->
         <li class="bouton_facebook_MLT">
+
             <a href="https://www.facebook.com/mtourismeludique">
                 <img alt="Facebook MTourismeLudique" src="image/logo_FB.png"/>
+             <!--   <img alt="Facebook MTourismeLudique" src="image/logo_FB_orange.png" class="hover_logo_FB"/>  -->
             </a>
 
             <div class="fb-page" data-href="https://www.facebook.com/mtourismeludique"
@@ -40,42 +42,19 @@
 
         <!--- Bouton YouTube --->
         <li class="bouton_youtube">
-            <a href="https://www.youtube.com/channel/UCj_DmGMNzw3DTMUMyYoyoyQ">
+            <a href="https://www.youtube.com/channel/UCj_DmGMNzw3DTMUMyYoyoyQ" target="_blank">
                 <img alt="Youtube mTourismeLudique" src="image/logo_YT.png"/>
+                <img alt="Youtube mTourismeLudique" src="image/logo_YT_orange.png" class="hover_logo_YT"/>
             </a>
-
-            <div class="yt-page" data-href="https://www.youtube.com/channel/UCj_DmGMNzw3DTMUMyYoyoyQ">
-                 <!--- data-tabs="timeline"
-                 data-small-header="true"
-                 data-adapt-container-width="true"
-                 data-hide-cover="true"
-                 data-show-facepile="false" --->
-
-                <div class="yt-xfbml-parse-ignore">
-                    <a href="https://www.youtube.com/channel/UCj_DmGMNzw3DTMUMyYoyoyQ" target="_blank"></a>
-                </div>
-                <div id="yt-root">
-                    <iframe class="box_YT" src="https://www.youtube.com/channel/UCj_DmGMNzw3DTMUMyYoyoyQ"
-                            width="340"
-                            height="500">
-                        <!-- style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"-->
-                    </iframe>
-                </div>
-            </div>
         </li>
 
         <!--- Bouton Likedin --->
         <li class="bouton_IN">
-            <a href="https://www.linkedin.com/in/sylvain-lambert-38387757">
+            <a href="https://www.linkedin.com/in/sylvain-lambert-38387757" target="_blank">
                 <img alt="Profil Sylvain Lambert" src="image/logo_linkedin.png"/>
+                <img alt="Profil Sylvain Lambert" src="image/logo_linkedin_orange.png" class="hover_logo_linkedin"/>
+
             </a>
-
-            <div class="in-page" data-href="https://www.linkedin.com/in/sylvain-lambert-38387757">
-                <div class="in-xfbml-parse-ignore">
-                    <a href="https://www.linkedin.com/in/sylvain-lambert-38387757" target="_blank"></a>
-                </div>
-
-            </div>
         </li>
     </ul>
 
