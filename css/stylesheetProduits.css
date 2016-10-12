@@ -17,10 +17,10 @@
  }
 
 .titreNosProduits {
-    font-size: 200%;
+    font-size: 300%;
     font-family: 'DIN';
     color: #EE6616;
-    margin-top: 160%;
+    margin-top: 130%;
     transform: rotate(-90deg);
 }
 
