@@ -7,11 +7,12 @@
 }
 
 .textImage {
-	font-family: 'Courgette', cursive;
+	font-style: italic;
+	font-family: 'DIN';
 	text-align: center;
 	margin: auto;
-	padding-top: 15%;
-	font-size: 400%;
+	padding-top: 12%;
+	font-size: 420%;
 	color: black;
 }
 

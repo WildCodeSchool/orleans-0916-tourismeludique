@@ -1,3 +1,4 @@
+
 .produits {
 	padding: 5%;
 }
@@ -5,6 +6,15 @@
 .produitsText {
 	text-align: center;
   margin-left: 5%;
+    font-family: DIN;
+}
+
+p {
+    font-size: 1.4em;
+}
+
+.geo {
+    font-size: 3em;
 }
 
  .lensRight {
@@ -21,16 +31,20 @@
 }
 
  .itunes {
-     width: 25%;
- 	height: 25%;
-     margin-top: 10%;
-     margin-left: 38%;
+     width: 37%;
+ 	height: 37%;
+     margin-top: 8%;
+     margin-left: 30%;
  }
 
  .android {
-     width: 25%;
- 	height: 25%;
-     margin-top: 2%;
-     margin-left: 38%;
+     width: 37%;
+ 	height: 37%;
+     margin-top: 5%;
+     margin-left: 30%;
  }
 
+.titre {
+    font-size: 1.2em;
+    font-family: DIN;
+}

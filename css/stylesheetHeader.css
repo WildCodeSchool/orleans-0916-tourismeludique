@@ -3,14 +3,13 @@ Header {
     background-image: url("background-orange.JPG");
     background-size: cover;
     background-attachment: fixed;
-    width: 100vw;
-    color: black;
+    width: 100%;
+    height: 40%;
+    font-family: 'DIN-Regular';
+    text-align: center;
+    color: white;
 }
 
-.jumbotron {
-	height: 40vh;
-	width: 100vw;
-}
 .backgroundHeader {
     background-image: url("background-orange.JPG");
     background-attachment: fixed;
@@ -18,13 +17,34 @@ Header {
 }
 
 .logoHeader {
-    height: 30vh;
-    width: 60vw;
-	margin: auto;
+    width: 12%;
+    height: 12%;
+    margin: auto;
+}
+
+.marque {
+    font-size: 600%;
+}
+
+.slogan {
+    font-size: 300%;
+}
+
+.navbar {
+    text-align: center;
+    font-family: 'DIN';
+    font-size: 200%;
+}
+
+.navbar.fixed {
+    position: fixed;
+    top: 0;
+    opacity: 0.7;
+    width: 100%;
 }
 
 .lienMenu {
-    color: #0f0f0f;
+    color: white;
 }
 
 .lienMenu:hover {
@@ -40,34 +60,6 @@ Header {
 .lienMenu:focus {
     text-decoration: none;
     color: white;
-}
-
-.navbar {
-    background-image: url("background-orange.JPG");
-    background-attachment: fixed;
-    background-size: cover;
-    font-family: 'DIN';
-    text-align: center;
-    font-size: 250%;
-}
-
-.navbar:hover {
-    color: white;
-    background-attachment: fixed;
-    text-decoration: none;
-}
-
-.navbar.fixed {
-    position: fixed;
-    top: 0;
-    z-index: 1000;
-    opacity: 0.7;
-    width: 100vw;
-}
-
-.navbar .navbar-nav {
-    display: inline-block;
-    float: none;
 }
 
 /*********************************************** / HEADER *************************************************************/

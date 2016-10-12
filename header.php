@@ -1,15 +1,15 @@
-<!-- JUMBOTRON -->
 <html>
 <header>
-<div class="jumbotron backgroundHeader" id="ancreHome" >
+<div class="backgroundHeader" id="ancreHome" >
 	<div class="container-fluid">
-		<div class="col-lg-12 col-md-12">
-			<img class="img-responsive logoHeader" src="image/Logo_mTourismeLudique_Noir.png" alt="Logo mTourimse-Ludique">
-		</div>
+		<div class="row">
+          <img class="img-responsive logoHeader" src="image/logoMblanc.png" alt="Logo mTourimse-Ludique">
+          <h1 class="marque">Tourisme Ludique</h1><br/>
+          <p class="slogan">CREATION D'USAGES MOBILES</p><br/>
+        </div>
 	</div>
 </div>
-<!-- FIN JUMBOTRON -->
-
+</header>
 <!-- NAVBAR -->
 <!-- SCRIPT NAVBAR STICKY-->
 <script>
@@ -27,77 +27,73 @@
     });
 </script>
 <!-- FIN SCRIPT NAVBAR STICKY-->
-<div id="nav">
-  <div class="navbar navbar-inverse">
-    <div class="container-fluid menu">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
-          data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-      </div>
 
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <script>
-          $(document).ready(function (){
-            $("#home").click(function (){
-              $('html, body').animate({
-                scrollTop: $("#ancreHome").offset().top
-              }, 1000);
-            });
-          });
-        </script>         
-        <a class="lienMenu" href="#" id="home"><span class="glyphicon glyphicon-home"></span></a>
+<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
 
-          <script>
-            $(document).ready(function (){
-              $("#metier").click(function (){
-                $('html, body').animate({
-                  scrollTop: $("#ancreMetier").offset().top
-                }, 1000);
-              });
-            });
-          </script>          
-          <a class="lienMenu" href="#" id="metier">Notre métier</a>
-          <script>
-            $(document).ready(function (){
-              $("#produit").click(function (){
-                $('html, body').animate({
-                  scrollTop: $("#ancreProduit").offset().top
-                }, 1000);
-              });
-            });
-          </script>
-          <a class="lienMenu" href="#" id="produit">Géomotifs</a>
-        <script>
-          $(document).ready(function (){
-            $("#actu").click(function (){
-              $('html, body').animate({
-                scrollTop: $("#ancreActu").offset().top
-              }, 1000);
-            });
-          });
-        </script>
-        <a class="lienMenu" href="#" id="actu">Actualité</a>
-          <script>
-            $(document).ready(function (){
-              $("#nousContacter").click(function (){
-                $('html, body').animate({
-                  scrollTop: $("#ancreForm").offset().top
-                }, 1000);
-              });
-            });
-          </script>
-          <a class="lienMenu" href="#" id="nousContacter">Nous contacter</a>
-        </ul>
-      </div>		
+        <div class="row">
+            <!-- Métier -->
+            <script>
+                $(document).ready(function (){
+                    $("#metier").click(function (){
+                        $('html, body').animate({
+                            scrollTop: $("#ancreMetier").offset().top
+                        }, 1000);
+                    });
+                });
+            </script>
+            <div class="col-lg-3">
+                <a class="lienMenu" href="#" id="metier">Notre Métier</a>
+            </div>
+            <!-- GéoMOTifs -->
+            <script>
+                $(document).ready(function (){
+                    $("#produit").click(function (){
+                        $('html, body').animate({
+                            scrollTop: $("#ancreProduit").offset().top
+                        }, 1000);
+                    });
+                });
+            </script>
+            <div class="col-lg-3">
+                <a class="lienMenu" href="#" id="produit">GéoMOTifs</a>
+            </div>
+            <!-- Actu -->
+            <script>
+                $(document).ready(function (){
+                    $("#actu").click(function (){
+                        $('html, body').animate({
+                            scrollTop: $("#ancreActu").offset().top
+                        }, 1000);
+                    });
+                });
+            </script>
+            <div class="col-lg-3">
+                <a class="lienMenu" href="#" id="actu">Actualités</a>
+            </div>
+            <!-- Contacter -->
+            <script>
+                $(document).ready(function (){
+                    $("#nousContacter").click(function (){
+                        $('html, body').animate({
+                            scrollTop: $("#ancreForm").offset().top
+                        }, 1000);
+                    });
+                });
+            </script>
+            <div class="col-lg-3">
+                <a class="lienMenu" href="#" id="nousContacter">Nous contacter</a>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
-</header>
+</nav>
 <!-- FIN NAVBAR -->
 </html>

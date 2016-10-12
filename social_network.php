@@ -13,8 +13,7 @@
 
         <!--- Bouton Facebook MLT --->
         <li class="bouton_facebook_MLT">
-
-            <a href="https://www.facebook.com/mtourismeludique">
+            <a href="https://www.facebook.com/mtourismeludique" target="_blank">
                 <img alt="Facebook MTourismeLudique" src="image/logo_FB.png"/>
              <!--   <img alt="Facebook MTourismeLudique" src="image/logo_FB_orange.png" class="hover_logo_FB"/>  -->
             </a>
@@ -27,7 +26,7 @@
                  data-show-facepile="false">
 
                 <div class="fb-xfbml-parse-ignore">
-                    <a href="https://www.facebook.com/mtourismeludique" target="_blank"></a>
+                    <a href="https://www.facebook.com/mtourismeludique"></a>
                 </div>
                 <div id="fb-root">
                     <iframe class="box_FB" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmtourismeludique&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
