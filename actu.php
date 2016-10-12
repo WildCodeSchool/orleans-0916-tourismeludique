@@ -7,8 +7,7 @@
                 <img src="image/P1030919rond.png" class="img-responsive imgInLens" alt="gargouille">
                 <img src="image/lens_reflect.png"  class="img-responsive lens-actu" alt="lentille">
                 <p class="txtActu">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet,
-                    consectetur adipisicing elit. Consequatur delectus, enim inventore itaque minima nesciunt officia
-                    praesentium quo rem sed vero voluptates. Harum, illo laudantium minus neque quae sunt tenetur!<br/>
+                    consectetur adipisicing elit.<br/>
                     <a href="#">En lire plus...</a>
                 </p>
             </div>
@@ -17,8 +16,7 @@
                 <img src="image/P1030919rond.png" class="img-responsive imgInLens" alt="gargouille">
                 <img src="image/lens_reflect.png"  class="img-responsive lens-actu" alt="lentille">
                 <p class="txtActu">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet,
-                    consectetur adipisicing elit. Consequatur delectus, enim inventore itaque minima nesciunt officia
-                    praesentium quo rem sed vero voluptates. Harum, illo laudantium minus neque quae sunt tenetur!<br/>
+                    consectetur adipisicing elit.<br/>
                     <a href="#">En lire plus...</a>
                 </p>
             </div>
@@ -27,8 +25,7 @@
                 <img src="image/P1030919rond.png" class="img-responsive imgInLens" alt="gargouille">
                 <img src="image/lens_reflect.png"  class="img-responsive lens-actu" alt="lentille">
                 <p class="txtActu">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet,
-                    consectetur adipisicing elit. Consequatur delectus, enim inventore itaque minima nesciunt officia
-                    praesentium quo rem sed vero voluptates. Harum, illo laudantium minus neque quae sunt tenetur!<br/>
+                    consectetur adipisicing elit.<br/>
                     <a href="#">En lire plus...</a>
                 </p>
             </div>

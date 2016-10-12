@@ -18,7 +18,7 @@
         </div>
     <div class="col-xs-offset-1 col-xs-4 ">
         <div class="embed-responsive embed-responsive-4by3">
-            <iframe class="video" width="650" height="880" src="https://www.youtube.com/embed/Svd4SGOJTfI"
+            <iframe class="video" width="100%" height="100%" src="https://www.youtube.com/embed/Svd4SGOJTfI"
                     allowfullscreen></iframe>
         </div>
     </div>
