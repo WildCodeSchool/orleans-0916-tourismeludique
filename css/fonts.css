@@ -2,3 +2,19 @@
     font-family: 'DIN';
     src: url(../fonts/DIN-Medium.otf) format('truetype');
 }
+@font-face {
+    font-family: 'DIN-Light';
+    src: url(../fonts/DIN-Light.otf) format('truetype');
+}
+@font-face {
+    font-family: 'DIN-Black';
+    src: url(../fonts/DIN-Black.otf) format('truetype');
+}
+@font-face {
+    font-family: 'DIN-Bold';
+    src: url(../fonts/DIN-Bold.otf) format('truetype');
+}
+@font-face {
+    font-family: 'DIN-Regular';
+    src: url(../fonts/DIN-Regular.otf) format('truetype');
+}
