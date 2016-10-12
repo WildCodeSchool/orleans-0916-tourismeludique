@@ -41,19 +41,10 @@
 
 /* trois points */
 
-.point123 {
-}
-
-.hidden-xs {
-    display: ;
-}
-
-.hidden-sm {
-    display: ;
-}
-
 .titre_trois_points {
     text-align: center;
+    vertical-align: middle;
+    margin-top: 60px;
 }
 
 .titrePoint {
@@ -62,11 +53,14 @@
 
 .txtPoint {
     font-size: 130%;
+    margin-bottom: 60px;
 }
 
 .img_trois_points {
     margin: auto;
     perspective: 1000px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .img_trois_points:hover {
@@ -82,7 +76,7 @@
 
 .banner_trois_points {
 
-    background-image: url("../image/img_archi/ruelle_paysage_n&b_opacité50_2500x1018.jpeg");
+    background-image: url("../image/img_archi/ruelle_paysage_n&b_opacité75_2500x1018.jpeg");
     background-color: none;
     background-attachment: fixed;
     padding-top : 20px;

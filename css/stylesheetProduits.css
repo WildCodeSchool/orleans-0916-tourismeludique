@@ -1,51 +1,38 @@
 
-.produits {
-	padding: 5%;
-}
-
-.produitsText {
-	text-align: center;
-  margin-left: 5%;
+.txtGeo {
+    font-size: 135%;
+    text-align: center;
     font-family: DIN;
-}
-
-p {
-    font-size: 1.4em;
-}
-
-.geo {
-    font-size: 3em;
-}
-
- .lensRight {
-    width: 40%;
-    height: 40%;
-    margin: auto;
-    margin-top: 5%;
-}
-
-.lensRight:hover {
-    -ms-transform: rotate(45deg); /* IE 9 */
-    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
-    transform: rotate(45deg);
 }
 
  .itunes {
-     width: 37%;
- 	height: 37%;
-     margin-top: 8%;
-     margin-left: 30%;
+    margin-top: 20%;
+    width: 80%;
  }
 
  .android {
-     width: 37%;
- 	height: 37%;
-     margin-top: 5%;
-     margin-left: 30%;
+    margin-top: 20%;
+    width: 80%;
+    margin-left: 15%;
  }
 
-.titre {
-    font-size: 1.5em;
-    font-family: DIN;
+.titreNosProduits {
+    font-size: 300%;
+    font-family: 'DIN';
     color: #EE6616;
+    margin-top: 130%;
+    transform: rotate(-90deg);
+}
+
+.titreGeo {
+    text-align: center;
+    margin-bottom: 5%;
+    color: #EE6616;
+    font-family: 'DIN';
+    font-size: 400%
+}
+
+.video {
+    width: 60px;
+    margin-left: 10%;
 }
