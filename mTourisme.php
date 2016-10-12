@@ -67,7 +67,7 @@
 	<?php include ("notre_philosophie.php");  ?>
     <?php include ("trois_points.php");  ?>
     <?php include ('produits.php'); ?>
-    <img class="iphone hidden-xs" src="image/iPhone-footer.png" alt="iphone geomotifs">
+    <img class="iphone hidden-xs img-responsive" src="image/iPhone-footer.png" alt="iphone geomotifs">
     <?php include ('sectionImage.php'); ?>
     <?php include ('actu.php'); ?>
     <?php include ("form.php"); ?>
