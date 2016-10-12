@@ -1,10 +1,10 @@
 <div class=" container-fluid produits" id="ancreProduit">
     <div class="row">
-        <div class=" titre col-xs-1">
-            <h2>Nos Produits</h2>
+        <div class="col-xs-1">
+            <h1 class="titre">Nos Produits</h1>
         </div>
         <div class="produitsText col-xs-offset-1 col-xs-4">
-            <h1>Géomotifs</h1>
+            <h2 class="geo">Géomotifs</h2>
             <p>Quae et ut iusto qui. Unde et quia reiciendis iste dolore est enim odio. Ullam nihil molestiae mollitia
                 architecto ea. Accusantium est quis est nesciunt eaque. Culpa aut ratione sit.<br/>
                 Officia expedita eligendi doloribus quia officiis. Illo voluptatem optio quidem eligendi.
