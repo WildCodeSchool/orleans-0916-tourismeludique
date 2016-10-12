@@ -17,7 +17,6 @@ h3 {
     margin-left: 25%;
     width: 50%;
     height: 50%;
-    margin-top: 15%;
     z-index: 1;
 }
 
@@ -29,7 +28,7 @@ h3 {
 }
 
 .imgInLensForm {
-    position: absolute;
+    position: relative;
     margin-left: 25%;
     width: 50%;
     height: 50%;
