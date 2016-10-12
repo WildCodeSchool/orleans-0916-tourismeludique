@@ -12,35 +12,9 @@
     <ul id="banner_social">
 
         <!--- Bouton Facebook MLT --->
-        <li class="bouton_facebook_MLT">
+        <li class="bouton_facebook_MLT img_hover">
             <a href="https://www.facebook.com/mtourismeludique" target="_blank">
-                <img alt="Facebook MTourismeLudique" src="image/logo_FB.png" class="img_hover"/>
-
-                <script>
-                    (function($){
-                        $(".img_hover").mouseover(function(){
-                            $(this).attr("src", "image/logo_FB.png");
-                        }).mouseout(function(){
-                            $(this).attr("src", "image/logo_FB_orange.png");
-                        });
-                    })(jQuery);
-                </script>
-
-
-                <!--
-                    <script>
-                        document.getElementById("img_hover").addEventListener("mouseover", mouseOver);
-                        document.getElementById("img_hover").addEventListener("mouseout", mouseOut);
-
-                        function mouseOver() {
-                            document.getElementById("img_hover").src = "image/logo_FB_orange.png";
-                        }
-
-                        function mouseOut() {
-                            document.getElementById("img_hover").src = "image/logo_FB.png";
-                        }
-                    </script>
-                -->
+                <img alt="Facebook MTourismeLudique" src="image/logo_FB_transp.png"/>
             </a>
 
             <div class="fb-page" data-href="https://www.facebook.com/mtourismeludique"
@@ -65,16 +39,16 @@
         </li>
 
         <!--- Bouton YouTube --->
-        <li class="bouton_youtube">
+        <li class="bouton_youtube img_hover">
             <a href="https://www.youtube.com/channel/UCj_DmGMNzw3DTMUMyYoyoyQ" target="_blank">
-                <img alt="Youtube mTourismeLudique" src="image/logo_YT.png"/>
+                <img alt="Youtube mTourismeLudique" src="image/logo_YT_transp.png"/>
             </a>
         </li>
 
         <!--- Bouton Likedin --->
-        <li class="bouton_IN">
+        <li class="bouton_IN img_hover">
             <a href="https://www.linkedin.com/in/sylvain-lambert-38387757" target="_blank">
-                <img alt="Profil Sylvain Lambert" src="image/logo_linkedin.png"/>
+                <img alt="Profil Sylvain Lambert" src="image/logo_linkedin_transp.png"/>
             </a>
         </li>
     </ul>

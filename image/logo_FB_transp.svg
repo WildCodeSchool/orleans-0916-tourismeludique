@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="195.46675mm"
+   height="195.46675mm"
+   viewBox="0 0 692.59872 692.59872"
+   id="svg4834"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="logo_FB_transp.svg"
+   inkscape:export-filename="/home/wilder6/Documents/Projet2_M-TourismeLudique/Github_project2/orleans-0916-tourismeludique/image/logo_FB_transp.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4836" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#5d5d5d"
+     borderopacity="0.51372549"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-170.84349"
+     inkscape:cy="189.15648"
+     inkscape:document-units="px"
+     inkscape:current-layer="g4181"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid5419"
+       originx="-28.700634"
+       originy="-330.84351" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata4839">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-28.700636,-28.919938)">
+    <g
+       id="g4181"
+       transform="matrix(4.0722179,0,0,-4.0722179,325.19842,267.24773)">
+      <path
+         d="m 0,0 0,-12.711 -9.313,0 0,-15.545 9.313,0 0,-42.655 19.131,0 0,42.655 12.836,0 c 0,0 1.202,7.453 1.784,15.604 l -14.548,0 0,10.627 c 0,1.587 2.085,3.725 4.147,3.725 l 10.423,0 0,16.183 -14.171,0 C -0.473,17.883 0,2.323 0,0"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path4183"
+         inkscape:connector-curvature="0" />
+      <g
+         id="g5394"
+         transform="matrix(0.8,0,0,-0.8,121.37246,399.37557)"
+         style="fill:none">
+        <g
+           transform="matrix(1.25,0,0,-1.25,-30.129196,626.16158)"
+           id="g4173"
+           style="fill:none">
+          <path
+             inkscape:connector-curvature="0"
+             id="path4175"
+             style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="m 0,0 c 0,-5.5 -4.5,-10 -10,-10 l -150.079,0 c -5.5,0 -10,4.5 -10,10 l 0,150.079 c 0,5.5 4.5,10 10,10 l 150.079,0 c 5.5,0 10,-4.5 10,-10 L 0,0 Z" />
+        </g>
+        <g
+           transform="matrix(1.25,0,0,-1.25,-151.71557,499.21946)"
+           id="g4181-3"
+           style="fill:none">
+          <path
+             inkscape:connector-curvature="0"
+             id="path4183-6"
+             style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="m 0,0 0,-12.711 -9.313,0 0,-15.545 9.313,0 0,-42.655 19.131,0 0,42.655 12.836,0 c 0,0 1.202,7.453 1.784,15.604 l -14.548,0 0,10.627 c 0,1.587 2.085,3.725 4.147,3.725 l 10.423,0 0,16.183 -14.171,0 C -0.473,17.883 0,2.323 0,0" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

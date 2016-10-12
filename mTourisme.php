@@ -38,6 +38,11 @@
       <script src="https://oss.maxcgdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <!-- jQuery -->
+    <script src="jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+
   </head>
 
 <body>

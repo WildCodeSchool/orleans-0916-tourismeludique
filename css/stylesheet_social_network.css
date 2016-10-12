@@ -9,7 +9,7 @@
 ul#banner_social img {
     width : 50px;
     height: 50px;
-    border-radius: 4px 5px 4px 4px;
+    border-radius: 5px 5px 5px 5px;
     webkit-box-shadow:  0px 10px 10px 0px rgba(0, 0, 0, 0.6);
     box-shadow:  0px 5px 5px 0px rgba(0, 0, 0, 0.4);
     /*-webkit-transition: all 0.3s ease;
@@ -17,6 +17,17 @@ ul#banner_social img {
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;*/
+}
+
+.img_hover {
+    background-color: #4e4e4eff;
+    margin: 3px 3px 3px 3px;
+}
+
+/* Option d'affichage des logos orange au survol du logo */
+.img_hover:hover {
+    background-color: #f1511bff;
+    margin: 3px 3px 3px 3px;
 }
 
 ul#banner_social {
@@ -66,13 +77,6 @@ ul#banner_social.bouton_home {
     display: block;
 }
 
-/* Option d'affichage du logo Facebook orange au survol du logo */
-#img_hover:hover {
-
-}
-
-
-
 
 /************************* Bouton Youtube ***********************************/
 
@@ -86,23 +90,9 @@ ul#banner_social.bouton_home {
 }
 
 
-/* Option d'affichage du logo YouTube orange au survol du logo */
-.hover_logo_YT {
-    display: none;
-}
-.bouton_youtube:hover .hover_logo_YT {
-    display: block;
-    z-index: 1;
-}
+/************************* Bouton Linkedin ***********************************/
 
 
-/************************* Bouton Youtube ***********************************/
-
-/* Option d'affichage du logo Linkedin orange au survol du logo */
-.bouton_IN:hover {
-    background-image: url("image/logo_YT_orange.png");
-    z-index:1000;
-}
 
 
 /************************* Bouton retour haut de page ***********************************/
