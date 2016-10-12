@@ -14,8 +14,33 @@
         <!--- Bouton Facebook MLT --->
         <li class="bouton_facebook_MLT">
             <a href="https://www.facebook.com/mtourismeludique" target="_blank">
-                <img alt="Facebook MTourismeLudique" src="image/logo_FB.png"/>
-             <!--   <img alt="Facebook MTourismeLudique" src="image/logo_FB_orange.png" class="hover_logo_FB"/>  -->
+                <img alt="Facebook MTourismeLudique" src="image/logo_FB.png" class="img_hover"/>
+
+                <script>
+                    (function($){
+                        $(".img_hover").mouseover(function(){
+                            $(this).attr("src", "image/logo_FB.png");
+                        }).mouseout(function(){
+                            $(this).attr("src", "image/logo_FB_orange.png");
+                        });
+                    })(jQuery);
+                </script>
+
+
+                <!--
+                    <script>
+                        document.getElementById("img_hover").addEventListener("mouseover", mouseOver);
+                        document.getElementById("img_hover").addEventListener("mouseout", mouseOut);
+
+                        function mouseOver() {
+                            document.getElementById("img_hover").src = "image/logo_FB_orange.png";
+                        }
+
+                        function mouseOut() {
+                            document.getElementById("img_hover").src = "image/logo_FB.png";
+                        }
+                    </script>
+                -->
             </a>
 
             <div class="fb-page" data-href="https://www.facebook.com/mtourismeludique"
@@ -43,7 +68,6 @@
         <li class="bouton_youtube">
             <a href="https://www.youtube.com/channel/UCj_DmGMNzw3DTMUMyYoyoyQ" target="_blank">
                 <img alt="Youtube mTourismeLudique" src="image/logo_YT.png"/>
-                <img alt="Youtube mTourismeLudique" src="image/logo_YT_orange.png" class="hover_logo_YT"/>
             </a>
         </li>
 
@@ -51,8 +75,6 @@
         <li class="bouton_IN">
             <a href="https://www.linkedin.com/in/sylvain-lambert-38387757" target="_blank">
                 <img alt="Profil Sylvain Lambert" src="image/logo_linkedin.png"/>
-                <img alt="Profil Sylvain Lambert" src="image/logo_linkedin_orange.png" class="hover_logo_linkedin"/>
-
             </a>
         </li>
     </ul>
@@ -62,7 +84,7 @@
 
         <li>
             <a href="#" id="home">
-                <span class="glyphicon glyphicon-menu-up fa" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span>
             </a>
         </li>
     </ul>
