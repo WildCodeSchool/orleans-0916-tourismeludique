@@ -2,6 +2,7 @@
     position: fixed;
     top:600px;
     width: 40px;
+    z-index: 1;
     z-index:1000;
 }
 
@@ -59,13 +60,17 @@ ul#banner_social.bouton_home {
 /* Option d'affichage de la box Facebook au survol du logo */
 .fb-page {
     display: none;
-
 }
-
 
 .bouton_facebook_MLT:hover .fb-page {
     display: block;
 }
+
+/* Option d'affichage du logo Facebook orange au survol du logo */
+#img_hover:hover {
+
+}
+
 
 
 
@@ -81,14 +86,24 @@ ul#banner_social.bouton_home {
 }
 
 
-/* Option d'affichage de la box Youtube au survol du logo */
-.yt-page {
+/* Option d'affichage du logo YouTube orange au survol du logo */
+.hover_logo_YT {
     display: none;
 }
-
-.bouton_youtube:hover .yt-page {
+.bouton_youtube:hover .hover_logo_YT {
     display: block;
+    z-index: 1;
 }
+
+
+/************************* Bouton Youtube ***********************************/
+
+/* Option d'affichage du logo Linkedin orange au survol du logo */
+.bouton_IN:hover {
+    background-image: url("image/logo_YT_orange.png");
+    z-index:1000;
+}
+
 
 /************************* Bouton retour haut de page ***********************************/
 #logo_home {
@@ -113,4 +128,9 @@ ul#logo_home {
     float: right;
     right: 60px;
     top: 820px;
+}
+
+.glyphicon-menu-up:hover {
+    color: #f1511bff;
+    border-color: #f1511bff;
 }

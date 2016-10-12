@@ -3,22 +3,33 @@
         <!----- titre + text ----->
         <div class="row">
             <h1 class="titreMetier">Notre métier</h1>
-            <p class="txt-presentation">Créée fin 2013, m-Tourisme Ludique est une société d’édition d’applications mobiles, installée dans le Loiret.<br></p>
+            <p class="txt-presentation">Créée fin 2013, m-Tourisme Ludique est une société d’édition d’applications mobiles, installée dans le Loiret.</p>
         </div>
-        <!--- liste sans puces --->
+
+        <!--- liste sans puces : sous-titre --->
         <div class="row">
-            <ul class="liste_philo">
-                <li><strong>Notre vocation :</strong>
-                    Valoriser votre patrimoine matériels ou immatériels.
+            <ul class="col-xs-5 liste_philoA">
+                <li>
+                    <strong>Notre vocation :</strong>
                 </li>
-                <li><strong>Nos atouts :</strong>
-                    Proposer des outils originaux, ludiques et pédagogiques.
+                <li>
+                    <strong>Nos atouts :</strong>
                 </li>
-                <li><strong>Nos valeurs :</strong>
-                    Plaisir, curiosité, qualité, partage.
+                <li>
+                    <strong>Nos valeurs :</strong>
                 </li>
             </ul>
+
+        <!--- liste sans puces : paragraphes --->
+
+            <ul class="col-xs-7 liste_philoB">
+                <li>Valoriser votre patrimoine matériels ou immatériels.</li>
+                <li>Proposer des outils originaux, ludiques et pédagogiques.</li>
+                <li>Plaisir, curiosité, qualité, partage.</li>
+            </ul>
         </div>
+
+
     </div>
 </main>
 

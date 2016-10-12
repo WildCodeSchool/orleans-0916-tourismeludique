@@ -14,7 +14,33 @@
         <!--- Bouton Facebook MLT --->
         <li class="bouton_facebook_MLT">
             <a href="https://www.facebook.com/mtourismeludique" target="_blank">
-                <img alt="Facebook MTourismeLudique" src="image/logo_FB.png"/>
+                <img alt="Facebook MTourismeLudique" src="image/logo_FB.png" class="img_hover"/>
+
+                <script>
+                    (function($){
+                        $(".img_hover").mouseover(function(){
+                            $(this).attr("src", "image/logo_FB.png");
+                        }).mouseout(function(){
+                            $(this).attr("src", "image/logo_FB_orange.png");
+                        });
+                    })(jQuery);
+                </script>
+
+
+                <!--
+                    <script>
+                        document.getElementById("img_hover").addEventListener("mouseover", mouseOver);
+                        document.getElementById("img_hover").addEventListener("mouseout", mouseOut);
+
+                        function mouseOver() {
+                            document.getElementById("img_hover").src = "image/logo_FB_orange.png";
+                        }
+
+                        function mouseOut() {
+                            document.getElementById("img_hover").src = "image/logo_FB.png";
+                        }
+                    </script>
+                -->
             </a>
 
             <div class="fb-page" data-href="https://www.facebook.com/mtourismeludique"
@@ -43,25 +69,6 @@
             <a href="https://www.youtube.com/channel/UCj_DmGMNzw3DTMUMyYoyoyQ" target="_blank">
                 <img alt="Youtube mTourismeLudique" src="image/logo_YT.png"/>
             </a>
-
-            <div class="yt-page" data-href="https://www.youtube.com/channel/UCj_DmGMNzw3DTMUMyYoyoyQ">
-                 <!--- data-tabs="timeline"
-                 data-small-header="true"
-                 data-adapt-container-width="true"
-                 data-hide-cover="true"
-                 data-show-facepile="false" --->
-
-                <div class="yt-xfbml-parse-ignore">
-                    <a href="https://www.youtube.com/channel/UCj_DmGMNzw3DTMUMyYoyoyQ" target="_blank"></a>
-                </div>
-                <div id="yt-root">
-                    <iframe class="box_YT" src="https://www.youtube.com/channel/UCj_DmGMNzw3DTMUMyYoyoyQ"
-                            width="340"
-                            height="500">
-                        <!-- style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"-->
-                    </iframe>
-                </div>
-            </div>
         </li>
 
         <!--- Bouton Likedin --->
@@ -69,13 +76,6 @@
             <a href="https://www.linkedin.com/in/sylvain-lambert-38387757" target="_blank">
                 <img alt="Profil Sylvain Lambert" src="image/logo_linkedin.png"/>
             </a>
-
-            <div class="in-page" data-href="https://www.linkedin.com/in/sylvain-lambert-38387757">
-                <div class="in-xfbml-parse-ignore">
-                    <a href="https://www.linkedin.com/in/sylvain-lambert-38387757" target="_blank"></a>
-                </div>
-
-            </div>
         </li>
     </ul>
 
@@ -84,7 +84,7 @@
 
         <li>
             <a href="#" id="home">
-                <span class="glyphicon glyphicon-menu-up fa" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span>
             </a>
         </li>
     </ul>
