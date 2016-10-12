@@ -55,3 +55,11 @@ h3 {
     padding-top: 5%;
     font-family: 'DIN';
 }
+
+.form-control {
+    box-shadow: #EE6616;
+}
+
+.bouton{
+    background-color: #EE6616;
+}

@@ -8,7 +8,7 @@
             <img src="image/lens_reflect.png"  class="img-responsive lens" alt="lentille">
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6">
-            <h2 class="titreForm">Une idée? Un projet?<br/>Contactez-nous</h2>
+            <h2 class="titreForm">Une idée? Un projet?<br/>Contactez-nous</h2><br/>
             <form method="post" action="formPost.php">
                 <div class="form-group">
                     <input type="Nom" class="form-control input-lg" id="Nom" placeholder="Votre nom" aria-label="Votre nom"
@@ -29,8 +29,8 @@
                     <textarea name="Message" class="form-control input-lg" placeholder="Votre message..." aria-label="Votre
                     message" rows="10" required></textarea><br/>
                 </div>
-                <div class="form-group bouton">
-                    <button type="submit" class="btn btn-warning"><p class="catForm">Envoyer</p></button>
+                <div class="form-group">
+                    <button type="submit" class="bouton btn btn-warning"><p class="catForm">Envoyer</p></button>
                 </div>
             </form>
         </div>
