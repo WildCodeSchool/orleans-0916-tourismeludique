@@ -8,7 +8,6 @@
 	        <p class="textImage">Redécouvrez ce que vous voyez tous les jours</p>
         </div>
         <div class="col-xs-offset-10 col-xs-2">
-            <br/><br/><br/><br/><br/>
             <img class="guillemetsdown" src="image/guillemets down.png" alt="image guillemets">
         </div>
     </div>

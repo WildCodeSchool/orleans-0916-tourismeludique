@@ -7,10 +7,47 @@
                          <a class="lienFooter" href="#ancre">crédits</a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                         <a class="lienFooter" href="#" id="metier">Notre métier</a><br/>
-                         <a class="lienFooter" href="#" id="produit">Géomotifs</a><br/>
-                         <a class="lienFooter" href="#" id="actu">Actualité</a><br/>
-                         <a class="lienFooter" href="#" id="nousContacter">Nous contacter</a>
+                         <script>
+                              $(document).ready(function (){
+                                   $("#metier").click(function (){
+                                        $('html, body').animate({
+                                             scrollTop: $("#ancreMetier").offset().top
+                                        }, 1000);
+                                   });
+                              });
+                         </script>
+                         <a class="lienFooter" href="#ancreMetier" id="metier">Notre métier</a><br/>
+                         <script>
+                              $(document).ready(function (){
+                                   $("#produit").click(function (){
+                                        $('html, body').animate({
+                                             scrollTop: $("#ancreProduit").offset().top
+                                        }, 1000);
+                                   });
+                              });
+                         </script>
+                         <a class="lienFooter" href="#ancreProduit" id="produit">Géomotifs</a><br/>
+                         <script>
+                              $(document).ready(function (){
+                                   $("#actu").click(function (){
+                                        $('html, body').animate({
+                                             scrollTop: $("#ancreActu").offset().top
+                                        }, 1000);
+                                   });
+                              });
+                         </script>
+                         <a class="lienFooter" href="#ancreActu" id="actu">Actualité</a><br/>
+                         <script>
+                              $(document).ready(function (){
+                                   $("#nousContacter").click(function (){
+                                        $('html, body').animate({
+                                             scrollTop: $("#ancreForm").offset().top
+                                        }, 1000);
+                                   });
+                              });
+                         </script>
+                         <a class="lienFooter" href="#ancreForm" id="nousContacter">Nous contacter</a>
+
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                          <p>Réalisé par :<br/></p>
