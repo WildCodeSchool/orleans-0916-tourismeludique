@@ -7,27 +7,30 @@
             <img src="image/P1030919rond.png" class="img-responsive imgInLensForm" alt="gargouille">
             <img src="image/lens_reflect.png"  class="img-responsive lens" alt="lentille">
         </div>
-
         <div class="col-lg-6 col-md-6 col-sm-6">
             <h2 class="titreForm">Une idée? Un projet?<br/>Contactez-nous</h2>
             <form method="post" action="formPost.php">
                 <div class="form-group">
-                    <input type="Nom" class="form-control" id="Nom" placeholder="Votre nom" aria-label="Votre nom" required><br/>
+                    <input type="Nom" class="form-control input-lg" id="Nom" placeholder="Votre nom" aria-label="Votre nom"
+                           required><br/>
                 </div>
                 <div class="form-group">
-                    <input type="Prenom" class="form-control" id="Prenom" placeholder="Votre prénom" aria-label="Votre prénom" required><br/>
+                    <input type="Prenom" class="form-control input-lg" id="Prenom" placeholder="Votre prénom"
+                           aria-label="Votre prénom" required><br/>
                 </div>
                 <div class="form-group">
-                    <input type="Entreprise" class="form-control" id="Entreprise" placeholder="Votre entreprise, société organisme" aria-label="Votre entreprise, société, organisme"><br/>
+                    <input type="Entreprise" class="form-control input-lg" id="Entreprise" placeholder="Votre entreprise, société organisme" aria-label="Votre entreprise, société, organisme"><br/>
                 </div>
                 <div class="form-group">
-                    <input type="email" class="form-control" id="Email" placeholder="Votre Email..." aria-label="Votre email" required><br/>
+                    <input type="email" class="form-control input-lg" id="Email" placeholder="Votre Email..."
+                           aria-label="Votre email" required><br/>
                 </div>
                 <div class="form-group">
-                    <textarea name="Message" class="form-control" placeholder="Votre message..." aria-label="Votre message" rows="10" required></textarea><br/>
+                    <textarea name="Message" class="form-control input-lg" placeholder="Votre message..." aria-label="Votre
+                    message" rows="10" required></textarea><br/>
                 </div>
-                <div class="form-group">
-                    <button type="submit" class="btn btn-primary"><p class="catForm">Envoyer</p></button>
+                <div class="form-group bouton">
+                    <button type="submit" class="btn btn-warning"><p class="catForm">Envoyer</p></button>
                 </div>
             </form>
         </div>

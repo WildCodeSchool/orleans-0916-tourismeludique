@@ -3,7 +3,7 @@
         <div class="col-xs-1">
             <h1 class="titre">Nos Produits</h1>
         </div>
-        <div class="produitsText col-xs-offset-1 col-xs-4">
+        <div class="produitsText col-lg-offset-1 col-lg-4 col-md-12 col-sm-12">
             <h2 class="geo">Géomotifs</h2>
             <p>Quae et ut iusto qui. Unde et quia reiciendis iste dolore est enim odio. Ullam nihil molestiae mollitia
                 architecto ea. Accusantium est quis est nesciunt eaque. Culpa aut ratione sit.<br/>
@@ -16,7 +16,7 @@
                     store"></a>
             <a href="https://play.google.com/store/apps/details?id=com.mazedia.wezit.geomotifs" target="_blank"><img src="image/logoGooglePlay.png" class="img-responsive android" alt="Telecharger dans Google Play"></a>
         </div>
-    <div class="col-xs-offset-1 col-xs-4 ">
+    <div class="col-lg-offset-1 col-lg-4 col-md-12 col-sm-12">
         <div class="embed-responsive embed-responsive-4by3">
             <iframe class="video" width="100%" height="100%" src="https://www.youtube.com/embed/Svd4SGOJTfI"
                     allowfullscreen></iframe>
