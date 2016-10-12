@@ -12,46 +12,47 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img src="..." alt="...">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <h2>Actu 1</h2>
+                        <img src="image/P1030919rond.png" class="img-responsive imgInLens" alt="gargouille">
+                        <img src="image/lens_reflect.png"  class="img-responsive lens-actu" alt="lentille">
+                        <p class="txtActu">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit.<br/>
+                            <a href="#">En lire plus...</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <h2>Actu 2</h2>
+                        <img src="image/P1030919rond.png" class="img-responsive imgInLens" alt="gargouille">
+                        <img src="image/lens_reflect.png"  class="img-responsive lens-actu" alt="lentille">
+                        <p class="txtActu">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit.<br/>
+                            <a href="#">En lire plus...</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <h2>Actu 3</h2>
+                        <img src="image/P1030919rond.png" class="img-responsive imgInLens" alt="gargouille">
+                        <img src="image/lens_reflect.png"  class="img-responsive lens-actu" alt="lentille">
+                        <p class="txtActu">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit.<br/>
+                            <a href="#">En lire plus...</a>
+                        </p>
+                    </div>
+                </div>
                 <div class="carousel-caption">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                            <h2>Actu 1</h2>
-                            <img src="image/P1030919rond.png" class="img-responsive imgInLens" alt="gargouille">
-                            <img src="image/lens_reflect.png"  class="img-responsive lens-actu" alt="lentille">
-                            <p class="txtActu">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit.<br/>
-                                <a href="#">En lire plus...</a>
-                            </p>
-                        </div>
+                </div>
+                <div class="item">
+
+                    <div class="carousel-caption">
+
                     </div>
                 </div>
                 <div class="item">
-                    <img src="..." alt="...">
+
                     <div class="carousel-caption">
-                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                            <h2>Actu 2</h2>
-                            <img src="image/P1030919rond.png" class="img-responsive imgInLens" alt="gargouille">
-                            <img src="image/lens_reflect.png"  class="img-responsive lens-actu" alt="lentille">
-                            <p class="txtActu">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit.<br/>
-                                <a href="#">En lire plus...</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="..." alt="...">
-                    <div class="carousel-caption">
-                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                            <h2>Actu 3</h2>
-                            <img src="image/P1030919rond.png" class="img-responsive imgInLens" alt="gargouille">
-                            <img src="image/lens_reflect.png"  class="img-responsive lens-actu" alt="lentille">
-                            <p class="txtActu">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit.<br/>
-                                <a href="#">En lire plus...</a>
-                            </p>
-                        </div>
+
                     </div>
                 </div>
                 <!-- Controls -->
