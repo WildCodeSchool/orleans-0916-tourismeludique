@@ -14,6 +14,14 @@
     font-size: 150%;
 }
 
+.titreContact {
+    font-family: DIN-Bold;
+    color: #EE6616;
+    margin-top: 15%;
+    opacity: 0.5;
+    transform: rotate(-90deg);
+}
+
 .logolabo {
     position: absolute;
     right: 0;
@@ -26,6 +34,7 @@
 }
 
 .map {
+    margin-top: 3%;
     border-radius: 5%;
     border: 2px solid #EE6616;
 }

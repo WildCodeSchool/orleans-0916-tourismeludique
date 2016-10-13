@@ -5,8 +5,8 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs">
-            <h1 class="titreNosProduits">Nos Produits</h1>
+        <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs titreNosProduits">
+            <h1>Nos Produits</h1>
         </div>
         <div class="col-lg-6 col-md-6">
             <p class="txtGeo">
@@ -29,7 +29,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-4">
+        <div class="col-lg-5 col-md-4">
             <div class="embed-responsive embed-responsive-4by3">
             <iframe class="video" width="100%" height="100%" src="https://www.youtube.com/embed/Svd4SGOJTfI"
                     allowfullscreen></iframe>

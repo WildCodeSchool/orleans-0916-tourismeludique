@@ -1,4 +1,3 @@
-
 .txtGeo {
     font-size: 135%;
     text-align: center;
@@ -16,10 +15,10 @@
  }
 
 .titreNosProduits {
-    font-size: 300%;
-    font-family: 'DIN';
+    font-family: DIN-Bold;
     color: #EE6616;
-    margin-top: 130%;
+    margin-top: 15%;
+    opacity: 0.5;
     transform: rotate(-90deg);
 }
 
@@ -29,9 +28,4 @@
     color: #EE6616;
     font-family: 'DIN';
     font-size: 400%
-}
-
-.video {
-    width: 60px;
-    margin-left: 10%;
 }
