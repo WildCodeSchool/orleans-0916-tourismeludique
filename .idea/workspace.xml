@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37b0fb8c-2abf-44d7-a28a-be52c7446ac1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/stylesheetForm.css" afterPath="$PROJECT_DIR$/css/stylesheetForm.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/form.php" afterPath="$PROJECT_DIR$/form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/stylesheetProduits.css" afterPath="$PROJECT_DIR$/css/stylesheetProduits.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/produits.php" afterPath="$PROJECT_DIR$/produits.php" />
     </list>
     <ignored path="orleans-0916-tourismeludique.iws" />
@@ -26,11 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/header.php">
+      <file leaf-file-name="produits.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/produits.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+            <state relative-caret-position="360">
+              <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stylesheetProduits.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/stylesheetProduits.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -48,10 +56,11 @@
         <option value="$PROJECT_DIR$/actu.php" />
         <option value="$PROJECT_DIR$/css/stylesheetActu.css" />
         <option value="$PROJECT_DIR$/css/stylesheetSectionImage.css" />
-        <option value="$PROJECT_DIR$/produits.php" />
         <option value="$PROJECT_DIR$/form.php" />
         <option value="$PROJECT_DIR$/css/stylesheetForm.css" />
         <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/produits.php" />
+        <option value="$PROJECT_DIR$/css/stylesheetProduits.css" />
       </list>
     </option>
   </component>
@@ -142,12 +151,12 @@
       <updated>1476220367159</updated>
       <workItem from="1476220368511" duration="2915000" />
       <workItem from="1476225676266" duration="1019000" />
-      <workItem from="1476379595818" duration="2170000" />
+      <workItem from="1476379595818" duration="2634000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6104000" />
+    <option name="totallyTimeSpent" value="6568000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="324" y="85" width="1400" height="1000" extended-state="0" />
@@ -244,14 +253,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/produits.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/stylesheetForm.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -272,6 +273,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/produits.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/stylesheetProduits.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
           <folding />
         </state>
       </provider>
