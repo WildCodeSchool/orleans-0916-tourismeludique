@@ -4,7 +4,7 @@
 	<div class="container-fluid">
 		<div class="row">
           <img class="img-responsive logoHeader" src="image/logoMblanc.png" alt="Logo mTourimse-Ludique">
-          <h1 class="marque">Tourisme Ludique</h1><br/>
+          <h1 class="marque">m-Tourisme Ludique</h1><br/>
           <p class="slogan">CREATION D'USAGES MOBILES</p><br/>
         </div>
 	</div>

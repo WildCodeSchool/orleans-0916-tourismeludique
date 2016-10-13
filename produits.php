@@ -18,10 +18,14 @@
             </p>
             <div class="row">
                 <div class="col-lg-6 col-md-6">
-                    <a href="https://itunes.apple.com/fr/app/geomotifs/id935219020" target="_blank"><img src="image/logoAppStore.png" class="img-responsive itunes" alt="Telecharger dans l'appstore"></a>
+                    <a href="https://itunes.apple.com/fr/app/geomotifs/id935219020" target="_blank">
+                        <img src="image/logoAppStore.png" class="img-responsive itunes" alt="Telecharger dans l'appstore">
+                    </a>
                 </div>
                 <div class="col-lg-6 col-md-6"
-                    <a href="https://play.google.com/store/apps/details?id=com.mazedia.wezit.geomotifs" target="_blank"><img src="image/logoGooglePlay.png" class="img-responsive android" alt="Telecharger dans Google Play"></a>
+                    <a href="https://play.google.com/store/apps/details?id=com.mazedia.wezit.geomotifs" target="_blank">
+                        <img src="image/logoGooglePlay.png" class="img-responsive android" alt="Telecharger dans Google Play">
+                    </a>
                 </div>
             </div>
         </div>

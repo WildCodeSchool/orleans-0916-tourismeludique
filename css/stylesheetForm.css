@@ -1,5 +1,6 @@
 .sectionForm {
-    padding: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     color: #0f0f0f;
     background-image: url("../image/P1060347.jpg");
     background-attachment: fixed;
@@ -8,14 +9,35 @@
     font-family: 'DIN';
 }
 
+.leftSide {
+    text-align: center;
+    font-size: 150%;
+}
+
 .logolabo {
-    width: 40%;
-    height: 40%;
+    position: absolute;
+    right: 0;
+    width: 20%;
+    height: 20%;
 }
 
 .adresse {
-    margin-top: 10%;
-    text-align: center;
+    text-align: left;
+}
+
+.map {
+    border-radius: 5%;
+    border: 2px solid #EE6616;
+}
+
+.legendecarte {
+    font-size: 80%;
+    color: #EE6616;
+}
+
+.legendecarte:hover {
+    color: #EE6616;
+
 }
 
 .catForm {
