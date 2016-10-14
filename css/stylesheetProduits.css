@@ -40,12 +40,12 @@
 
 
 /* Bannière motifs */
-
-.tuile_motif img {
-    height:100%;
-    width: 100%;
+.thumbnail {
+    width:100%;
+    border:2px solid darkorange;
 }
 
-.tuile_color {
-    background-color: lightgrey;
+.banner_motifs ul li {
+    list-style-type: none;
+    display: inline;
 }

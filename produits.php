@@ -37,44 +37,47 @@
             </div>
         </div>
 
-<<<<<<< HEAD
         <!-- bannière de motifs -->
-        <div class="row">
+        <div class="container-fluid">
             <!-- Ligne A -->
-            <div class="row">
-                <div class="col-lg-2 tuile_motif">
-                    <img class="image-responsive" src="image/motifs/P1030882-2.JPG" alt="">
-                </div>
+            <div class="row banner_motifs col-md-12">
+                <img class="img-responsive img-thumbnail img-thumbnail" src="image/motifs/P1030882-2.JPG" alt="">
+                <img class="img-responsive img-thumbnail" src="image/motifs/P1030882-2.JPG" alt="">
+                <img class="img-responsive" src="image/motifs/P1030882-2.JPG" alt="">
+                <img class="img-responsive" src="image/motifs/P1030882-2.JPG" alt="">
+                <img class="img-responsive" src="image/motifs/P1030882-2.JPG" alt="">
+                <img class="img-responsive" src="image/motifs/P1030882-2.JPG" alt="">
 
-                <div class="col-lg-2 tuile_color"></div>
 
-                <div class="col-lg-2 tuile_motif">
-                    <img class="image-responsive" src="image/motifs/P1030882-2.JPG" alt="">
-                </div>
-
-                <div class="col-lg-2 tuile_color"></div>
-
-                <div class="col-lg-2 tuile_motif">
-                    <img class="image-responsive" src="image/motifs/P1030882-2.JPG" alt="">
-                </div>
-
-                <div class="col-lg-2 tuile_color"></div>
             </div>
 
             <!-- Ligne B -->
+            <!--
             <div class="row">
-                <div class="col-lg-2"></div>
-                <div class="col-lg-2"></div>
-                <div class="col-lg-2"></div>
-                <div class="col-lg-2"></div>
-                <div class="col-lg-2"></div>
-                <div class="col-lg-2"></div>
+                <div class="col-lg-2 tuile_color">
+                </div>
+
+                <div class="col-lg-2 tuile_motif">
+                    <img class="img-responsive" src="image/motifs/P1030882-2.JPG" alt="">
+                </div>
+
+                <div class="col-lg-2 tuile_color">
+                </div>
+
+                <div class="col-lg-2 tuile_motif">
+                    <img class="img-responsive" src="image/motifs/P1030882-2.JPG" alt="">
+                </div>
+
+                <div class="col-lg-2 tuile_color">
+                </div>
+
+                <div class="col-lg-2 tuile_motif">
+                    <img class="img-responsive" src="image/motifs/P1030882-2.JPG" alt="">
+                </div>
             </div>
+            -->
         </div>
 
-=======
-        
->>>>>>> 79df5b3a602e21161530f9d717c74f3e8d537142
     </div>
 </div>
 
