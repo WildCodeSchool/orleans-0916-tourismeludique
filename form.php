@@ -1,9 +1,9 @@
 <div class="sectionForm" id="ancreForm">
     <div class="row">
-        <div class="col-lg-1 titreContact">
+        <div class="col-lg-1 hidden-xs hidden-sm hidden-md titreContact">
             <h1>Contactez-nous</h1>
         </div>
-        <div class="col-lg-6 leftSide">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 leftSide">
             <p class="adresse">
                 m-Tourisme-Ludique<br/>
                 Le Lab'O<br/>
@@ -14,7 +14,7 @@
             <iframe class="map" width="625" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=1.8892514705657961%2C47.89133419118289%2C1.8968582153320315%2C47.8957799548847&amp;layer=mapnik&amp;marker=47.893557120745015%2C1.8930602073669434"></iframe><br/>
             <small><a  class="legendecarte" target="_blank" href="http://www.openstreetmap.org/?mlat=47.89356&amp;mlon=1.89306#map=17/47.89356/1.89305">Ouvrir la carte dans un nouvel onglet</a></small>
         </div>
-        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+        <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
             <form method="post" action="formPost.php">
                 <div class="form-group">
                     <input type="Nom" class="form-control input-lg" id="Nom" placeholder="Nom *" aria-label="Votre nom"

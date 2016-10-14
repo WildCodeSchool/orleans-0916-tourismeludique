@@ -4,10 +4,11 @@
             <h1 class="titreGeo">GéoMOTifs</h1>
         </div>
     </div>
+
     </div>
     <div class="row">
         <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs titreNosProduits">
-            <h1>Nos Produits</h1>
+            <h1>Produits</h1>
         </div>
         <div class="col-lg-6 col-md-6">
             <p class="txtGeo">
@@ -15,7 +16,7 @@
                 architecto ea. Accusantium est quis est nesciunt eaque. Culpa aut ratione sit.<br/>
                 Officia expedita eligendi doloribus quia officiis. Illo voluptatem optio quidem eligendi.
                 Quis aut quod consequatur autem beatae illo. Iste saepe tempora voluptas minus. Debitis perferendis error
-                ullam adipisci ea distinctio sit in.
+                ullam adipisci ea distinctio sit.
             </p>
             <div class="row">
                 <div class="col-lg-6 col-md-6 itunes">
