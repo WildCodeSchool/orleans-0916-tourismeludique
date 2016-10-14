@@ -15,7 +15,7 @@
                 architecto ea. Accusantium est quis est nesciunt eaque. Culpa aut ratione sit.<br/>
                 Officia expedita eligendi doloribus quia officiis. Illo voluptatem optio quidem eligendi.
                 Quis aut quod consequatur autem beatae illo. Iste saepe tempora voluptas minus. Debitis perferendis error
-                ullam adipisci ea distinctio sit in.
+                ullam adipisci ea distinctio sit.
             </p>
             <div class="row">
                 <div class="col-lg-6 col-md-6 itunes">
