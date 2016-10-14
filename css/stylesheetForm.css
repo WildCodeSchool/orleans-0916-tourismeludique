@@ -1,38 +1,52 @@
-h3 {
-    font-size: 2000%;
-}
-
 .sectionForm {
-    padding: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     color: #0f0f0f;
     background-image: url("../image/P1060347.jpg");
     background-attachment: fixed;
     background-size: cover;
     width: 100%;
+    font-family: 'DIN';
 }
 
-.lens {
+.leftSide {
+    text-align: center;
+    font-size: 150%;
+}
+
+.titreContact {
+    font-family: DIN-Bold;
+    color: #EE6616;
+    margin-top: 15%;
+    opacity: 0.5;
+    transform: rotate(-90deg);
+}
+
+.logolabo {
     position: absolute;
-    top: 30%;
-    margin-left: 25%;
-    width: 50%;
-    height: 50%;
-    z-index: 1;
+    right: 0;
+    width: 20%;
+    height: 20%;
 }
 
-.lens:hover {
-    -ms-transform: rotate(45deg); /* IE 9 */
-    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
-    transform: rotate(45deg);
-    transition-duration: 1000ms;
+.adresse {
+    text-align: left;
 }
 
-.imgInLensForm {
-    position: relative;
-    margin-left: 25%;
-    width: 50%;
-    height: 50%;
-    margin-top: 5%;
+.map {
+    margin-top: 3%;
+    border-radius: 5%;
+    border: 2px solid #EE6616;
+}
+
+.legendecarte {
+    font-size: 80%;
+    color: #EE6616;
+}
+
+.legendecarte:hover {
+    color: #EE6616;
+
 }
 
 .catForm {
@@ -60,6 +74,6 @@ h3 {
     box-shadow: #EE6616;
 }
 
-.bouton{
-    background-color: #EE6616;
+.btn{
+    margin-left: 40%;
 }

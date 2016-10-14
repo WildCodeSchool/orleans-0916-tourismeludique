@@ -22,12 +22,14 @@ ul#banner_social img {
 .img_hover {
     background-color: #4e4e4eff;
     margin: 3px 3px 3px 3px;
+    border-radius: 5px 5px 5px 5px;
 }
 
 /* Option d'affichage des logos orange au survol du logo */
 .img_hover:hover {
     background-color: #f1511bff;
     margin: 3px 3px 3px 3px;
+    border-radius: 5px 5px 5px 5px;
 }
 
 ul#banner_social {
