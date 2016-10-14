@@ -11,15 +11,15 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <h1>Actualités</h1>
-                    <div class="row">
+                    <h1 class="orange">Actualités</h1>
+                    <div class="row slide">
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                             <h2>Actu 1</h2>
                             <img src="image/P1030919rond.png" class="img-responsive imgInLens" alt="gargouille">
                             <img src="image/lens_reflect.png"  class="img-responsive lens-actu" alt="lentille">
                             <p class="txtActu">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit.<br/>
-                                <a href="#">En lire plus...</a>
+                                consectetur adipisicing elit.<br/><br/>
+                                <a class="orange" href="#">En lire plus...</a>
                             </p>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -27,8 +27,8 @@
                             <img src="image/P1030919rond.png" class="img-responsive imgInLens" alt="gargouille">
                             <img src="image/lens_reflect.png"  class="img-responsive lens-actu" alt="lentille">
                             <p class="txtActu">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit.<br/>
-                                <a href="#">En lire plus...</a>
+                                consectetur adipisicing elit.<br/><br/>
+                                <a class="orange" href="#">En lire plus...</a>
                             </p>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -36,25 +36,24 @@
                             <img src="image/P1030919rond.png" class="img-responsive imgInLens" alt="gargouille">
                             <img src="image/lens_reflect.png"  class="img-responsive lens-actu" alt="lentille">
                             <p class="txtActu">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit.<br/>
-                                <a href="#">En lire plus...</a>
+                                consectetur adipisicing elit.<br/><br/>
+                                <a class="orange" href="#">En lire plus...</a>
                             </p>
                         </div>
                     </div>
                     <div class="carousel-caption">
-                    ...
                     </div>
                 </div>
                 <div class="item">
-                    <h1>Actualités</h1>
+                    <h1 class="orange">Actualités</h1>
                     <div class="row">
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                             <h2>Actu 1</h2>
                             <img src="image/P1030919rond.png" class="img-responsive imgInLens" alt="gargouille">
                             <img src="image/lens_reflect.png"  class="img-responsive lens-actu" alt="lentille">
                             <p class="txtActu">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit.<br/>
-                                <a href="#">En lire plus...</a>
+                                consectetur adipisicing elit.<br/><br/>
+                                <a class="orange" href="#">En lire plus...</a>
                             </p>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -62,8 +61,8 @@
                             <img src="image/P1030919rond.png" class="img-responsive imgInLens" alt="gargouille">
                             <img src="image/lens_reflect.png"  class="img-responsive lens-actu" alt="lentille">
                             <p class="txtActu">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit.<br/>
-                                <a href="#">En lire plus...</a>
+                                consectetur adipisicing elit.<br/><br/>
+                                <a class="orange" href="#">En lire plus...</a>
                             </p>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -71,25 +70,24 @@
                             <img src="image/P1030919rond.png" class="img-responsive imgInLens" alt="gargouille">
                             <img src="image/lens_reflect.png"  class="img-responsive lens-actu" alt="lentille">
                             <p class="txtActu">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit.<br/>
-                                <a href="#">En lire plus...</a>
+                                consectetur adipisicing elit.<br/><br/>
+                                <a class="orange" href="#">En lire plus...</a>
                             </p>
                         </div>
                     </div>
                     <div class="carousel-caption">
-                        ...
                     </div>
                 </div>
                 <div class="item">
-                    <h1>Actualités</h1>
+                    <h1 class="orange">Actualités</h1>
                     <div class="row">
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                             <h2>Actu 1</h2>
                             <img src="image/P1030919rond.png" class="img-responsive imgInLens" alt="gargouille">
                             <img src="image/lens_reflect.png"  class="img-responsive lens-actu" alt="lentille">
                             <p class="txtActu">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit.<br/>
-                                <a href="#">En lire plus...</a>
+                                consectetur adipisicing elit.<br/><br/>
+                                <a class="orange" href="#">En lire plus...</a>
                             </p>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -97,8 +95,8 @@
                             <img src="image/P1030919rond.png" class="img-responsive imgInLens" alt="gargouille">
                             <img src="image/lens_reflect.png"  class="img-responsive lens-actu" alt="lentille">
                             <p class="txtActu">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit.<br/>
-                                <a href="#">En lire plus...</a>
+                                consectetur adipisicing elit.<br/><br/>
+                                <a class="orange" href="#">En lire plus...</a>
                             </p>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -106,13 +104,12 @@
                             <img src="image/P1030919rond.png" class="img-responsive imgInLens" alt="gargouille">
                             <img src="image/lens_reflect.png"  class="img-responsive lens-actu" alt="lentille">
                             <p class="txtActu">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit.<br/>
-                                <a href="#">En lire plus...</a>
+                                consectetur adipisicing elit.<br/><br/>
+                                <a class="orange" href="#">En lire plus...</a>
                             </p>
                         </div>
                     </div>
                     <div class="carousel-caption">
-                        ...
                     </div>
                 </div>
                  <!-- Insérer ici un nouveau slide -->

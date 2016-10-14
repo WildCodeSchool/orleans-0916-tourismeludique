@@ -22,7 +22,7 @@
                         col-md-offset-5
                         col-lg-7
                         col-lg-offset-5">
-                        <img class="img-responsive img_trois_points" src="image/atome_orange_degrade2.png" alt="" width="180px" height="230px">
+                        <img class="img-responsive img_trois_points" src="image/icone_photo.png" alt="" width="180px" height="230px">
             </div>
 
             <!-- Texte -->
@@ -69,7 +69,7 @@
                         col-lg-7
                         col-lg-offset-3
                         col-lg-pull-0">
-                        <img class="img-responsive img_trois_points" src="image/atome_orange_degrade2.png" alt="" width="180px" height="230px">
+                        <img class="img-responsive img_trois_points" src="image/icone_link.png" alt="" width="180px" height="230px">
                         <div class="hidden-xs hidden-sm col-md-2 col-lg-2"></div>
             </div> <!--- espace --->
 
