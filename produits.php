@@ -35,6 +35,32 @@
                     allowfullscreen></iframe>
             </div>
         </div>
+
+        <!-- bannière de motifs -->
+        <div class="row">
+            <!-- Ligne A -->
+            <div class="row">
+                <div class="col-lg-2">
+                    <img>
+                </div>
+                <div class="col-lg-2"></div>
+                <div class="col-lg-2"></div>
+                <div class="col-lg-2"></div>
+                <div class="col-lg-2"></div>
+                <div class="col-lg-2"></div>
+            </div>
+
+            <!-- Ligne B -->
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-2"></div>
+                <div class="col-lg-2"></div>
+                <div class="col-lg-2"></div>
+                <div class="col-lg-2"></div>
+                <div class="col-lg-2"></div>
+            </div>
+        </div>
+
     </div>
 </div>
 
