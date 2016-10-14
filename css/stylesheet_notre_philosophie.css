@@ -48,7 +48,8 @@
 }
 
 .titrePoint {
-    font-size: 200%;
+
+    font-family: DIN-Bold;
 }
 
 .txtPoint {
@@ -82,4 +83,8 @@
     padding-top : 20px;
     padding-bottom: 20px;
     font-family: 'DIN';
+    font-size: 120%;
+
 }
+
+

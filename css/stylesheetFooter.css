@@ -24,7 +24,7 @@
 }
 
 #background {
-    background-image: url(background-orange.JPG);
+    background-image: url(../image/background-orange.JPG);
     background-attachment: fixed;
     background-size: cover;
     width: 100vw;

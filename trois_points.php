@@ -4,7 +4,7 @@
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 banner_trois_points">
 
         <!----- point 1 ----->
-        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 point123">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <!-- Titre -->
             <div class="col-xs-6
                         col-sm-6
@@ -12,7 +12,7 @@
                         col-md-offset-5
                         col-lg-7
                         col-lg-offset-5 titre_trois_points">
-                        <h3 class="titrePoint">Susciter l'intérêt</h3>
+                        <h2 class="titrePoint">Susciter l'intérêt</h2>
             </div>
 
             <!-- image -->
@@ -37,7 +37,7 @@
         </div>
 
         <!----- point 2 ----->
-        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 point123">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 
             <!--- titre -->
             <div class="col-xs-6
@@ -52,7 +52,7 @@
                         col-lg-7
                         col-lg-offset-3
                         col-lg-push-0 titre_trois_points">
-                <h3 class="titrePoint">Etablir un lien</h3>
+                <h2 class="titrePoint">Etablir un lien</h2>
                 <div class="hidden-xs hidden-sm col-md-2 col-lg-2"></div>
             </div>
 
@@ -87,12 +87,12 @@
 
 
         <!----- point 3 ----->
-        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 point123">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <div class="col-xs-6
                         col-sm-6
                         col-md-7
                         col-lg-7 titre_trois_points">
-                        <h3 class="titrePoint">Donner du sens</h3>
+                        <h2 class="titrePoint">Donner du sens</h2>
             </div>
             <div class="col-xs-6
                         col-sm-6
