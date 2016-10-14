@@ -1,6 +1,6 @@
 /*********************************************** HEADER ***************************************************************/
 Header {
-    background-image: url("background-orange.JPG");
+    background-image: url("../image/background-orange.JPG");
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
@@ -10,11 +10,6 @@ Header {
     color: white;
 }
 
-.backgroundHeader {
-    background-image: url("background-orange.JPG");
-    background-attachment: fixed;
-    background-size: cover;
-}
 
 .logoHeader {
     width: 12%;

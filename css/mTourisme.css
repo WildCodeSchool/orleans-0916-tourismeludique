@@ -5,3 +5,11 @@
     width: 35%;
     height: 35%;
 }
+
+p {
+    font-size: 150%;
+}
+
+body {
+    color: #000;
+}
