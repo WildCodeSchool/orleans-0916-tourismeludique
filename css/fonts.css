@@ -18,3 +18,8 @@
     font-family: 'DIN-Regular';
     src: url(../fonts/DIN-Regular.otf) format('truetype');
 }
+
+@font-face {
+    font-family: 'halflings';
+    src: url(../fonts/halflings-regular.ttf) format('truetype');
+}
