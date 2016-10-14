@@ -5,7 +5,7 @@
         </div>
         <div class="col-lg-6 leftSide">
             <p class="adresse">
-                m-Tourisme-Ludique
+                m-Tourisme-Ludique<br/>
                 Le Lab'O<br/>
                 1 Avenue du champs de Mars<br/>
                 Orléans
