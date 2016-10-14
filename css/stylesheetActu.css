@@ -2,14 +2,15 @@
     font-family: 'DIN';
     text-align: center;
     height: 100%;
+    padding: 0px;
 }
 
 .lens-actu {
     position: absolute;
     top: 10%;
     margin-left: 25%;
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    height: 40%;
     margin-top: 5%;
     z-index: 1;
 }
@@ -23,8 +24,8 @@
 
 .imgInLens {
     position: relative;
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    height: 40%;
     margin-top: 5%;
     margin-left: 25%;
 }
@@ -32,4 +33,20 @@
 .txtActu {
     margin-top: 5%;
     margin-bottom: 5%;
+}
+
+h1 {
+    margin-top: 0px;
+}
+
+.slide {
+    padding: none;
+}
+
+.glyphicon {
+    color: #EE6616;
+}
+
+.orange {
+    color: #EE6616;
 }

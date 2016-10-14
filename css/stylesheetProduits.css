@@ -1,3 +1,11 @@
+.vid {
+    width: auto;
+    height: 50vh;
+    border-radius: 5%;
+    border: 2px solid #EE6616;
+
+}
+
 .txtGeo {
     font-size: 135%;
     text-align: center;
