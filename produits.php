@@ -41,41 +41,25 @@
         <!-- bannière de motifs -->
         <div class="container-fluid banner_motifs">
             <!-- Ligne A -->
-            <div class="row col-md-12">
+            <div class="row">
                 <img class="img-responsive img-thumbnail col-xs-6 col-sm-6 col-md-2 col-lg-2" src="image/motifs/P1030882-2.JPG" alt="">
+                <div class="colors col-xs-6 col-sm-6 col-md-2 col-lg-2col-md-2"></div>
                 <img class="img-responsive img-thumbnail col-xs-6 col-sm-6 col-md-2 col-lg-2col-md-2" src="image/motifs/P1030882-2.JPG" alt="">
+                <div class="colors col-xs-6 col-sm-6 col-md-2 col-lg-2col-md-2"></div>
                 <img class="img-responsive img-thumbnail col-xs-6 col-sm-6 col-md-2 col-lg-2col-md-2" src="image/motifs/P1030882-2.JPG" alt="">
-                <img class="img-responsive img-thumbnail col-xs-6 col-sm-6 col-md-2 col-lg-2col-md-2" src="image/motifs/P1030882-2.JPG" alt="">
-                <img class="img-responsive img-thumbnail col-xs-6 col-sm-6 col-md-2 col-lg-2col-md-2" src="image/motifs/P1030882-2.JPG" alt="">
-                <img class="img-responsive img-thumbnail col-xs-6 col-sm-6 col-md-2 col-lg-2col-md-2" src="image/motifs/P1030882-2.JPG" alt="">
-
+                <div class="colors col-xs-6 col-sm-6 col-md-2 col-lg-2col-md-2"></div>
             </div>
 
             <!-- Ligne B -->
-            <!--
             <div class="row">
-                <div class="col-lg-2 tuile_color">
-                </div>
-
-                <div class="col-lg-2 tuile_motif">
-                    <img class="img-responsive" src="image/motifs/P1030882-2.JPG" alt="">
-                </div>
-
-                <div class="col-lg-2 tuile_color">
-                </div>
-
-                <div class="col-lg-2 tuile_motif">
-                    <img class="img-responsive" src="image/motifs/P1030882-2.JPG" alt="">
-                </div>
-
-                <div class="col-lg-2 tuile_color">
-                </div>
-
-                <div class="col-lg-2 tuile_motif">
-                    <img class="img-responsive" src="image/motifs/P1030882-2.JPG" alt="">
-                </div>
+                <div class="colors col-xs-6 col-sm-6 col-md-2 col-lg-2col-md-2"></div>
+                <img class="img-responsive img-thumbnail col-xs-6 col-sm-6 col-md-2 col-lg-2" src="image/motifs/P1030882-2.JPG" alt="">
+                <div class="colors col-xs-6 col-sm-6 col-md-2 col-lg-2col-md-2"></div>
+                <img class="img-responsive img-thumbnail col-xs-6 col-sm-6 col-md-2 col-lg-2" src="image/motifs/P1030882-2.JPG" alt="">
+                <div class="colors col-xs-6 col-sm-6 col-md-2 col-lg-2col-md-2"></div>
+                <img class="img-responsive img-thumbnail col-xs-6 col-sm-6 col-md-2 col-lg-2" src="image/motifs/P1030882-2.JPG" alt="">
             </div>
-            -->
+
         </div>
 
     </div>

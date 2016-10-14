@@ -4,7 +4,7 @@
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 banner_trois_points">
 
         <!----- point 1 ----->
-        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 point123">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <!-- Titre -->
             <div class="col-xs-6
                         col-sm-6
@@ -37,7 +37,7 @@
         </div>
 
         <!----- point 2 ----->
-        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 point123">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 
             <!--- titre -->
             <div class="col-xs-6
@@ -87,7 +87,7 @@
 
 
         <!----- point 3 ----->
-        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 point123">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <div class="col-xs-6
                         col-sm-6
                         col-md-7
