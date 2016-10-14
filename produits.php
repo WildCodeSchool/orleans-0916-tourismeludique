@@ -40,14 +40,23 @@
         <div class="row">
             <!-- Ligne A -->
             <div class="row">
-                <div class="col-lg-2">
-                    <img>
+                <div class="col-lg-2 tuile_motif">
+                    <img class="image-responsive" src="image/motifs/P1030882-2.JPG" alt="">
                 </div>
-                <div class="col-lg-2"></div>
-                <div class="col-lg-2"></div>
-                <div class="col-lg-2"></div>
-                <div class="col-lg-2"></div>
-                <div class="col-lg-2"></div>
+
+                <div class="col-lg-2 tuile_color"></div>
+
+                <div class="col-lg-2 tuile_motif">
+                    <img class="image-responsive" src="image/motifs/P1030882-2.JPG" alt="">
+                </div>
+
+                <div class="col-lg-2 tuile_color"></div>
+
+                <div class="col-lg-2 tuile_motif">
+                    <img class="image-responsive" src="image/motifs/P1030882-2.JPG" alt="">
+                </div>
+
+                <div class="col-lg-2 tuile_color"></div>
             </div>
 
             <!-- Ligne B -->

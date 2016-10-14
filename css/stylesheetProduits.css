@@ -29,3 +29,15 @@
     font-family: 'DIN';
     font-size: 400%
 }
+
+
+/* Bannière motifs */
+
+.tuile_motif img {
+    height:100%;
+    width: 100%;
+}
+
+.tuile_color {
+    background-color: lightgrey;
+}
