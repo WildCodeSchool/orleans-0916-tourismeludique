@@ -24,13 +24,15 @@
 
 .logolabo {
     position: absolute;
-    right: 0;
+    top:-5%;
+    left: 10%;
     width: 20%;
     height: 20%;
 }
 
 .adresse {
-    text-align: left;
+    color: #EE6616;
+    text-align: center;
 }
 
 .map {
