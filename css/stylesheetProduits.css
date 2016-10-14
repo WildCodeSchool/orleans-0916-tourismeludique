@@ -40,12 +40,15 @@
 
 
 /* Bannière motifs */
-.thumbnail {
-    width:100%;
-    border:2px solid darkorange;
+.banner_motifs {
+    margin:0 0 0 0;
+    padding: 0 0 0 0;
 }
 
-.banner_motifs ul li {
-    list-style-type: none;
-    display: inline;
+.banner_motifs img {
+    width:;
+    border-radius : 0px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
 }
+

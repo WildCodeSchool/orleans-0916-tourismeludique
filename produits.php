@@ -38,16 +38,15 @@
         </div>
 
         <!-- bannière de motifs -->
-        <div class="container-fluid">
+        <div class="container-fluid banner_motifs">
             <!-- Ligne A -->
-            <div class="row banner_motifs col-md-12">
-                <img class="img-responsive img-thumbnail img-thumbnail" src="image/motifs/P1030882-2.JPG" alt="">
-                <img class="img-responsive img-thumbnail" src="image/motifs/P1030882-2.JPG" alt="">
-                <img class="img-responsive" src="image/motifs/P1030882-2.JPG" alt="">
-                <img class="img-responsive" src="image/motifs/P1030882-2.JPG" alt="">
-                <img class="img-responsive" src="image/motifs/P1030882-2.JPG" alt="">
-                <img class="img-responsive" src="image/motifs/P1030882-2.JPG" alt="">
-
+            <div class="row col-md-12">
+                <img class="img-responsive img-thumbnail col-xs-6 col-sm-6 col-md-2 col-lg-2" src="image/motifs/P1030882-2.JPG" alt="">
+                <img class="img-responsive img-thumbnail col-xs-6 col-sm-6 col-md-2 col-lg-2col-md-2" src="image/motifs/P1030882-2.JPG" alt="">
+                <img class="img-responsive img-thumbnail col-xs-6 col-sm-6 col-md-2 col-lg-2col-md-2" src="image/motifs/P1030882-2.JPG" alt="">
+                <img class="img-responsive img-thumbnail col-xs-6 col-sm-6 col-md-2 col-lg-2col-md-2" src="image/motifs/P1030882-2.JPG" alt="">
+                <img class="img-responsive img-thumbnail col-xs-6 col-sm-6 col-md-2 col-lg-2col-md-2" src="image/motifs/P1030882-2.JPG" alt="">
+                <img class="img-responsive img-thumbnail col-xs-6 col-sm-6 col-md-2 col-lg-2col-md-2" src="image/motifs/P1030882-2.JPG" alt="">
 
             </div>
 
