@@ -4,10 +4,11 @@
             <h1 class="titreGeo">GéoMOTifs</h1>
         </div>
     </div>
+
     </div>
     <div class="row">
         <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs titreNosProduits">
-            <h1>Nos Produits</h1>
+            <h1>Produits</h1>
         </div>
         <div class="col-lg-6 col-md-6">
             <p class="txtGeo">
