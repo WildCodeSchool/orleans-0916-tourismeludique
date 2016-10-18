@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+
+    {% block stylesheets %}
+        {{ parent() }}
+        <!-- CSS Perso -->
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/stylesheetHeader.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{  asset('css/stylesheetForm.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{  asset('css/stylesheetActu.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{  asset('css/stylesheetProduits.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{  asset('css/stylesheetSectionImage.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{  asset('css/stylesheetFooter.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{  asset('css/stylesheet_notre_philosophie.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{  asset('css/stylesheet_social_network.css')}}">
+    {% endblock %}
+
+{% block body %}
+    {% block header %}
+        {{ include('MTLBundle:Default:header.html.twig') }}
+    {% endblock %}
+    {#{% block philo %}
+        {{ include('MTL:Default:notre_philosophie.html.twig') }}
+    {% endblock %}#}
+{% endblock %}
