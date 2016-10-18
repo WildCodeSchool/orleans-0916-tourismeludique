@@ -20,8 +20,14 @@
     {% block philo %}
         {{ include('MTLBundle:Default:notre_philosophie.html.twig') }}
     {% endblock %}
+    {% block trois_points %}
+        {{ include('MTLBundle:Default:trois_points.html.twig') }}
+    {% endblock %}
     {% block sectionImage %}
         {{ include('MTLBundle:Default:sectionImage.html.twig') }}
+    {% endblock %}
+    {% block actu %}
+        {{ include('MTLBundle:Default:actu.html.twig') }}
     {% endblock %}
     {% block footer %}
         {{ include('MTLBundle:Default:footer.html.twig') }}
