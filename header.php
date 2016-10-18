@@ -2,10 +2,15 @@
 <header>
 <div class="backgroundHeader" id="ancreHome" >
 	<div class="container-fluid">
-		<div class="row">
-          <img class="img-responsive logoHeader" src="image/logoMblanc.png" alt="Logo mTourimse-Ludique">
-          <h1 class="marque">m-Tourisme Ludique</h1><br/>
-          <p class="slogan">CREATION D'USAGES MOBILES</p><br/>
+        <div class="row">
+            <div class="col-xs-4 col-lg-4 logo_header">
+                <img class="img-responsive logoHeader" src="image/logoMblanc.png" alt="Logo mTourimse-Ludique">
+            </div>
+
+            <div class="col-xs-8 col-lg-8 logo_text">
+                <h1 class="marque">Tourisme Ludique</h1><br/>
+                <p class="slogan">CREATION D'USAGES MOBILES</p><br/>
+            </div>
         </div>
 	</div>
 </div>

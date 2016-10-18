@@ -18,6 +18,30 @@ Header p {
     font-family: 'DIN-Light', 'Courgette';
 }
 
+.logo_header {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.logo_header.img-responsive  {
+    width: ;
+    height: ;
+    right: -300px;
+    position: relative;
+}
+
+.logo_text {
+    padding-top: 160px;
+    padding-bottom: 160px;
+    left: -150px;
+}
+
+.logo_text p {
+    letter-spacing: 8px;
+    line-height: 0.5;
+    font-size: 2.7em;
+}
+
 .logoHeader {
     width: 12%;
     height: 12%;
