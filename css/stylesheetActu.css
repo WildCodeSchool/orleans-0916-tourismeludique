@@ -1,8 +1,6 @@
 .actu {
     font-family: 'DIN';
     text-align: center;
-    height: 100%;
-    padding: 0px;
 }
 
 @keyframes focus {
@@ -11,19 +9,22 @@
     50%  {transform: rotate(-15deg); }
     100% {transform: rotate(0deg);}
 }
+
 @keyframes focus-blur {
     0%   {filter:blur(0);}
     25%  {filter:blur(2px);}
     50%  {filter:blur(7px); }
     100% {filter:blur(0px);}
 }
+
 .lens:hover .lens-actu {
     animation: focus 3s ease-in-out 0s ;
 }
+
 .lens:hover .imgInLens {
     animation: focus-blur 3s ease-in-out 0s ;
-
 }
+
 .lens-actu {
     position: absolute;
     top: 10%;

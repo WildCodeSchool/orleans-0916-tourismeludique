@@ -15,7 +15,7 @@
                     </p>
                 </div>
                 <div class="col-lg-4">
-                    <img src="image/logolabodetoure.png" class="img-responsive logolabo" alt="logo Le Lab'O">
+                    <a href="http://www.le-lab-o.fr/" target="_blank"><img src="image/logolabodetoure.png" class="img-responsive logolabo" alt="logo Le Lab'O"></a>
                 </div>
             </div>
             <iframe class="map" width="625" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=1.8892514705657961%2C47.89133419118289%2C1.8968582153320315%2C47.8957799548847&amp;layer=mapnik&amp;marker=47.893557120745015%2C1.8930602073669434"></iframe><br/>
