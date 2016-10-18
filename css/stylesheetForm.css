@@ -23,13 +23,14 @@
 }
 
 .logolabo {
-    width: 60%;
-    height: 60%;
+    width: 50%;
+    height: 50%;
 }
 
 .adresse {
     color: #EE6616;
-    text-align: left;
+    text-align: center;
+    font-size: 120%;
 }
 
 .map {
