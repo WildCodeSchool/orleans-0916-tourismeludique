@@ -33,8 +33,8 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                             <h2>Actu 3</h2>
-                            <img src="image/P1030919rond.png" class="img-responsive imgInLens" alt="gargouille">
-                            <img src="image/lens_reflect.png"  class="img-responsive lens-actu" alt="lentille">
+                                <img src="image/P1030919rond.png" class="img-responsive imgInLens" alt="gargouille">
+                                <img src="image/lens_reflect.png"  class="img-responsive lens-actu" alt="lentille">
                             <p class="txtActu">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet,
                                 consectetur adipisicing elit.<br/><br/>
                                 <a class="orange" href="#">En lire plus...</a>
