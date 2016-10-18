@@ -5,11 +5,18 @@ Header {
     background-attachment: fixed;
     width: 100%;
     height: 40%;
-    font-family: 'DIN-Bold' 'Courgette';
     text-align: center;
     color: white;
 }
 
+Header h1 {
+    font-family: 'santorregular', 'DIN-Bold', 'Courgette';
+    font-weight: bold;
+}
+
+Header p {
+    font-family: 'DIN-Light', 'Courgette';
+}
 
 .logoHeader {
     width: 12%;

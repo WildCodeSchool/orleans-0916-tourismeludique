@@ -23,3 +23,13 @@
     font-family: 'halflings';
     src: url(../fonts/halflings-regular.ttf) format('truetype');
 }
+
+@font-face {
+    font-family: 'santorregular';
+    src: url(../fonts/santor_1.002-webfont.woff2) format('woff2');
+         url(../fonts/santor_1.002-webfont.woff) format('woff');
+         url(../fonts/santor_1.002.otf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
