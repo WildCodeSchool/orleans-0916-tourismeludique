@@ -23,9 +23,9 @@ Header p {
     padding-bottom: 100px;
 }
 
-.logo_header.img-responsive  {
-    width: ;
-    height: ;
+.logo_header img  {
+    width: 315px;
+    height:315px ;
     right: -300px;
     position: relative;
 }
