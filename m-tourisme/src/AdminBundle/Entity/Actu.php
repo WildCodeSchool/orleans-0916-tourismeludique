@@ -1,16 +1,16 @@
 <?php
 
-namespace MTLBundle\Entity;
+namespace AdminBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * News
+ * Actu
  *
- * @ORM\Table(name="news")
- * @ORM\Entity(repositoryClass="MTLBundle\Repository\NewsRepository")
+ * @ORM\Table(name="actu")
+ * @ORM\Entity(repositoryClass="AdminBundle\Repository\ActuRepository")
  */
-class News
+class Actu
 {
     /**
      * @var int
@@ -24,28 +24,28 @@ class News
     /**
      * @var string
      *
-     * @ORM\Column(name="titre", type="string", length=255)
+     * @ORM\Column(name="Titre", type="string", length=255)
      */
     private $titre;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="contenu", type="text")
+     * @ORM\Column(name="Contenu", type="text")
      */
     private $contenu;
 
     /**
      * @var \DateTime
      *
-     * @ORM\Column(name="date", type="date")
+     * @ORM\Column(name="Date", type="date")
      */
     private $date;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="photos", type="blob", nullable=true)
+     * @ORM\Column(name="Photos", type="text")
      */
     private $photos;
 
@@ -64,7 +64,7 @@ class News
      * Set titre
      *
      * @param string $titre
-     * @return News
+     * @return Actu
      */
     public function setTitre($titre)
     {
@@ -87,7 +87,7 @@ class News
      * Set contenu
      *
      * @param string $contenu
-     * @return News
+     * @return Actu
      */
     public function setContenu($contenu)
     {
@@ -110,7 +110,7 @@ class News
      * Set date
      *
      * @param \DateTime $date
-     * @return News
+     * @return Actu
      */
     public function setDate($date)
     {
@@ -133,7 +133,7 @@ class News
      * Set photos
      *
      * @param string $photos
-     * @return News
+     * @return Actu
      */
     public function setPhotos($photos)
     {

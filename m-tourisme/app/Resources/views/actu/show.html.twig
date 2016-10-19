@@ -1,39 +1,39 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <h1>News</h1>
+    <h1>Actu</h1>
 
     <table>
         <tbody>
             <tr>
                 <th>Id</th>
-                <td>{{ news.id }}</td>
+                <td>{{ actu.id }}</td>
             </tr>
             <tr>
                 <th>Titre</th>
-                <td>{{ news.titre }}</td>
+                <td>{{ actu.titre }}</td>
             </tr>
             <tr>
                 <th>Contenu</th>
-                <td>{{ news.contenu }}</td>
+                <td>{{ actu.contenu }}</td>
             </tr>
             <tr>
                 <th>Date</th>
-                <td>{% if news.date %}{{ news.date|date('Y-m-d') }}{% endif %}</td>
+                <td>{% if actu.date %}{{ actu.date|date('Y-m-d') }}{% endif %}</td>
             </tr>
             <tr>
                 <th>Photos</th>
-                <td>{{ news.photos }}</td>
+                <td>{{ actu.photos }}</td>
             </tr>
         </tbody>
     </table>
 
     <ul>
         <li>
-            <a href="{{ path('news_index') }}">Back to the list</a>
+            <a href="{{ path('actu_index') }}">Back to the list</a>
         </li>
         <li>
-            <a href="{{ path('news_edit', { 'id': news.id }) }}">Edit</a>
+            <a href="{{ path('actu_edit', { 'id': actu.id }) }}">Edit</a>
         </li>
         <li>
             {{ form_start(delete_form) }}
