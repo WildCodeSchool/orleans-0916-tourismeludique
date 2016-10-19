@@ -1,7 +1,7 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <h1>News list</h1>
+    <h1>Actu list</h1>
 
     <table>
         <thead>
@@ -15,20 +15,20 @@
             </tr>
         </thead>
         <tbody>
-        {% for news in news %}
+        {% for actu in actus %}
             <tr>
-                <td><a href="{{ path('news_show', { 'id': news.id }) }}">{{ news.id }}</a></td>
-                <td>{{ news.titre }}</td>
-                <td>{{ news.contenu }}</td>
-                <td>{% if news.date %}{{ news.date|date('Y-m-d') }}{% endif %}</td>
-                <td>{{ news.photos }}</td>
+                <td><a href="{{ path('actu_show', { 'id': actu.id }) }}">{{ actu.id }}</a></td>
+                <td>{{ actu.titre }}</td>
+                <td>{{ actu.contenu }}</td>
+                <td>{% if actu.date %}{{ actu.date|date('Y-m-d') }}{% endif %}</td>
+                <td>{{ actu.photos }}</td>
                 <td>
                     <ul>
                         <li>
-                            <a href="{{ path('news_show', { 'id': news.id }) }}">show</a>
+                            <a href="{{ path('actu_show', { 'id': actu.id }) }}">show</a>
                         </li>
                         <li>
-                            <a href="{{ path('news_edit', { 'id': news.id }) }}">edit</a>
+                            <a href="{{ path('actu_edit', { 'id': actu.id }) }}">edit</a>
                         </li>
                     </ul>
                 </td>
@@ -39,7 +39,7 @@
 
     <ul>
         <li>
-            <a href="{{ path('news_new') }}">Create a new entry</a>
+            <a href="{{ path('actu_new') }}">Create a new entry</a>
         </li>
     </ul>
 {% endblock %}
