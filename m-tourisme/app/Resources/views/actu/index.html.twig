@@ -1,12 +1,14 @@
 {% extends 'base.html.twig' %}
-
+{% block stylesheets %}
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/styleIndex.css')}}">
+{% endblock %}
 {% block body %}
-    <h1>actu list</h1>
+    <h1>Liste des Actu</h1>
 
     <table>
         <thead>
             <tr>
-                <th>Id</th>
+                <th>Actu N°</th>
                 <th>Titre</th>
                 <th>Contenu</th>
                 <th>Date</th>
