@@ -2,10 +2,6 @@ admin_actu:
     resource: "@AdminBundle/Controller/ActuController.php"
     type:     annotation
 
-mtl_news:
-    resource: "@MTLBundle/Controller/NewsController.php"
-    type:     annotation
-
 admin:
     resource: "@AdminBundle/Controller/"
     type:     annotation
