@@ -39,22 +39,34 @@
 
 /* Bannière motifs */
 .banner_motifs {
-    margin:50px 0px 50px 0px;
-    padding: 0 0 0 0;
-    height:100%;
+    margin:5% 0px 0px 0px;
+    height:;
+    display: block;
 }
 
 .banner_motifs img {
-    width:
     height:100%;
     border-radius : 0px;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
 }
 
-.colors {
-    background-color: cadetblue;
-    height: ;
-    padding: 0 0 0 0;
+.banner_motifs ul {
+    list-style: none;
 }
 
+/* couleurs des carrés entre les motifs */
+article.colors {
+    background-color: #FFB200;
+    height: 17.2vh;
+}
+
+article.colors1 {
+    background-color: #FD6101;
+    height: 17.2vh;
+}
+
+article.colors2 {
+    background-color: #FFA327;
+    height: 17.2vh;
+}
