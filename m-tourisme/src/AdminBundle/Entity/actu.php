@@ -1,16 +1,16 @@
 <?php
 
-namespace MTLBundle\Entity;
+namespace AdminBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * News
+ * actu
  *
- * @ORM\Table(name="news")
- * @ORM\Entity(repositoryClass="MTLBundle\Repository\NewsRepository")
+ * @ORM\Table(name="actu")
+ * @ORM\Entity(repositoryClass="AdminBundle\Repository\actuRepository")
  */
-class News
+class actu
 {
     /**
      * @var int
@@ -24,30 +24,30 @@ class News
     /**
      * @var string
      *
-     * @ORM\Column(name="titre", type="string", length=255)
+     * @ORM\Column(name="Titre", type="string", length=255)
      */
     private $titre;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="contenu", type="text")
+     * @ORM\Column(name="Contenu", type="text")
      */
     private $contenu;
 
     /**
      * @var \DateTime
      *
-     * @ORM\Column(name="date", type="date")
+     * @ORM\Column(name="Date", type="date")
      */
     private $date;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="photos", type="blob", nullable=true)
+     * @ORM\Column(name="Image", type="text", nullable=true)
      */
-    private $photos;
+    private $image;
 
 
     /**
@@ -64,7 +64,7 @@ class News
      * Set titre
      *
      * @param string $titre
-     * @return News
+     * @return actu
      */
     public function setTitre($titre)
     {
@@ -87,7 +87,7 @@ class News
      * Set contenu
      *
      * @param string $contenu
-     * @return News
+     * @return actu
      */
     public function setContenu($contenu)
     {
@@ -110,7 +110,7 @@ class News
      * Set date
      *
      * @param \DateTime $date
-     * @return News
+     * @return actu
      */
     public function setDate($date)
     {
@@ -130,25 +130,25 @@ class News
     }
 
     /**
-     * Set photos
+     * Set image
      *
-     * @param string $photos
-     * @return News
+     * @param string $image
+     * @return actu
      */
-    public function setPhotos($photos)
+    public function setImage($image)
     {
-        $this->photos = $photos;
+        $this->image = $image;
 
         return $this;
     }
 
     /**
-     * Get photos
+     * Get image
      *
      * @return string 
      */
-    public function getPhotos()
+    public function getImage()
     {
-        return $this->photos;
+        return $this->image;
     }
 }

@@ -1,12 +1,12 @@
 <?php
 
-namespace MTLBundle\Form;
+namespace AdminBundle\Form;
 
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
-class NewsType extends AbstractType
+class actuType extends AbstractType
 {
     /**
      * @param FormBuilderInterface $builder
@@ -18,7 +18,7 @@ class NewsType extends AbstractType
             ->add('titre')
             ->add('contenu')
             ->add('date', 'date')
-            ->add('photos')
+            ->add('image')
         ;
     }
     
@@ -28,7 +28,7 @@ class NewsType extends AbstractType
     public function configureOptions(OptionsResolver $resolver)
     {
         $resolver->setDefaults(array(
-            'data_class' => 'MTLBundle\Entity\News'
+            'data_class' => 'AdminBundle\Entity\actu'
         ));
     }
 }

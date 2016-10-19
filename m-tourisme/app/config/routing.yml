@@ -1,5 +1,9 @@
-mtl_news:
-    resource: "@MTLBundle/Controller/NewsController.php"
+admin_actu:
+    resource: "@AdminBundle/Controller/actuController.php"
+    type:     annotation
+
+admin_actu:
+    resource: "@AdminBundle/Controller/ActuController.php"
     type:     annotation
 
 admin:
