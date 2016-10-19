@@ -11,17 +11,22 @@
 	font-family: 'DIN';
 	text-align: center;
 	margin: auto;
-	padding-top: 12%;
 	font-size: 420%;
 	color: #000;
 }
 
 .guillemets {
-	width: 12%;
-	height: 32%;
+	width: 24%;
 }
 
 .guillemetsdown {
     width: 50%;
     height: 70%;
+}
+
+.iphone {
+	position: relative;
+	bottom: 140px;
+	left: 30%;
+	width: 65%;
 }

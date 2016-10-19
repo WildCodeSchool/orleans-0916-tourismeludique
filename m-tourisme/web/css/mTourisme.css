@@ -1,12 +1,10 @@
-.iphone {
+/*.iphone {
     position: relative;
-    top: 190px;
+    top: 190%;
     left: 50%;
     width: 35%;
     height: 35%;
-    z-index: 1;
-    margin-top: -500px;
-}
+}*/
 
 p {
     font-size: 150%;
