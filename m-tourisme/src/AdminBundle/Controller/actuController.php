@@ -6,18 +6,18 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
-use AdminBundle\Entity\Actu;
-use AdminBundle\Form\ActuType;
+use AdminBundle\Entity\actu;
+use AdminBundle\Form\actuType;
 
 /**
- * Actu controller.
+ * actu controller.
  *
  * @Route("/actu")
  */
-class ActuController extends Controller
+class actuController extends Controller
 {
     /**
-     * Lists all Actu entities.
+     * Lists all actu entities.
      *
      * @Route("/", name="actu_index")
      * @Method("GET")
@@ -26,7 +26,7 @@ class ActuController extends Controller
     {
         $em = $this->getDoctrine()->getManager();
 
-        $actus = $em->getRepository('AdminBundle:Actu')->findAll();
+        $actus = $em->getRepository('AdminBundle:actu')->findAll();
 
         return $this->render('actu/index.html.twig', array(
             'actus' => $actus,
@@ -34,15 +34,15 @@ class ActuController extends Controller
     }
 
     /**
-     * Creates a new Actu entity.
+     * Creates a new actu entity.
      *
      * @Route("/new", name="actu_new")
      * @Method({"GET", "POST"})
      */
     public function newAction(Request $request)
     {
-        $actu = new Actu();
-        $form = $this->createForm('AdminBundle\Form\ActuType', $actu);
+        $actu = new actu();
+        $form = $this->createForm('AdminBundle\Form\actuType', $actu);
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
@@ -60,12 +60,12 @@ class ActuController extends Controller
     }
 
     /**
-     * Finds and displays a Actu entity.
+     * Finds and displays a actu entity.
      *
      * @Route("/{id}", name="actu_show")
      * @Method("GET")
      */
-    public function showAction(Actu $actu)
+    public function showAction(actu $actu)
     {
         $deleteForm = $this->createDeleteForm($actu);
 
@@ -76,15 +76,15 @@ class ActuController extends Controller
     }
 
     /**
-     * Displays a form to edit an existing Actu entity.
+     * Displays a form to edit an existing actu entity.
      *
      * @Route("/{id}/edit", name="actu_edit")
      * @Method({"GET", "POST"})
      */
-    public function editAction(Request $request, Actu $actu)
+    public function editAction(Request $request, actu $actu)
     {
         $deleteForm = $this->createDeleteForm($actu);
-        $editForm = $this->createForm('AdminBundle\Form\ActuType', $actu);
+        $editForm = $this->createForm('AdminBundle\Form\actuType', $actu);
         $editForm->handleRequest($request);
 
         if ($editForm->isSubmitted() && $editForm->isValid()) {
@@ -103,12 +103,12 @@ class ActuController extends Controller
     }
 
     /**
-     * Deletes a Actu entity.
+     * Deletes a actu entity.
      *
      * @Route("/{id}", name="actu_delete")
      * @Method("DELETE")
      */
-    public function deleteAction(Request $request, Actu $actu)
+    public function deleteAction(Request $request, actu $actu)
     {
         $form = $this->createDeleteForm($actu);
         $form->handleRequest($request);
@@ -123,13 +123,13 @@ class ActuController extends Controller
     }
 
     /**
-     * Creates a form to delete a Actu entity.
+     * Creates a form to delete a actu entity.
      *
-     * @param Actu $actu The Actu entity
+     * @param actu $actu The actu entity
      *
      * @return \Symfony\Component\Form\Form The form
      */
-    private function createDeleteForm(Actu $actu)
+    private function createDeleteForm(actu $actu)
     {
         return $this->createFormBuilder()
             ->setAction($this->generateUrl('actu_delete', array('id' => $actu->getId())))

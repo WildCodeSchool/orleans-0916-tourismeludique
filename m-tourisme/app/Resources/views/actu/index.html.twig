@@ -1,7 +1,7 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <h1>Actu list</h1>
+    <h1>actu list</h1>
 
     <table>
         <thead>
@@ -10,7 +10,7 @@
                 <th>Titre</th>
                 <th>Contenu</th>
                 <th>Date</th>
-                <th>Photos</th>
+                <th>Image</th>
                 <th>Actions</th>
             </tr>
         </thead>
@@ -21,7 +21,7 @@
                 <td>{{ actu.titre }}</td>
                 <td>{{ actu.contenu }}</td>
                 <td>{% if actu.date %}{{ actu.date|date('Y-m-d') }}{% endif %}</td>
-                <td>{{ actu.photos }}</td>
+                <td>{{ actu.image }}</td>
                 <td>
                     <ul>
                         <li>
