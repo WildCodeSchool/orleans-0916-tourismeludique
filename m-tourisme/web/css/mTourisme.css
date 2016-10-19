@@ -4,6 +4,8 @@
     left: 50%;
     width: 35%;
     height: 35%;
+    z-index: 1;
+    margin-top: -500px;
 }
 
 p {
