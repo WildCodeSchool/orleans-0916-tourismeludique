@@ -2,14 +2,10 @@ admin_actu:
     resource: "@AdminBundle/Controller/actuController.php"
     type:     annotation
 
-admin_actu:
-    resource: "@AdminBundle/Controller/ActuController.php"
-    type:     annotation
-
 admin:
     resource: "@AdminBundle/Controller/"
     type:     annotation
-    prefix:   /
+    prefix:   /admin
 
 user:
     resource: "@MTLBundle/Controller/"
