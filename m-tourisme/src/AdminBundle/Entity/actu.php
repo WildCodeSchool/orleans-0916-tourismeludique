@@ -5,12 +5,12 @@ namespace AdminBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * Actu
+ * actu
  *
  * @ORM\Table(name="actu")
- * @ORM\Entity(repositoryClass="AdminBundle\Repository\ActuRepository")
+ * @ORM\Entity(repositoryClass="AdminBundle\Repository\actuRepository")
  */
-class Actu
+class actu
 {
     /**
      * @var int
@@ -45,9 +45,9 @@ class Actu
     /**
      * @var string
      *
-     * @ORM\Column(name="Photos", type="text")
+     * @ORM\Column(name="Image", type="text", nullable=true)
      */
-    private $photos;
+    private $image;
 
 
     /**
@@ -64,7 +64,7 @@ class Actu
      * Set titre
      *
      * @param string $titre
-     * @return Actu
+     * @return actu
      */
     public function setTitre($titre)
     {
@@ -87,7 +87,7 @@ class Actu
      * Set contenu
      *
      * @param string $contenu
-     * @return Actu
+     * @return actu
      */
     public function setContenu($contenu)
     {
@@ -110,7 +110,7 @@ class Actu
      * Set date
      *
      * @param \DateTime $date
-     * @return Actu
+     * @return actu
      */
     public function setDate($date)
     {
@@ -130,25 +130,25 @@ class Actu
     }
 
     /**
-     * Set photos
+     * Set image
      *
-     * @param string $photos
-     * @return Actu
+     * @param string $image
+     * @return actu
      */
-    public function setPhotos($photos)
+    public function setImage($image)
     {
-        $this->photos = $photos;
+        $this->image = $image;
 
         return $this;
     }
 
     /**
-     * Get photos
+     * Get image
      *
      * @return string 
      */
-    public function getPhotos()
+    public function getImage()
     {
-        return $this->photos;
+        return $this->image;
     }
 }

@@ -1,4 +1,8 @@
 admin_actu:
+    resource: "@AdminBundle/Controller/actuController.php"
+    type:     annotation
+
+admin_actu:
     resource: "@AdminBundle/Controller/ActuController.php"
     type:     annotation
 

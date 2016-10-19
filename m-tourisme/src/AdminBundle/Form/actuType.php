@@ -6,7 +6,7 @@ use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
-class ActuType extends AbstractType
+class actuType extends AbstractType
 {
     /**
      * @param FormBuilderInterface $builder
@@ -18,7 +18,7 @@ class ActuType extends AbstractType
             ->add('titre')
             ->add('contenu')
             ->add('date', 'date')
-            ->add('photos')
+            ->add('image')
         ;
     }
     
@@ -28,7 +28,7 @@ class ActuType extends AbstractType
     public function configureOptions(OptionsResolver $resolver)
     {
         $resolver->setDefaults(array(
-            'data_class' => 'AdminBundle\Entity\Actu'
+            'data_class' => 'AdminBundle\Entity\actu'
         ));
     }
 }
