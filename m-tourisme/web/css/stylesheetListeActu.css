@@ -16,3 +16,7 @@ body {
 .titreActualités {
     text-decoration: underline;
 }
+
+.back {
+    text-align: left;
+}
