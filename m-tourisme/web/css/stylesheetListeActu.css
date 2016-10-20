@@ -1,0 +1,24 @@
+.sectionListeActu {
+    background-image: url("../image/game-image-opaque.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    background-color: RGBA(255, 255, 255, 0.7);
+    border-left: solid 1px black;
+    border-right: solid 1px black ;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+/*.block-actu {
+    margin-top: 5%;
+}
+*/
+
+.titreActualités {
+    text-decoration: underline;
+}

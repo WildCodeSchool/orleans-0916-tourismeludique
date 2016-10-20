@@ -5,8 +5,35 @@
         <!-- CSS Perso -->
         <link rel="stylesheet" type="text/css" href="{{ asset('css/stylesheetHeader.css')}}">
         <link rel="stylesheet" type="text/css" href="{{  asset('css/stylesheetFooter.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{  asset('css/stylesheetListeActu.css')}}">
     {% endblock %}
 
-{% block Body %}
-    {%  %}
+{% block body %}
+    {% block header %}
+        {{  include('MTLBundle:Default:header.html.twig') }}
+    {% endblock %}
+    {% block listeActu %}
+        <div class="sectionListeActu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="titreActualités">Actualités</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        {% for actu in actus %}
+                            <h2 class="titreActu">{{ actu.titre }}</h2>
+                            <p class="contenu">{{ actu.contenu }}</p>
+                            <p class="img-responsive img-actu">{{ actu.image }}<br/><a href="#">En lire plus...</a></p>
+                            <p class="date">{{ actu.date | date("d-m-Y") }}</p><br/>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endblock %}
+    {% block footer %}
+        {{ include('MTLBundle:Default:footer.html.twig') }}
+    {% endblock %}
 {% endblock %}
