@@ -3,6 +3,7 @@
 namespace MTLBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\ParamConverter;
 use AdminBundle\Entity\actu;
@@ -46,4 +47,22 @@ class DefaultController extends Controller
             'actus' => $actus,
         ));
     }
+
+    /**
+     * Finds and displays an actu entity.
+     *
+     * @Route("/actushow/{id}", name="afficheractu")
+     * @Method("GET")
+     */
+    public function showActuAction(actu $actu)
+    {
+//        $oneactu = $this->getDoctrine()
+//            ->getRepository('AdminBundle:actu')
+//            ->findOneById($id);
+
+        return $this->render('MTLBundle:Default:oneActu.html.twig', array(
+            'actu' => $actu,
+        ));
+    }
+
 }

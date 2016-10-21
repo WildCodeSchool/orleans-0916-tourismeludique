@@ -17,7 +17,7 @@ use AdminBundle\Form\actuType;
 class actuController extends Controller
 {
     /**
-     * Lists all actu entities.
+     * List all actu entities.
      *
      * @Route("/", name="actu_index")
      * @Method("GET")
@@ -34,7 +34,7 @@ class actuController extends Controller
     }
 
     /**
-     * Creates a new actu entity.
+     * Create a new actu entity.
      *
      * @Route("/new", name="actu_new")
      * @Method({"GET", "POST"})
@@ -60,7 +60,7 @@ class actuController extends Controller
     }
 
     /**
-     * Finds and displays a actu entity.
+     * Finds and displays an actu entity.
      *
      * @Route("/{id}", name="actu_show")
      * @Method("GET")
@@ -103,7 +103,7 @@ class actuController extends Controller
     }
 
     /**
-     * Deletes a actu entity.
+     * Delete an actu entity.
      *
      * @Route("/{id}", name="actu_delete")
      * @Method("DELETE")
@@ -123,7 +123,7 @@ class actuController extends Controller
     }
 
     /**
-     * Creates a form to delete a actu entity.
+     * Create a form to delete a actu entity.
      *
      * @param actu $actu The actu entity
      *
