@@ -38,6 +38,7 @@ class DefaultController extends Controller
      */
     public function listeActuPageAction()
     {
+
         $actus = $this->getDoctrine()
             ->getRepository('AdminBundle:actu')
             ->findAll();
@@ -46,4 +47,7 @@ class DefaultController extends Controller
             'actus' => $actus,
         ));
     }
+
+
+
 }
