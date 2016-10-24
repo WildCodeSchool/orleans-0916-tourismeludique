@@ -28,13 +28,14 @@
                             <p class="contenu">{{ actu.contenu }}</p>
                             <p class="img-responsive img-actu">{{ asset('upload/' ~ actu.image) }}<br/><a href="{{ path('afficher_actu', {'id': actu.id}) }}">En lire plus...</a></p>
                             <p class="date">{{ actu.date | date("d-m-Y") }}</p><br/>
+                            <hr class="separation">
                         {% endfor %}
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-12">
                         <p class="back">
-                            <a href="index">Retour au site</a>
+                            <a href="index">Retourner au site</a>
                         </p>
                     </div>
                 </div>

@@ -23,14 +23,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1 class="titreActualités">Actualité</h1>
+                        <h1 class="titreActu">{{ actu.titre }}</h1>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-12">
 
                             {# <h2 class="titreActu">Actualité n° {{ actu.id }}</h2> #}
-                            <h2 class="titreActu">{{ actu.titre }}</h2>
                             <p class="contenu">{{ actu.contenu }}</p>
                             <p class="img-responsive img-actu">{{ actu.image }}<br/></p>
                             <p class="date">{{ actu.date | date("d-m-Y") }}</p><br/>
@@ -40,7 +39,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <p class="back">
-                            <a href=" {{ path('liste_actu') }}">Retour au site</a>
+                            <a href=" {{ path('liste_actu') }}">Retourner à la liste d'actualités</a>
                         </p>
                     </div>
                 </div>
