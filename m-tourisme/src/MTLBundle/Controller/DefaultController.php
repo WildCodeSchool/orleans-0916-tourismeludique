@@ -51,7 +51,7 @@ class DefaultController extends Controller
     /**
      * Finds and displays an actu entity.
      *
-     * @Route("/actushow/{id}", name="afficheractu")
+     * @Route("/actushow/{id}", name="afficher_actu")
      * @Method("GET")
      */
     public function showActuAction(actu $actu)
