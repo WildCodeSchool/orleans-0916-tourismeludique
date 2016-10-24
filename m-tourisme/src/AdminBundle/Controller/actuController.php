@@ -3,11 +3,13 @@
 namespace AdminBundle\Controller;
 
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\File\File;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use AdminBundle\Entity\actu;
 use AdminBundle\Form\actuType;
+
 
 /**
  * actu controller.
@@ -46,6 +48,16 @@ class actuController extends Controller
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
+
+            $actu = $form->getData();
+            $file = $actu->getImage();
+            $fileName = md5(uniqid()).'.'.$file->guessExtension();
+            $file->move(
+                $this->getParameter('upload_directory'),
+                $fileName
+            );
+            $actu->setImage($fileName);
+
             $em = $this->getDoctrine()->getManager();
             $em->persist($actu);
             $em->flush();
@@ -83,6 +95,10 @@ class actuController extends Controller
      */
     public function editAction(Request $request, actu $actu)
     {
+        $actu->setImage(
+            new File($this->getParameter('upload_directory').'/'.$actu->getImage())
+        );
+
         $deleteForm = $this->createDeleteForm($actu);
         $editForm = $this->createForm('AdminBundle\Form\actuType', $actu);
         $editForm->handleRequest($request);
@@ -137,4 +153,5 @@ class actuController extends Controller
             ->getForm()
         ;
     }
+
 }
