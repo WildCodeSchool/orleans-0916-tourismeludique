@@ -61,6 +61,7 @@ class DefaultController extends Controller
 
     /**
      * @Route("/index")
+     * @Method({"GET", "POST"})
      */
     public function ActuAction()
     {
@@ -72,11 +73,15 @@ class DefaultController extends Controller
         );
         $actu->setImage($fileName);
 
-        $em = $this->getDoctrine()->getManager();
-        $em->persist($actu);
-        $em->flush();
+      //  $em = $this->getDoctrine()->getManager();
+       // $em->persist($actu);
+       // $em->flush();
 
         return $this->redirectToRoute('listeactu', array('id' => $actu->getId()));
+
+        return $this->render('actu/new.html.twig', array(
+            'actu' => $actu
+        ));
 
     }
 
