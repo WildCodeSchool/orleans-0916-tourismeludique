@@ -6,11 +6,12 @@ body {
 }
 
 .container {
-    background-color: RGBA(255, 255, 255, 0.7);
-    border: solid 1px black;
+    background-color: RGBA(255, 255, 255, 0.8);
     text-align: center;
     margin-top: 5%;
     margin-bottom: 5%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px dimgrey;
 }
 
 .titreActualités {
