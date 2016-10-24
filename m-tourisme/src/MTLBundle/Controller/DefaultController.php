@@ -15,21 +15,14 @@ class DefaultController extends Controller
     /**
      * @Route("/index")
      */
-    public function indexAction()
-    {
-        return $this->render('MTLBundle:Default:index.html.twig');
-    }
 
-    /**
-     * @Route("/index")
-     */
-    public function ActuIndexAction()
+    public function listeActuIndexAction()
     {
         $actus = $this->getDoctrine()
             ->getRepository('AdminBundle:actu')
             ->findAll();
 
-        return $this->render('MTLBundle:Default:actu.html.twig', array(
+        return $this->render('MTLBundle:Default:index.html.twig', array(
             'actus' => $actus,
         ));
     }
@@ -39,7 +32,6 @@ class DefaultController extends Controller
      */
     public function listeActuPageAction()
     {
-
         $actus = $this->getDoctrine()
             ->getRepository('AdminBundle:actu')
             ->findAll();
