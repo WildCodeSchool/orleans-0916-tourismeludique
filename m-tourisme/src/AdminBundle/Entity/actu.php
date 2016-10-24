@@ -151,4 +151,13 @@ class actu
     {
         return $this->image;
     }
+
+    /**
+     * @param int $id
+     */
+    public function setId($id)
+    {
+        $this->id = $id;
+    }
+
 }

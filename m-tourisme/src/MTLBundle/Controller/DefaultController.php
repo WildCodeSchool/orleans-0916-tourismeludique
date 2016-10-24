@@ -67,4 +67,25 @@ class DefaultController extends Controller
         ));
     }
 
+    /**
+     * @Route("/index")
+     */
+    public function ActuAction()
+    {
+        $actu = new actu();
+        $file = $actu->getImage();
+        $file->move(
+            $this->getParameter('upload_directory'),
+            $fileName
+        );
+        $actu->setImage($fileName);
+
+        $em = $this->getDoctrine()->getManager();
+        $em->persist($actu);
+        $em->flush();
+
+        return $this->redirectToRoute('listeactu', array('id' => $actu->getId()));
+
+    }
+
 }
