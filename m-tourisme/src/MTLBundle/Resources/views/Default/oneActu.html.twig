@@ -1,12 +1,17 @@
-{% extends 'base.html.twig' %}
+{% extends 'layout.html.twig' %}
 
     {% block stylesheets %}
-        {{ parent() }}
+        <!-- Bootstrap -->
+        <link href="{{ asset('css/bootstrap.min.css')}}" rel="stylesheet">
         <!-- CSS Perso -->
+        <link rel="stylesheet" type="text/css" href="{{  asset('css/stylesheetListeActu.css')}}">
         <link rel="stylesheet" type="text/css" href="{{ asset('css/stylesheetHeader.css')}}">
         <link rel="stylesheet" type="text/css" href="{{  asset('css/stylesheetFooter.css')}}">
-        <link rel="stylesheet" type="text/css" href="{{  asset('css/stylesheetListeActu.css')}}">
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/fonts.css')}}">
     {% endblock %}
+
 
 {% block body %}
     {% block header %}
@@ -24,7 +29,7 @@
                 <div class="row">
                     <div class="col-lg-12">
 
-                            <h2 class="titreActu">Actualité n° {{ actu.id }}</h2>
+                            {# <h2 class="titreActu">Actualité n° {{ actu.id }}</h2> #}
                             <h2 class="titreActu">{{ actu.titre }}</h2>
                             <p class="contenu">{{ actu.contenu }}</p>
                             <p class="img-responsive img-actu">{{ actu.image }}<br/></p>
@@ -35,7 +40,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <p class="back">
-                            <a href="index">Retour au site</a>
+                            <a href=" {{ path('liste_actu') }}">Retour au site</a>
                         </p>
                     </div>
                 </div>
