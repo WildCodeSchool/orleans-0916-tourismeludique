@@ -10,23 +10,21 @@ use AdminBundle\Entity\actu;
 use Symfony\Component\HttpFoundation\Request;
 
 
+
 class DefaultController extends Controller
 {
     /**
      * @Route("/index")
      */
-
     public function listeActuIndexAction()
     {
         $actus = $this->getDoctrine()
             ->getRepository('AdminBundle:actu')
             ->findAll();
-
         return $this->render('MTLBundle:Default:index.html.twig', array(
             'actus' => $actus,
         ));
     }
-
     /**
      * @Route("/listeactu", name="liste_actu")
      */
@@ -35,13 +33,10 @@ class DefaultController extends Controller
         $actus = $this->getDoctrine()
             ->getRepository('AdminBundle:actu')
             ->findAll();
-
         return $this->render('MTLBundle:Default:listeActu.html.twig', array(
             'actus' => $actus,
         ));
     }
-
-
     /**
      * Finds and displays an actu entity.
      *
@@ -53,7 +48,6 @@ class DefaultController extends Controller
 //        $oneactu = $this->getDoctrine()
 //            ->getRepository('AdminBundle:actu')
 //            ->findOneById($id);
-
         return $this->render('MTLBundle:Default:oneActu.html.twig', array(
             'actu' => $actu,
         ));

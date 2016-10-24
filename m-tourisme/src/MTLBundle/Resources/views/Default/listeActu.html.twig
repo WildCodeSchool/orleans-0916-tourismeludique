@@ -22,11 +22,12 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-12">
+                    <div class="col-xs-12">
                         {% for actu in actus %}
                             <h2 class="titreActu">{{ actu.titre }}</h2>
-                            <p class="contenu">{{ actu.contenu }}</p>
-                            <p class="img-responsive img-actu">{{ asset('upload/' ~ actu.image) }}<br/><a href="{{ path('afficher_actu', {'id': actu.id}) }}">En lire plus...</a></p>
+                            <p class="contenu">{{ actu.contenu [:150] }}</p>
+                            <img src="{{ asset('upload/' ~ actu.image) }}" class="img-responsive img-actu"><br/><a href="{{
+                                path('afficher_actu', {'id': actu.id}) }}">En lire plus...</a>
                             <p class="date">{{ actu.date | date("d-m-Y") }}</p><br/>
                             <hr class="separation">
                         {% endfor %}
