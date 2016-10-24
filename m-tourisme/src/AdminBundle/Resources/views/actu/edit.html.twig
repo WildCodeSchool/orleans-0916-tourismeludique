@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+{% block stylesheets %}
+    <link href="{{ asset('css/bootstrap.min.css')}}" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/styleEdit.css')}}">
+{% endblock %}
+{% block body %}
+            <div class="form">
+                <h1>Editer une Actu</h1>
+
+                {{ form_start(edit_form) }}
+                    {{ form_widget(edit_form) }}
+                    <input type="submit"  value="Edit" />
+                {{ form_end(edit_form) }}
+
+
+                <ul>
+                    <li>
+                        <a href="{{ path('actu_index') }}">Back to the list</a>
+                    </li>
+                    <li>
+                        {{ form_start(delete_form) }}
+                            <input type="submit" value="Delete">
+                        {{ form_end(delete_form) }}
+                    </li>
+                </ul>
+            </div>
+
+{% endblock %}

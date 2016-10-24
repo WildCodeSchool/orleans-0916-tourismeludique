@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+{% block stylesheets %}
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/styleNew.css')}}">
+{% endblock %}
+{% block body %}
+    <h1>actu creation</h1>
+
+    {{ form_start(form) }}
+        {{ form_widget(form) }}
+        <input type="submit" value="Create" />
+    {{ form_end(form) }}
+
+    <ul>
+        <li>
+            <a href="{{ path('actu_index') }}">Back to the list</a>
+        </li>
+    </ul>
+{% endblock %}
