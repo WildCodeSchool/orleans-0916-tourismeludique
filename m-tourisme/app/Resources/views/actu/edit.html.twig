@@ -5,7 +5,7 @@
 {% endblock %}
 {% block body %}
             <div class="container form">
-                <h1>Editer une Actu</h1>
+                <h1>Editer une Actualité</h1>
 
                 {{ form_start(edit_form) }}
                {{ form_widget(edit_form) }}
@@ -14,7 +14,7 @@
 
                    <ul>
                         <li>
-                            <a href="{{ path('actu_index') }}">Back to the list</a>
+                            <a href="{{ path('actu_index') }}">Revenir à la liste</a>
                         </li>
                         <li>
                             {{ form_start(delete_form) }}

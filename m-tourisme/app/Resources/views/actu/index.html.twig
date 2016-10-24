@@ -3,7 +3,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css/styleIndex.css')}}">
 {% endblock %}
 {% block body %}
-    <h1>Liste des Actu</h1>
+    <h1>Liste des Actualités</h1>
 
     <table>
         <thead>
@@ -27,10 +27,10 @@
                 <td>
                     <ul>
                         <li>
-                            <a href="{{ path('actu_show', { 'id': actu.id }) }}">show</a>
+                            <a href="{{ path('actu_show', { 'id': actu.id }) }}">Aperçu</a>
                         </li>
                         <li>
-                            <a href="{{ path('actu_edit', { 'id': actu.id }) }}">edit</a>
+                            <a href="{{ path('actu_edit', { 'id': actu.id }) }}">Modifier</a>
                         </li>
                     </ul>
                 </td>
@@ -41,7 +41,7 @@
 
     <ul>
         <li>
-            <a href="{{ path('actu_new') }}">Create a new entry</a>
+            <a href="{{ path('actu_new') }}">Ajouter une actualité</a>
         </li>
     </ul>
 {% endblock %}
