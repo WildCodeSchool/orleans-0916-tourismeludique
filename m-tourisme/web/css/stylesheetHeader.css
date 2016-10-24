@@ -8,14 +8,18 @@ Header {
     text-align: center;
     color: white;
 }
-
+.lien_header {
+    text-decoration: none;
+}
 Header h1 {
     font-family: 'santorregular', 'DIN-Bold', 'Courgette';
     font-weight: bold;
+    color: white;
 }
 
 Header p {
     font-family: 'DIN-Light', 'Courgette';
+    color: white;
 }
 
 .logo_header {
