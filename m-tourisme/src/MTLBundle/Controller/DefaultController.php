@@ -35,7 +35,7 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/listeactu")
+     * @Route("/listeactu", name="liste_actu")
      */
     public function listeActuPageAction()
     {
