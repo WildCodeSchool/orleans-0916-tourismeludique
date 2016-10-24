@@ -21,3 +21,8 @@ body {
 .back {
     text-align: left;
 }
+
+.img-actu {
+    width: 35%;
+    margin-left: 32%;
+}
