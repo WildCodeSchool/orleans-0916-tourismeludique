@@ -21,9 +21,9 @@
             <tr>
                 <td><a href="{{ path('actu_show', { 'id': actu.id }) }}">{{ actu.id }}</a></td>
                 <td>{{ actu.titre }}</td>
-                <td>{{ actu.contenu }}</td>
+                <td>{{ actu.contenu[:150] }}</td>
                 <td>{% if actu.date %}{{ actu.date|date('Y-m-d') }}{% endif %}</td>
-                <td>{{ actu.image }}</td>
+                <td><img src="{{ asset('upload/' ~ actu.image) }}" class="img-responsive img-actu"></td>
                 <td>
                     <ul>
                         <li>
