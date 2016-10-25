@@ -1,8 +1,20 @@
-{% extends 'base.html.twig' %}
+{% extends 'layoutAdmin.html.twig' %}
 {% block stylesheets %}
+    <!-- Bootstrap -->
+    <link href="{{ asset('css/bootstrap.min.css')}}" rel="stylesheet">
+    <!-- CSS Perso -->
     <link rel="stylesheet" type="text/css" href="{{ asset('css/styleIndex.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/headerAdminStyle.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('css/stylesheetFooter.css')}}">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/fonts.css')}}">
 {% endblock %}
 {% block body %}
+    {% block header %}
+        {{  include('headerAdmin.html.twig') }}
+    {% endblock %}
+{% block content %}
     <h1>Liste des Actu</h1>
 
     <table>
@@ -21,16 +33,16 @@
             <tr>
                 <td><a href="{{ path('actu_show', { 'id': actu.id }) }}">{{ actu.id }}</a></td>
                 <td>{{ actu.titre }}</td>
-                <td>{{ actu.contenu }}</td>
+                <td class="contenu">{{ actu.contenu[:250]}}</td>
                 <td>{% if actu.date %}{{ actu.date|date('Y-m-d') }}{% endif %}</td>
-                <td>{{ actu.image }}</td>
+                <td><img class="img" src="{{ asset('upload/' ~ actu.image) }}"</td>
                 <td>
                     <ul>
                         <li>
-                            <a href="{{ path('actu_show', { 'id': actu.id }) }}">show</a>
+                            <a href="{{ path('actu_show', { 'id': actu.id }) }}"><input type="button" value="Show"></a>
                         </li>
                         <li>
-                            <a href="{{ path('actu_edit', { 'id': actu.id }) }}">edit</a>
+                            <a href="{{ path('actu_edit', { 'id': actu.id }) }}"><input type="button" value="Edit"></a>
                         </li>
                     </ul>
                 </td>
@@ -41,7 +53,11 @@
 
     <ul>
         <li>
-            <a href="{{ path('actu_new') }}">Create a new entry</a>
+            <a href="{{ path('actu_new') }}"><input type="button" value="Create a new entry"></a>
         </li>
     </ul>
+{% endblock %}
+    {% block footer %}
+        {{ include('footerAdmin.html.twig') }}
+    {% endblock %}
 {% endblock %}

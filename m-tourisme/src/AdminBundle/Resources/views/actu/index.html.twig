@@ -1,8 +1,15 @@
-{% extends 'layout.html.twig' %}
+{% extends 'layoutAdmin.html.twig' %}
 {% block stylesheets %}
+    {{ parent }}
     <link rel="stylesheet" type="text/css" href="{{ asset('css/styleIndex.css')}}">
 {% endblock %}
+
 {% block body %}
+    {% block header %}
+        {{  include('MTLBundle:Default:header.html.twig') }}
+    {% endblock %}
+
+{% block index %}
     <h1>Liste des Actu</h1>
 
     <table>
@@ -44,4 +51,9 @@
             <a href="{{ path('actu_new') }}">Create a new entry</a>
         </li>
     </ul>
+{% endblock %}
+
+    {% block footer %}
+        {{ include('MTLBundle:Default:footer.html.twig') }}
+    {% endblock %}
 {% endblock %}

@@ -1,46 +1,64 @@
-{% extends 'base.html.twig' %}
+{% extends 'layoutAdmin.html.twig' %}
 {% block stylesheets %}
+    <!-- Bootstrap -->
+    <link href="{{ asset('css/bootstrap.min.css')}}" rel="stylesheet">
+    <!-- CSS Perso -->
     <link rel="stylesheet" type="text/css" href="{{ asset('css/styleShow.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/headerAdminStyle.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('css/stylesheetFooter.css')}}">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/fonts.css')}}">
+
 {% endblock %}
+
 {% block body %}
-    <h1>actu</h1>
+    {% block header %}
+        {{  include('headerAdmin.html.twig') }}
+    {% endblock %}
+    {% block content %}
+        <h1>actu</h1>
 
-    <table>
-        <tbody>
-            <tr>
-                <th>Actu N°</th>
-                <td>{{ actu.id }}</td>
-            </tr>
-            <tr>
-                <th>Titre</th>
-                <td>{{ actu.titre }}</td>
-            </tr>
-            <tr>
-                <th>Contenu</th>
-                <td>{{ actu.contenu }}</td>
-            </tr>
-            <tr>
-                <th>Date</th>
-                <td>{% if actu.date %}{{ actu.date|date('Y-m-d') }}{% endif %}</td>
-            </tr>
-            <tr>
-                <th>Image</th>
-                <td><img src="{{ asset('upload/' ~ actu.image) }}" alt=""/></td>
-            </tr>
-        </tbody>
-    </table>
+        <table>
+            <tbody>
+                <tr>
+                    <th>Actu N°</th>
+                    <td>{{ actu.id }}</td>
+                </tr>
+                <tr>
+                    <th>Titre</th>
+                    <td>{{ actu.titre }}</td>
+                </tr>
+                <tr>
+                    <th>Contenu</th>
+                    <td>{{ actu.contenu }}</td>
+                </tr>
+                <tr>
+                    <th>Date</th>
+                    <td>{% if actu.date %}{{ actu.date|date('Y-m-d') }}{% endif %}</td>
+                </tr>
+                <tr>
+                    <th>Image</th>
+                    <td><img src="{{ asset('upload/' ~ actu.image) }}" alt=""/></td>
+                </tr>
+            </tbody>
+        </table>
 
-    <ul>
-        <li>
-            <a href="{{ path('actu_index') }}">Back to the list</a>
-        </li>
-        <li>
-            <a href="{{ path('actu_edit', { 'id': actu.id }) }}">Edit</a>
-        </li>
-        <li>
-            {{ form_start(delete_form) }}
-                <input type="submit" value="Delete">
-            {{ form_end(delete_form) }}
-        </li>
-    </ul>
+        <ul>
+            <li>
+                <a href="{{ path('actu_index') }}"><input type="submit" value="Retour à la liste"></a>
+            </li>
+            <li>
+                <a href="{{ path('actu_edit', { 'id': actu.id }) }}"><input type="submit" value="Editer"></a>
+            </li>
+            <li>
+                {{ form_start(delete_form) }}
+                    <input type="submit" value="Suprimer">
+                {{ form_end(delete_form) }}
+            </li>
+        </ul>
+    {% endblock %}
+    {% block footer %}
+        {{ include('footerAdmin.html.twig') }}
+    {% endblock %}
 {% endblock %}

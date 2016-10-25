@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+    font-family: 'santorregular', 'DIN-Bold', 'Courgette';
+}
+
+.img {
+    width: 30%;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 20px 24px; /* Nombre de pixels d'espace horizontal (5px), vertical (8px) */
+}
+
+td {
+    text-align: center;
+
+}
+
+th {
+    text-align: center;
+    font-family: 'DIN-Bold', 'Courgette';
+    font-size: 120%;
+}
+
+.contenu {
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+}
