@@ -23,9 +23,8 @@
         </div>
         <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
 
-            {{ form_start(actu, {'method': 'POST'}) }}
 
-            <form method="post" class="form" action="{{ path('formPost') }}">
+            <form method="post" class="form" action="formPost">
                 <div class="form-group">
                     <input type="Nom" class="form-control input-lg" id="Nom" placeholder="Nom *" aria-label="Votre nom"
                            required><br/>
@@ -50,7 +49,6 @@
                 </div>
             </form>
 
-            {{ form_end (actu)}}
 
         </div>
     </div>
