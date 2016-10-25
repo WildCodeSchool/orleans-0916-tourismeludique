@@ -1,18 +1,49 @@
 {% extends 'layoutAdmin.html.twig' %}
 {% block stylesheets %}
+    <!-- Bootstrap -->
+    <link href="{{ asset('css/bootstrap.min.css')}}" rel="stylesheet">
+    <!-- CSS Perso -->
     <link rel="stylesheet" type="text/css" href="{{ asset('css/styleNew.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/headerAdminStyle.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('css/stylesheetFooter.css')}}">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/fonts.css')}}">
+
 {% endblock %}
 {% block body %}
-    <h1>Création d'une actualité</h1>
+    {% block header %}
+        {{  include('headerAdmin.html.twig') }}
+    {% endblock %}
+    <div class="container">
+        <div class="row new">
 
-    {{ form_start(form) }}
-        {{ form_widget(form) }}
-        <input type="submit" value="Créer" />
-    {{ form_end(form) }}
+                <h1>Création d'une actualité</h1>
 
-    <ul>
-        <li>
-            <a href="{{ path('actu_index') }}">Revenir à la liste</a>
-        </li>
-    </ul>
+                {{ form_start(form) }}
+                <div class="col-xs-12">
+                    {{ form_row(form.titre) }}
+                    {{ form_label(form.titre) }}
+                    {{ form_widget(form.titre) }}
+                </div>
+                {{ form_end(form) }}
+            <br/>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <a href="{{ path('actu_index') }}"><input type="submit" class="btn btn-primary btn-lg"
+                                                                      value="Revenir à la liste"/></a>
+                        </div>
+                        <div class="col-xs-6">
+                            <input type="submit" class="btn btn-success btn-lg" value="Créer" />
+                        </div>
+                    </div>
+                </div>
+            <br/>
+
+        </div>
+    </div>
+    {% block footer %}
+        {{ include('footerAdmin.html.twig') }}
+    {% endblock %}
 {% endblock %}

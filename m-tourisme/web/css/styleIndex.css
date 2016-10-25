@@ -14,13 +14,13 @@ table {
 
 td {
     text-align: center;
-
+    font-size: 1.3em;
 }
 
 th {
     text-align: center;
     font-family: 'DIN-Bold', 'Courgette';
-    font-size: 120%;
+    font-size: 1.8em;
 }
 
 .contenu {
@@ -29,4 +29,8 @@ th {
 
 ul {
     list-style-type: none;
+}
+
+.bouton {
+    text-align: center;
 }

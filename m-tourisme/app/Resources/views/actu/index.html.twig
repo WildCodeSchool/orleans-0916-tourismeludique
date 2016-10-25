@@ -43,11 +43,14 @@
                     <ul>
                         <li>
 
-                            <a href="{{ path('actu_show', { 'id': actu.id }) }}"><input type="button"
-                                                                                        value="Apperçu"></a>
+                            <a href="{{ path('actu_show', { 'id': actu.id }) }}"><input type="button" class="btn
+                            btn-primary btn-lg"
+                                                                                        value="Aperçu"></a>
                         </li>
+                        <br/>
                         <li>
                             <a href="{{ path('actu_edit', { 'id': actu.id }) }}"><input type="button"
+                                                                                        class="btn btn-success btn-lg"
                                                                                         value="Editer"></a>
 
                         </li>
@@ -58,15 +61,18 @@
         </tbody>
     </table>
 
-    <ul>
-        <li>
 
-            <a href="{{ path('actu_new') }}"><input type="button" value="Create a new entry"></a>
 
-            <a href="{{ path('actu_new') }}">Ajouter une actualité</a>
+    <div class="container">
+        <div class="row bouton">
+            <div class="col-xs-12">
+                <a href="{{ path('actu_new') }}"><input type="button" class="btn btn-primary btn-lg"
+                                                        value="Ajouter une actualité"></a>
+            </div>
+        </div>
+    </div>
+    <br/>
 
-        </li>
-    </ul>
 {% endblock %}
     {% block footer %}
         {{ include('footerAdmin.html.twig') }}
