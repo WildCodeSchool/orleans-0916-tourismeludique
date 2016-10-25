@@ -25,6 +25,7 @@ class DefaultController extends Controller
             'actus' => $actus,
         ));
     }
+
     /**
      * @Route("/listeactu", name="liste_actu")
      */
@@ -37,6 +38,7 @@ class DefaultController extends Controller
             'actus' => $actus,
         ));
     }
+
     /**
      * Finds and displays an actu entity.
      *
@@ -52,5 +54,23 @@ class DefaultController extends Controller
             'actu' => $actu,
         ));
     }
+
+    /**
+     * @Route("/index/contact")
+     */
+    public function ContactAction()
+    {
+        return $this->render('MTLBundle:Default:email.html.twig'
+        );
+    }
+
+//    /**
+//     * @Route("/index/email")
+//     */
+//    public function MessageAction()
+//    {
+//        return $this->render('MTLBundle:Default:emailPost.html.twig'
+//        );
+//    }
 
 }

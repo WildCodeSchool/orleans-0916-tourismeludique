@@ -1,6 +1,7 @@
 admin_actu:
     resource: "@AdminBundle/Controller/actuController.php"
     type:     annotation
+    prefix:
 
 admin:
     resource: "@AdminBundle/Controller/"
@@ -18,3 +19,8 @@ app:
 
 fos_user:
     resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+
+contact:
+    resource: "@AdminBundle/Form/actuType.php"
+    type:     annotation
+    prefix:   /contact

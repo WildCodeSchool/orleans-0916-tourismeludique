@@ -52,6 +52,11 @@
     font-family: 'DIN';
 }
 
+.lien_submit {
+    text-decoration: none;
+    color: white;
+}
+
 .form-group {
     margin-right: 10%;
 }
