@@ -3,7 +3,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css/styleShow.css')}}">
 {% endblock %}
 {% block body %}
-    <h1>actu</h1>
+    <h1>Actu</h1>
 
     <table>
         <tbody>
@@ -32,10 +32,10 @@
 
     <ul>
         <li>
-            <a href="{{ path('actu_index') }}">Back to the list</a>
+            <a href="{{ path('actu_index') }}">revenir à la liste</a>
         </li>
         <li>
-            <a href="{{ path('actu_edit', { 'id': actu.id }) }}">Edit</a>
+            <a href="{{ path('actu_edit', { 'id': actu.id }) }}">Modifier</a>
         </li>
         <li>
             {{ form_start(delete_form) }}

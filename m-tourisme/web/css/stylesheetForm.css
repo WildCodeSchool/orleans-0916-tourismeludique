@@ -35,8 +35,8 @@
 
 .map {
     margin-top: 3%;
-    border-radius: 5%;
-    border: 2px solid #EE6616;
+    border: 1px solid #EE6616;
+    box-shadow: 2px 2px 5px dimgrey;
 }
 
 .legendecarte {
@@ -46,7 +46,6 @@
 
 .legendecarte:hover {
     color: #EE6616;
-
 }
 
 .catForm {
@@ -70,7 +69,12 @@
     font-family: 'DIN';
 }
 
-
 .btn{
     margin-left: 40%;
+    background-color: #EE6616;
+    font-size: 150%;
+}
+
+.input-lg {
+    font-size: 150%;
 }

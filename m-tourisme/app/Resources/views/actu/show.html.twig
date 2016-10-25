@@ -13,11 +13,13 @@
 {% endblock %}
 
 {% block body %}
+
     {% block header %}
         {{  include('headerAdmin.html.twig') }}
     {% endblock %}
     {% block content %}
-        <h1>actu</h1>
+
+    <h1>Actualité</h1>
 
         <table>
             <tbody>
@@ -62,3 +64,4 @@
         {{ include('footerAdmin.html.twig') }}
     {% endblock %}
 {% endblock %}
+

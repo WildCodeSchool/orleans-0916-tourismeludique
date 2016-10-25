@@ -11,11 +11,14 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css/fonts.css')}}">
 {% endblock %}
 {% block body %}
+
     {% block header %}
         {{  include('headerAdmin.html.twig') }}
     {% endblock %}
 {% block content %}
-    <h1>Liste des Actu</h1>
+
+    <h1>Liste des Actualités</h1>
+
 
     <table>
         <thead>
@@ -39,10 +42,14 @@
                 <td>
                     <ul>
                         <li>
-                            <a href="{{ path('actu_show', { 'id': actu.id }) }}"><input type="button" value="Show"></a>
+
+                            <a href="{{ path('actu_show', { 'id': actu.id }) }}"><input type="button"
+                                                                                        value="Apperçu"></a>
                         </li>
                         <li>
-                            <a href="{{ path('actu_edit', { 'id': actu.id }) }}"><input type="button" value="Edit"></a>
+                            <a href="{{ path('actu_edit', { 'id': actu.id }) }}"><input type="button"
+                                                                                        value="Editer"></a>
+
                         </li>
                     </ul>
                 </td>
@@ -53,7 +60,11 @@
 
     <ul>
         <li>
+
             <a href="{{ path('actu_new') }}"><input type="button" value="Create a new entry"></a>
+
+            <a href="{{ path('actu_new') }}">Ajouter une actualité</a>
+
         </li>
     </ul>
 {% endblock %}
