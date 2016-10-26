@@ -160,4 +160,27 @@ class actu
         $this->id = $id;
     }
 
+    /**
+     * Set image2
+     *
+     * @param string $image2
+     * @return actu
+     */
+    public function setImage2($image2)
+    {
+        $this->image2 = $image2;
+
+        return $this;
+    }
+
+    /**
+     * Get image2
+     *
+     * @return string
+     */
+    public function getImage2()
+    {
+        return $this->image2;
+    }
+
 }

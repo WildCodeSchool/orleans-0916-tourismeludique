@@ -30,8 +30,9 @@
 
 .imgInLens {
     position: relative;
-    width: 35%;
-    margin-top: 10%;
+    max-width: 35%;
+    min-height: 250px;
+    margin-top: 6%;
     margin-left: 30%;
 }
 

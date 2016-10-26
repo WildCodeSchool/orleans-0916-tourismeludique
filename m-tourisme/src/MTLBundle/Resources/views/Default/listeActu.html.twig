@@ -26,8 +26,9 @@
                         {% for actu in actus %}
                             <h2 class="titreActu">{{ actu.titre }}</h2>
                             <p class="contenu">{{ actu.contenu [:150] }}</p>
-                            <img src="{{ asset('upload/' ~ actu.image) }}" class="img-responsive img-actu"><br/><a href="{{
-                                path('afficher_actu', {'id': actu.id}) }}">En lire plus...</a>
+                            <a href="{{ path('afficher_actu', {'id': actu.id}) }}"><img src="{{ asset('upload/' ~ actu.image) }}"
+                                                                                        class="img-responsive img-actu"></a><br/>
+                            <a href="{{ path('afficher_actu', {'id': actu.id}) }}">En lire plus...</a>
                             <p class="date">{{ actu.date | date("d-m-Y") }}</p><br/>
                             <hr class="separation">
                         {% endfor %}
