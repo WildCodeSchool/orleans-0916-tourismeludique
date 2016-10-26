@@ -22,15 +22,13 @@
                             {{ form_row(edit_form.titre, { 'attr': {'class': 'form-control input-lg'}}) }}<br/>
                             {{ form_row(edit_form.contenu, { 'attr': {'class': 'form-control', 'rows': '15'}}) }}<br/>
                             {{ form_row(edit_form.date, {value : "now"|date("d/m/Y")}) }}<br/>
-                            {{ form_row(edit_form.image) }}<br/>
-
+                            {{ form_widget(edit_form.image) }}<br/>
+                        {{ form_end(edit_form) }}
                 </div>
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-xs-4">
-                            <a href="{{ path('actu_index') }}"><input type="submit" class="btn btn-primary btn-lg"
-                                                                      value="Revenir à la
-                            liste"></a>
+                            <a  class="btn btn-primary btn-lg" href="{{ path('actu_index') }}">Revenir à la liste</a>
                         </div>
                         <div class="col-xs-4">
                             <input type="submit" class="btn btn-success btn-lg" value="Edit" />

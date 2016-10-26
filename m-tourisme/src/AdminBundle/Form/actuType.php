@@ -21,7 +21,7 @@ class actuType extends AbstractType
             ->add('titre', TextType::class, array('attr'=>array('label_class'=>'red')))
             ->add('contenu')
             ->add('date', 'date')
-            ->add('image', FileType::class, array('attr'=>array('require'=>'false')))
+            ->add('image', FileType::class)
         ;
     }
     
