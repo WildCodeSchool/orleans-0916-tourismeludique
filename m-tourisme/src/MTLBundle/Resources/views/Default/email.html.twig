@@ -1,10 +1,6 @@
+{% block contact %}
 
-FORMULAIRE
-
-
-{% block formulaire %}
-
-    <form method="POST" class="form" action="emailPost">
+    <form method="POST" class="form" action="{{ path('email_Post') }}">
         <div class="form-group">
             <input type="Nom" class="form-control input-lg" id="Nom" placeholder="Nom *" aria-label="Votre nom"
                    required><br/>
