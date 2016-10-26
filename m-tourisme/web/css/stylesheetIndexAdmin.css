@@ -1,0 +1,14 @@
+.connect {
+    font-size: 150%;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.linkActu {
+    color: #EE6616;
+}
+
+.linkActu:hover {
+    color: #EE6616;
+}

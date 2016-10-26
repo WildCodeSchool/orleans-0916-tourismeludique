@@ -73,3 +73,9 @@ fos_user:
     firewall_name: main
     user_class: AdminBundle\Entity\User
 
+# Truncate extension
+services:
+ twig.extension.text:
+     class: Twig_Extensions_Extension_Text
+     tags:
+         - { name: twig.extension }

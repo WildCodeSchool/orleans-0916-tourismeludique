@@ -15,18 +15,19 @@
     {% block header %}
         {{  include('headerAdmin.html.twig') }}
     {% endblock %}
-    <div class="container">
-        <div class="row new">
+    <div class="container new">
+        <div class="row">
 
                 <h1>Création d'une actualité</h1>
 
                 {{ form_start(form) }}
-                <div class="col-xs-12">
-                    {{ form_row(form.titre) }}
-                    {{ form_label(form.titre) }}
-                    {{ form_widget(form.titre) }}
-                </div>
-                {{ form_end(form) }}
+
+                    {{ form_row(form.titre, { 'attr': {'class': 'form-control input-lg'}}) }}<br/>
+                    {{ form_row(form.contenu, { 'attr': {'class': 'form-control', 'rows': '15'}}) }}<br/>
+                    {{ form_row(form.date) }}<br/>
+                    {{ form_row(form.image) }}<br/>
+        </div>
+
             <br/>
                 <div class="container-fluid">
                     <div class="row">
@@ -35,7 +36,9 @@
                                                                       value="Revenir à la liste"/></a>
                         </div>
                         <div class="col-xs-6">
+                            {{ form_start(form) }}
                             <input type="submit" class="btn btn-success btn-lg" value="Créer" />
+                            {{ form_end(form) }}
                         </div>
                     </div>
                 </div>

@@ -37,7 +37,7 @@
                 </tr>
                 <tr>
                     <th>Date</th>
-                    <td class="date">{% if actu.date %}{{ actu.date|date('Y-m-d') }}{% endif %}</td>
+                    <td class="date">{% if actu.date %}{{ actu.date|date('d-m-Y') }}{% endif %}</td>
                 </tr>
                 <tr>
                     <th>Image</th>
@@ -58,7 +58,9 @@
                                                                                     value="Editer"></a>
                 </div>
                 <div class="col-xs-4">
+                    {{ form_start(delete_form) }}
                             <input type="submit" class="btn btn-danger btn-lg" value="Suprimer">
+                    {{ form_end(delete_form) }}
                 </div>
             </div>
         </div>
