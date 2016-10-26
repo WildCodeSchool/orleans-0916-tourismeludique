@@ -58,7 +58,8 @@
 }
 
 .form-group {
-    margin-right: 10%;
+    margin-right: 0%;
+    width:200%;
 }
 
 .titreForm {
@@ -72,6 +73,7 @@
     text-align: center;
     padding-top: 5%;
     font-family: 'DIN';
+    width:200%;
 }
 
 .btn{

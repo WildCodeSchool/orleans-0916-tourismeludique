@@ -31,11 +31,11 @@ class ContactType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('nom', TextType::class, array('attr'=>array('placeholder'=>'Votre Nom *')))
-            ->add('prenom', TextType::class, array('attr'=>array('placeholder'=>'Votre Prénom *')))
-            ->add('entreprise', TextType::class, array('attr'=>array('placeholder'=>'Votre raison sociale')))
-            ->add('email', EmailType::class, array('attr'=>array('placeholder'=>'Votre email (ex: durantjerome@mail.com) *')))
-            ->add('message', TextareaType::class, array('attr'=>array('placeholder'=>'message')))
+            ->add('nom', TextType::class, array('attr'=>array('placeholder'=>'Votre Nom *', 'class'=>'form-control input-lg', 'aria-label'=> 'Votre Nom')))
+            ->add('prenom', TextType::class, array('attr'=>array('placeholder'=>'Votre Prénom *', 'class'=>'form-control input-lg', 'aria-label'=> 'Votre Prénom')))
+            ->add('entreprise', TextType::class, array('attr'=>array('placeholder'=>'Votre entreprise, société, organisme, ...', 'class'=>'form-control input-lg', 'aria-label'=> 'Votre Raison sociale')))
+            ->add('email', EmailType::class, array('attr'=>array('placeholder'=>'Votre email (ex: durantjerome@mail.com) *', 'class'=>'form-control input-lg', 'aria-label'=> 'Votre Email')))
+            ->add('message', TextareaType::class, array('attr'=>array('placeholder'=>'message', 'class'=>'form-control input-lg', 'aria-label'=> 'Votre Message')))
         ;
     }
 
