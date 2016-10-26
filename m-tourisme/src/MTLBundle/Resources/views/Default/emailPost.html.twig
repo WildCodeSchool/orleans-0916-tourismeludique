@@ -1,7 +1,7 @@
 
 {% block mail %}
-    {{ Nom }} {{ Prenom }} vous a envoyé un message.
-    Adresse eMail :  {{ Email }}
-    Raison sociale : {{ Entreprise }}
-    Contenu : {{ Message }}
+    {{ contact.nom }} {{ contact.prenom }} vous a envoyé un message.
+    Adresse eMail :  {{ contact.mail }}
+    Raison sociale : {{ contact.entreprise }}
+    Contenu : {{ contact.message }}
 {% endblock %}

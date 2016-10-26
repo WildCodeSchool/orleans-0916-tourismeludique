@@ -34,8 +34,8 @@ class ContactType extends AbstractType
             ->add('nom', TextType::class, array('attr'=>array('placeholder'=>'Votre Nom *', 'class'=>'form-control input-lg', 'aria-label'=> 'Votre Nom')))
             ->add('prenom', TextType::class, array('attr'=>array('placeholder'=>'Votre Prénom *', 'class'=>'form-control input-lg', 'aria-label'=> 'Votre Prénom')))
             ->add('entreprise', TextType::class, array('attr'=>array('placeholder'=>'Votre entreprise, société, organisme, ...', 'class'=>'form-control input-lg', 'aria-label'=> 'Votre Raison sociale')))
-            ->add('email', EmailType::class, array('attr'=>array('placeholder'=>'Votre email (ex: durantjerome@mail.com) *', 'class'=>'form-control input-lg', 'aria-label'=> 'Votre Email')))
-            ->add('message', TextareaType::class, array('attr'=>array('placeholder'=>'message', 'class'=>'form-control input-lg', 'aria-label'=> 'Votre Message')))
+            ->add('email', EmailType::class, array('attr'=>array('placeholder'=>'Votre email * (ex: durantjerome@mail.com)', 'class'=>'form-control input-lg', 'aria-label'=> 'Votre Email')))
+            ->add('message', TextareaType::class, array('attr'=>array('placeholder'=>'Votre message', 'class'=>'form-control input-lg', 'aria-label'=> 'Votre Message')))
         ;
     }
 

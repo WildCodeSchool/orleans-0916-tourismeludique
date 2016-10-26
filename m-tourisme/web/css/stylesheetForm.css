@@ -50,6 +50,7 @@
 
 .catForm {
     font-family: 'DIN';
+    border-radius:7px;
 }
 
 .lien_submit {
@@ -84,4 +85,9 @@
 
 .input-lg {
     font-size: 150%;
+}
+
+.texte_require {
+    color: grey;
+    font-size: 130%;
 }

@@ -62,7 +62,7 @@ doctrine:
 
 # Swiftmailer Configuration
 swiftmailer:
-    transport: "%mailer_transport%"
+    transport: mail
     host:      "%mailer_host%"
     username:  "%mailer_user%"
     password:  "%mailer_password%"
