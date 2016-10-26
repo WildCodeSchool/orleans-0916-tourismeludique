@@ -10,15 +10,18 @@
     text-align: left;
 }
 
- .itunes {
-    width: 50%;
-    position: absolute;
-    right: 0%;
- }
+.geomotifs {
+    font-weight: bold;
+    color: #EE6616;
+}
 
- .android {
-    width: 50%;
- }
+.itunes {
+
+}
+
+.android {
+
+}
 
 .titreNosProduits {
     font-family: DIN-Bold;
@@ -36,37 +39,36 @@
     font-size: 400%
 }
 
-
-/* Bannière motifs */
-.banner_motifs {
-    margin:5% 0px -10% 0px;
-    height:;
-    display: block;
+.titreProduit {
+    font-size: 200%;
+    text-align: center;
 }
 
-.banner_motifs img {
-    height:100%;
-    border-radius : 0px;
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
+.citation {
+    font-style: italic;
+    font-size: 90%;
 }
 
-.banner_motifs ul {
-    list-style: none;
+.citationLeft {
+    margin-top: 2%;
+    margin-left: 5%;
+    text-align: left;
 }
 
-/* couleurs des carrés entre les motifs */
-article.colors {
-    background-color: #FFB200;
-    height: 17.2vh;
+.citationRight {
+    margin-top: 2%;
+    margin-right: 5%;
+    text-align: right;
 }
 
-article.colors1 {
-    background-color: #FD6101;
-    height: 17.2vh;
-}
+.separe {
+     color: #EE6616;
+     border: 0;
+     height: 1px;
+     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(238, 102, 22, 0.75), rgba(0, 0, 0, 0));
+ }
 
-article.colors2 {
-    background-color: #FFA327;
-    height: 17.2vh;
+.titreDownload {
+    font-size: 200%;
+    text-align: center;
 }
