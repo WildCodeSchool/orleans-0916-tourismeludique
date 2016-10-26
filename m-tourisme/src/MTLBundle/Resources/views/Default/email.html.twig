@@ -1,0 +1,34 @@
+{% block contact %}
+
+    {{ form_start(form) }}
+        <div class="col">
+        {{ form_errors(form.nom) }}
+        {{ form_label(form.nom) }}
+        {{ form_widget(form.nom) }}
+        </div>
+
+        {{ form_errors(form.prenom) }}
+        {{ form_label(form.prenom) }}
+        {{ form_widget(form.prenom) }}
+
+        {{ form_errors(form.entreprise) }}
+        {{ form_label(form.entreprise) }}
+        {{ form_widget(form.entreprise) }}
+
+        {{ form_errors(form.email) }}
+        {{ form_label(form.email) }}
+        {{ form_widget(form.email) }}
+
+        {{ form_errors(form.message) }}
+        {{ form_label(form.message) }}
+        {{ form_widget(form.message) }}
+
+        <input type="submit" name="validation" value="ENVOYER"/>
+    {{ form_end(form) }}
+
+{% endblock %}
+
+
+
+
+
