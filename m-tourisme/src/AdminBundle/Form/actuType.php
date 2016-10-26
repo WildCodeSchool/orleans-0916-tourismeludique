@@ -16,11 +16,12 @@ class actuType extends AbstractType
      */
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
+
         $builder
             ->add('titre', TextType::class, array('attr'=>array('label_class'=>'red')))
             ->add('contenu')
             ->add('date', 'date')
-            ->add('image', FileType::class)
+            ->add('image', FileType::class, array('attr'=>array('require'=>'false')))
         ;
     }
     

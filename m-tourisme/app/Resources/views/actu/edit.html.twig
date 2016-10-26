@@ -14,14 +14,14 @@
     {% block header %}
         {{  include('headerAdmin.html.twig') }}
     {% endblock %}
-            <div class="container">
-                <div class="form row">
+            <div class="container form">
+                <div class="row">
                     <h1>Editer une Actualité</h1>
 
                         {{ form_start(edit_form) }}
                             {{ form_row(edit_form.titre, { 'attr': {'class': 'form-control input-lg'}}) }}<br/>
                             {{ form_row(edit_form.contenu, { 'attr': {'class': 'form-control', 'rows': '15'}}) }}<br/>
-                            {{ form_row(edit_form.date) }}<br/>
+                            {{ form_row(edit_form.date, {value : "now"|date("d/m/Y")}) }}<br/>
                             {{ form_row(edit_form.image) }}<br/>
 
                 </div>
@@ -36,10 +36,12 @@
                             <input type="submit" class="btn btn-success btn-lg" value="Edit" />
                         </div>
                         <div class="col-xs-4">
-                            <input type="submit" class="btn btn-danger btn-lg" value="Delete">
-                        </div>
                             {{ form_start(delete_form) }}
+                                <input type="submit" class="btn btn-danger btn-lg" value="Delete">
                             {{ form_end(delete_form) }}
+                        </div>
+
+
                     </div>
                 </div>
                 <br/>
