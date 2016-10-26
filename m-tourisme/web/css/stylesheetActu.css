@@ -18,48 +18,58 @@
 }
 
 .lens:hover .lens-actu {
-    animation: focus 3s ease-in-out 0s ;
+    animation: focus 1s ease-in-out 0s ;
 }
 
 .lens:hover .imgInLens {
-    animation: focus-blur 3s ease-in-out 0s ;
+    animation: focus-blur 1s ease-in-out 0s ;
 }
 
 .lens-actu {
     position: absolute;
-    top: 10%;
+    top: 25%;
     margin-left: 25%;
     width: 40%;
-    margin-top: 5%;
     z-index: 1;
 }
 
 .imgInLens {
     position: relative;
-    width: 40%;
-    height: 40%;
+    width: 20%;
     margin-top: 5%;
     margin-left: 25%;
 }
 
-.txtActu {
-    margin-top: 5%;
+.titreActu {
+    text-align: center;
     margin-bottom: 5%;
+    color: #EE6616;
+    font-family: 'DIN';
+    font-size: 400%;
 }
 
-h1 {
-    margin-top: 0px;
+.txtActu {
+    text-align: center;
+    font-size: 90%;
 }
 
-.slide {
-    padding: none;
+.news{
+    font-size: 300%;
+    text-align: center;
+    color: #EE6616;
 }
 
 .glyphicon {
     color: #EE6616;
 }
 
-.orange {
+.orange, .date{
+    color: #EE6616;
+    text-align: center;
+    margin-left: 35%;
+}
+
+.orange:hover{
     color: #EE6616;
 }
 

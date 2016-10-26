@@ -1,27 +1,48 @@
 {% extends 'layoutAdmin.html.twig' %}
 {% block stylesheets %}
+    <!-- Bootstrap -->
     <link href="{{ asset('css/bootstrap.min.css')}}" rel="stylesheet">
+    <!-- CSS Perso -->
     <link rel="stylesheet" type="text/css" href="{{ asset('css/styleEdit.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/headerAdminStyle.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('css/stylesheetFooter.css')}}">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/fonts.css')}}">
 {% endblock %}
 {% block body %}
-            <div class="container form">
+    {% block header %}
+        {{  include('headerAdmin.html.twig') }}
+    {% endblock %}
+            <div class="form">
                 <h1>Editer une Actualité</h1>
 
                 {{ form_start(edit_form) }}
                {{ form_widget(edit_form) }}
-                    <input type="submit"  value="Edit" />
                {{ form_end(edit_form) }}
 
-                   <ul>
-                        <li>
-                            <a href="{{ path('actu_index') }}">Revenir à la liste</a>
-                        </li>
-                        <li>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <a href="{{ path('actu_index') }}"><input type="submit" class="btn btn-primary btn-lg"
+                                                                      value="Revenir à la
+                            liste"></a>
+                        </div>
+                        <div class="col-xs-4">
+                            <input type="submit" class="btn btn-success btn-lg" value="Edit" />
+                        </div>
+                        <div class="col-xs-4">
+                            <input type="submit" class="btn btn-danger btn-lg" value="Delete">
+                        </div>
                             {{ form_start(delete_form) }}
-                                <input type="submit" value="Delete">
                             {{ form_end(delete_form) }}
-                        </li>
-                   </ul>
-            </div>
 
+                    </div>
+                </div>
+                <br/>
+
+            </div>
+    {% block footer %}
+        {{ include('footerAdmin.html.twig') }}
+    {% endblock %}
 {% endblock %}
