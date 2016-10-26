@@ -20,7 +20,6 @@ app:
 fos_user:
     resource: "@FOSUserBundle/Resources/config/routing/all.xml"
 
-contact:
-    resource: "@AdminBundle/Form/actuType.php"
-    type:     annotation
-    prefix:
+#contact:
+#    resource: "@MTLBundle/Controller/FormController.php"
+#    type:     annotation

@@ -1,6 +1,10 @@
 <?php
 namespace AdminBundle\Entity;
 
+use Symfony\Component\Form\Extension\Core\Type\TextareaType;
+use Symfony\Component\Form\Extension\Core\Type\TextType;
+use Symfony\Component\Validator\Constraints as Assert;
+
 Class Contact
 {
     protected $nom;
@@ -9,19 +13,14 @@ Class Contact
     protected $email;
     protected $message;
 
-    /**
-     * @return mixed
-     * @Assert\NotBlank()
-     */
+
+
     public function getNom()
     {
         return $this->nom;
     }
 
-    /**
-     * @param mixed $nom
-     * @Assert\NotBlank()
-     */
+
     public function setNom($nom)
     {
         $this->nom = $nom;
@@ -38,7 +37,6 @@ Class Contact
 
     /**
      * @param mixed $prenom
-     * @Assert\NotBlank()
      */
     public function setPrenom($prenom)
     {
@@ -63,7 +61,6 @@ Class Contact
 
     /**
      * @return mixed
-     * @Assert\NotBlank()
      */
     public function getEmail()
     {
@@ -80,7 +77,6 @@ Class Contact
 
     /**
      * @return mixed
-     * @Assert\NotBlank()
      */
     public function getMessage()
     {
