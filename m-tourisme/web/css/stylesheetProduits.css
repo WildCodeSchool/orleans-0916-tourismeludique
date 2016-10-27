@@ -1,6 +1,6 @@
 .vid {
-    width: auto;
     height: 50vh;
+    margin-left: 10%;
     border-radius: 5%;
     border: 2px solid #EE6616;
 
@@ -8,6 +8,16 @@
 
 .txtGeo {
     text-align: left;
+    margin-right: 10%;
+}
+
+.linkYT {
+    margin-left: 35%;
+    color: inherit;
+}
+
+.linkYT:hover {
+    color: #EE6616
 }
 
 .geomotifs {
