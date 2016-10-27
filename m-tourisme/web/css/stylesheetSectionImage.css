@@ -17,12 +17,13 @@
 }
 
 .guillemets {
-	width: 24%;
-}
+	margin-top: 5%;
+	width: 24%;}
 
 .guillemetsdown {
-    width: 50%;
-    height: 70%;
+	width: 50%;
+	height: 70%;
+	margin-top: 40%;
 }
 
 .iphone {

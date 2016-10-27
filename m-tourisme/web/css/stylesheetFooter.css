@@ -29,3 +29,27 @@
     background-size: cover;
     width: 100%;
 }
+
+.modal-body {
+    color: #0f0f0f;
+    text-align: left;
+}
+
+.modal-title {
+    font-size: 150%;
+    color: #EE6616;
+}
+
+.titreMention {
+    font-size: 100%;
+    color: #EE6616;
+}
+
+.pMention {
+    font-size: 80%;
+}
+
+.pMentionblanc {
+    font-size: 80%;
+    color: white;
+}

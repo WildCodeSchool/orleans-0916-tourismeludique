@@ -50,9 +50,17 @@
     text-align: center;
 }
 
+.motAccroche {
+    font-weight: normal;
+}
+
 .citation {
     font-style: italic;
     font-size: 90%;
+}
+
+.android {
+    margin-left: 50%;
 }
 
 .citationLeft {
