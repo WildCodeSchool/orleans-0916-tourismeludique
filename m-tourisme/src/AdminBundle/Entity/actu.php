@@ -49,6 +49,12 @@ class actu
      */
     private $image;
 
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="Image2", type="text", nullable=true)
+     */
+    private $image2;
 
     /**
      * Get id

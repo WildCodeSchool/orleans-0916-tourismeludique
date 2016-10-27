@@ -20,6 +20,11 @@
     color: #EE6616
 }
 
+.linkYT:focus {
+    color: #EE6616;
+}
+
+
 .geomotifs {
     font-weight: bold;
     color: #EE6616;
