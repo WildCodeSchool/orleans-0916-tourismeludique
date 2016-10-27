@@ -67,9 +67,8 @@
 
 .citationLeft {
     margin-top: 5%;
-    margin-left: 15%;
+    margin-left: 5%;
     text-align: left;
-    transform: rotate(-5deg);
 }
 
 .citationRight {
@@ -77,8 +76,6 @@
     margin-bottom: 5%;
     margin-right: 5%;
     text-align: right;
-    transform: rotate(5deg);
-
 }
 
 .separe {

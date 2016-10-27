@@ -17,6 +17,11 @@
     color: white;
 }
 
+.lienFooter:focus {
+    text-decoration: none;
+    color: white;
+}
+
 .logoWild {
     height: 20%;
     width: 20%;
