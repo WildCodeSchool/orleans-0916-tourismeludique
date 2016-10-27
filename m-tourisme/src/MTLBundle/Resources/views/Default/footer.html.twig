@@ -2,9 +2,61 @@
     <div class="container-fluid footer">
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                <a class="lienFooter" href="#ancre">Mentions légales</a><br/>
-                <a class="lienFooter" href="#ancre">crédits</a>
+                <a class="lienFooter" href="#ancre">Crédits</a><br/>
+                <!-- Button modal -->
+                <a class="lienFooter" href="#myModal" data-toggle="modal" data-target="#myModal">Mentions légales</a>
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h1 class="modal-title" id="myModalLabel">Mentions légales</h1>
+                            </div>
+                            <div class="modal-body ">
+                                <h2 class="titreMention">Propriété</h2>
+                                <p class="pMention">
+                                    SAS m-Tourisme Ludique<br/>
+                                    SIRET : 799135 O9O.00014<br/>
+                                    R.C.S. : ORLEANS<br/>
+                                    Adresse : 19 avenue d’Orléans 45450 DONNERY
+                                </p>
+                                <hr class="separe">
+
+                                <h2 class="titreMention">Responsable de la publication</h2>
+                                <p class="pMention">
+                                    Sylvain Lambert<br/>
+                                    contact@mtourisme-ludique.fr
+                                </p>
+                                <hr class="separe">
+
+                                <h2 class="titreMention">Hébergement du site web</h2>
+                                <p class="pMention">
+                                    OVH<br/>
+                                    2 rue Kellermann<br/>
+                                    59100 Roubaix – France<br/>
+                                    Contact : www.ovh.com/fr/support
+                                </p>
+                                <hr class="separe">
+
+                                <h2 class="titreMention">Réalisation du site web</h2>
+                                <p class="pMention">
+                                    <span class="ecole">Wild Code school</span><br/>
+                                    Louise Munier<br/>
+                                    Guillaume Landreau<br/>
+                                    Mathieu Mercier<br/><br/>
+                                    contact@wildcodeschool.fr<br/>
+                                    <a href="http://www.wildcodeschool.fr/">www.wildcodeschool.fr</a>
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default pMentionblanc" data-dismiss="modal">Fermer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                 <a class="lienFooter" href="#ancreMetier" id="metier">Notre métier</a><br/>
                 <a class="lienFooter" href="#ancreProduit" id="produit">Géomotifs</a><br/>
