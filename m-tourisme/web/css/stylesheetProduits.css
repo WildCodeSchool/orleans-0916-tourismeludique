@@ -42,6 +42,9 @@
     font-size: 400%
 }
 
+.linkGeomotifs {
+    margin-left: 40%;
+}
 .titreProduit {
     font-size: 200%;
     text-align: center;
@@ -81,9 +84,7 @@
     text-align: center;
 }
 
-.linkGeo {
-    margin-left: 40%;
-}
+
 
 .txtFB {
     margin-bottom: 3%;

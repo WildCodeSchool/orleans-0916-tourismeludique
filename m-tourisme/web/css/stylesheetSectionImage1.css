@@ -2,8 +2,8 @@
     background-image: url(../image/img_archi/ruelle_paysage_n&b_opacité50_2000x814.jpeg);
     background-attachment: fixed;
     background-size: cover;
-    height: 70vh;
-    width: 100vw;
+    height: 120%;
+    width: 100%;
 }
 
 .textImage1 {
