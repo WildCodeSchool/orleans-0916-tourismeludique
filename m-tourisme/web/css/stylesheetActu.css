@@ -30,9 +30,9 @@
 
 .imgInLens {
     position: relative;
-    width: 35%;
-    margin-top: 10%;
-    margin-left: 30%;
+    max-width: 35%;
+    margin-top: 6%;
+
 }
 
 .titreActu {
@@ -86,4 +86,17 @@
 
 .goToList:hover {
     color: #EE6616;
+}
+
+.carousel-control.left {
+    background:none;
+}
+
+.carousel-control.right {
+    background:none;
+}
+
+.carousel-indicators li {
+    border-color: black;
+    background-color: #EE6616;
 }

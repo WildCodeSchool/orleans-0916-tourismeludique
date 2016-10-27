@@ -2,6 +2,8 @@
 .titreMetier {
     font-size: 300%;
     margin-bottom: 3%;
+    color: #EE6616;
+
 }
 
 .notre_philo {
@@ -13,10 +15,14 @@
     margin-bottom: 1%;
 }
 
+.accrocheMetier {
+    font-weight: normal;
+    color: #EE6616;
+}
+
 .notre_philo {
     padding-bottom: 20px;
     padding-top: 20px;
-    background-color:;
     text-align: center;
 }
 

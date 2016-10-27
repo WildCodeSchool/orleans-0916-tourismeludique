@@ -2,8 +2,8 @@
     background-image: url(../image/img_archi/ruelle_paysage_n&b_opacité50_2000x814.jpeg);
     background-attachment: fixed;
     background-size: cover;
-    height: 70vh;
-    width: 100vw;
+    height: 60vh;
+    width: 100%;
 }
 
 .textImage1 {
@@ -13,4 +13,15 @@
     margin-top: 8%;
     font-size: 300%;
     color: #000;
+}
+
+.guillemets1 {
+    margin-top: 5%;
+    width: 24%;
+}
+
+.guillemetsdown1 {
+    width: 50%;
+    height: 70%;
+    margin-top: 20%;
 }

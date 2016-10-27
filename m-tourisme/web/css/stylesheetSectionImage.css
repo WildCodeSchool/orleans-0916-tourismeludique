@@ -2,8 +2,9 @@
 	background-image: url(../image/game-image-opaque.jpg);
 	background-attachment: fixed;
 	background-size: cover;
-	height: 70vh;
-    width: 100vw;
+	height: 70%;
+    width: 100%;
+	margin-top: 5%;
 }
 
 .textImage {
@@ -16,17 +17,23 @@
 }
 
 .guillemets {
-	width: 24%;
-}
+	margin-top: 5%;
+	width: 24%;}
 
 .guillemetsdown {
-    width: 50%;
-    height: 70%;
+	width: 50%;
+	height: 70%;
+	margin-top: 40%;
 }
 
 .iphone {
 	position: relative;
 	bottom: 140px;
-	left: 30%;
 	width: 65%;
+	margin: 0px;
+	margin-right: 0px;
+}
+
+.row {
+	margin: 0px;
 }

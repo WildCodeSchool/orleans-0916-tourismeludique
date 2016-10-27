@@ -28,6 +28,7 @@ class actuType extends AbstractType
             ->add('contenu')
             ->add('date', 'date')
             ->add('image', FileType::class)
+            ->add('image2', FileType::class)
         ;
     }
     

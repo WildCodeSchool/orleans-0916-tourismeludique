@@ -1,6 +1,6 @@
 .vid {
-    width: auto;
     height: 50vh;
+    margin-left: 10%;
     border-radius: 5%;
     border: 2px solid #EE6616;
 
@@ -8,17 +8,28 @@
 
 .txtGeo {
     text-align: left;
+    margin-right: 10%;
 }
 
- .itunes {
-    width: 50%;
-    position: absolute;
-    right: 0%;
- }
+.linkYT {
+    margin-left: 35%;
+    color: inherit;
+}
 
- .android {
-    width: 50%;
- }
+.linkYT:hover {
+    color: #EE6616
+}
+
+.linkYT:focus {
+    color: #EE6616;
+}
+
+
+.geomotifs {
+    font-weight: bold;
+    color: #EE6616;
+}
+
 
 .titreNosProduits {
     font-family: DIN-Bold;
@@ -36,37 +47,63 @@
     font-size: 400%
 }
 
-
-/* Bannière motifs */
-.banner_motifs {
-    margin:5% 0px -10% 0px;
-    height:;
-    display: block;
+.titreProduit {
+    font-size: 200%;
+    text-align: center;
 }
 
-.banner_motifs img {
-    height:100%;
-    border-radius : 0px;
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
+.motAccroche {
+    font-weight: normal;
 }
 
-.banner_motifs ul {
-    list-style: none;
+.citation {
+    font-style: italic;
+    font-size: 90%;
 }
 
-/* couleurs des carrés entre les motifs */
-article.colors {
-    background-color: #FFB200;
-    height: 17.2vh;
+.android {
+    margin-left: 50%;
 }
 
-article.colors1 {
-    background-color: #FD6101;
-    height: 17.2vh;
+.citationLeft {
+    margin-top: 5%;
+    margin-left: 5%;
+    text-align: left;
 }
 
-article.colors2 {
-    background-color: #FFA327;
-    height: 17.2vh;
+.citationRight {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    text-align: right;
+}
+
+.separe {
+     color: #EE6616;
+     border: 0;
+     height: 1px;
+     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(238, 102, 22, 0.75), rgba(0, 0, 0, 0));
+ }
+
+.titreDownload {
+    margin-bottom: 3%;
+    font-size: 200%;
+    text-align: center;
+}
+
+
+
+.txtFB {
+    margin-bottom: 3%;
+    font-size: 200%;
+    text-align: center;
+}
+
+.fb-page {
+    margin-left: 32%;
+}
+
+.remerciement {
+    color: #EE6616;
+    padding-top: 5%;
 }
