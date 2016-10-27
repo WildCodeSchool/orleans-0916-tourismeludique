@@ -35,7 +35,6 @@
 .titreProduit {
     font-size: 200%;
     text-align: center;
-    text-decoration: underline;
 }
 
 .citation {
@@ -51,7 +50,9 @@
 }
 
 .citationRight {
-    margin: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
     text-align: right;
     transform: rotate(5deg);
 
@@ -65,14 +66,19 @@
  }
 
 .titreDownload {
+    margin-bottom: 3%;
     font-size: 200%;
     text-align: center;
 }
 
+.linkGeo {
+    margin-left: 40%;
+}
+
 .txtFB {
+    margin-bottom: 3%;
     font-size: 200%;
     text-align: center;
-    margin-bottom: 2%;
 }
 
 .fb-page {
