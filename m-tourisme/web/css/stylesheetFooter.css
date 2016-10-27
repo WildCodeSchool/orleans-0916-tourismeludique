@@ -27,5 +27,5 @@
     background-image: url(../image/background-orange.JPG);
     background-attachment: fixed;
     background-size: cover;
-    width: 100vw;
+    width: 100%;
 }
