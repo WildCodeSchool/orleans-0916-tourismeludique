@@ -32,24 +32,31 @@ class DefaultController extends Controller
         if ($form->isSubmitted() && $form->isValid()) {
 
             // create mail transport config
-            $transport = \Swift_MailTransport::newInstance();
+//            $transport = \Swift_MailTransport::newInstance();
 
             // create the message
             $message = \Swift_Message::newInstance()
                 ->setSubject('Mail envoyé depuis votre site m-Tourisme Ludique')
-                ->setFrom('munier.louise@gmail.com')
-                ->setTo('munier.louise0@gmail.com')
+                ->setFrom(array('munier.louise@gmail.com' => 'Expéditeur'))
+                ->setTo(array('munier.louise0@gmail.com' => 'Destinataire'))
                 ->setCharset('UTF-8')
                 ->setContentType('text/html')
                 ->setBody(
                     $this->renderView(
                         'Emails/emailPost.html.twig'
+//                        , array('form' => $form)
+//                        array('nom' => $nom,
+//                              'prenom' => $prenom,
+//                              'entreprise' => $entreprise,
+//                              'email' => $email,
+//                              'message' => $message
+//                            )
                     ));
 
             // send mail
-            $mailer = \Swift_Mailer::newInstance($transport);
-            $mailer->send($message);
-//            $this->get('mailer')->send($message);
+//            $mailer = \Swift_Mailer::newInstance($transport);
+//            $mailer->send($message);
+            $this->get('mailer')->send($message);
 
 //            $this->get('session')->getFlashBag()->add('success', 'Votre message à bien été envoyé. Nous vous ferrons un retour dans les plus brefs délais');
 
