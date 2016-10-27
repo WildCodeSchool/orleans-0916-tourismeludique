@@ -2,6 +2,7 @@
 
 namespace MTLBundle\Controller;
 
+use MTLBundle\MTLBundle;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
@@ -29,7 +30,29 @@ class DefaultController extends Controller
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
-            // envoi du mail
+
+            // create mail transport config
+            $transport = \Swift_MailTransport::newInstance();
+
+            // create the message
+            $message = \Swift_Message::newInstance()
+                ->setSubject('Mail envoyé depuis votre site m-Tourisme Ludique')
+                ->setFrom('munier.louise@gmail.com')
+                ->setTo('munier.louise0@gmail.com')
+                ->setCharset('UTF-8')
+                ->setContentType('text/html')
+                ->setBody(
+                    $this->renderView(
+                        'Emails/emailPost.html.twig'
+                    ));
+
+            // send mail
+            $mailer = \Swift_Mailer::newInstance($transport);
+            $mailer->send($message);
+//            $this->get('mailer')->send($message);
+
+//            $this->get('session')->getFlashBag()->add('success', 'Votre message à bien été envoyé. Nous vous ferrons un retour dans les plus brefs délais');
+
 
             return $this->redirectToRoute('accueil');
         }
@@ -67,83 +90,5 @@ class DefaultController extends Controller
             'actu' => $actu,
         ));
     }
-
-//    /**
-//     * @Route("/index/contact")
-//     */
-//    public function ContactAction()
-//    {
-//// création d'un objet Contact
-//        $contact = new Contact();
-//        $contact->setNom($_POST);
-//        $contact->setPrenom($_POST);
-//        $contact->setEntreprise($_POST);
-//        $contact->setEmail($_POST);
-//        $contact->setMessage($_POST);
-//
-//        $form = $this->createFormBuilder($contact)
-//        // création du formBuilder grace au service form factory
-////        $formBuilder = $this->get('form.factory')->createBuilder(FormType::class, $contact)
-//            // ajout des champs de l'entité que l'on veut au formulaire
-//            ->add('nom', TextType::class, array(
-//                'required' => true, array(
-//                    'attr' => array('placeholder' => 'Votre Nom *',
-//                        'aria-label' => 'Votre Nom',
-//                        'id' => 'Nom',
-//                        'class' => 'form-control input-lg'
-//                    )
-//                )
-//            ))
-//            ->add('prenom', TextType::class, array(
-//                'required' => true, array(
-//                    'attr' => array('placeholder' => 'Votre Prénom *',
-//                        'aria-label' => 'Votre Prénom',
-//                        'id' => 'Prenom',
-//                        'class' => 'form-control input-lg'
-//                    )
-//                )
-//            ))
-//            ->add('entreprise', TextType::class, array(
-//                'attr' => array('placeholder' => 'Votre entreprise, société, organisme,...',
-//                    'aria-label' => 'Votre raison sociale',
-//                    'id' => 'Entreprise',
-//                    'class' => 'form-control input-lg'
-//                )
-//            ))
-//            ->add('email', TextType::class, array(
-//                'required' => true, array(
-//                    'attr' => array('placeholder' => 'Votre email *',
-//                        'aria-label' => 'Votre email',
-//                        'id' => 'Email',
-//                        'class' => 'form-control input-lg'
-//                    )
-//                )
-//            ))
-//            ->add('message', TextareaType::class, array(
-//                'required' => true, array(
-//                    'attr' => array('lenght' => 10,
-//                        'placeholder' => 'Votre message *',
-//                        'aria-label' => 'Votre message',
-//                        'id' => 'Message',
-//                        'class' => 'form-control input-lg'
-//                    )
-//                )
-//            ))
-//            ->add('envoyer', SubmitType::class, array(
-//                'attr' => array('label' => 'Envoyer',
-//                    'class' => 'tn btn-warning catForm lien_submit'
-//                )
-//            ))
-//            ->getForm();
-//
-//        return $this->render('MTLBundle:Default:emailPost.html.twig', array(
-//            'form' => $form->createView(),
-//        ));
-//
-////        if ($form->isSibmitted() && $form->isValid() ) {
-////            $contact = $form->getData();
-////        }
-//    }
-//
 
 }
