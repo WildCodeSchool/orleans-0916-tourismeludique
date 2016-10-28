@@ -28,6 +28,7 @@
                 <th>Contenu</th>
                 <th>Date</th>
                 <th>Image</th>
+                <th>Image 2</th>
                 <th>Actions</th>
             </tr>
         </thead>
@@ -36,7 +37,7 @@
             <tr>
                 <td><a href="{{ path('actu_show', { 'id': actu.id }) }}">{{ actu.id }}</a></td>
                 <td>{{ actu.titre }}</td>
-                <td class="contenu">{{ actu.contenu | truncate(250, true, ' ...')}}</td>
+                <td class="contenu">{{ actu.contenu| truncate(250, true, ' ...')| raw}}</td>
                 <td>{% if actu.date %}{{ actu.date|date('d-m-Y') }}{% endif %}</td>
                 <td><img class="img" src="{{ asset('upload/' ~ actu.image) }}"</td>
                 <td>

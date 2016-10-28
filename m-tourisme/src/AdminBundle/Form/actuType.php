@@ -25,10 +25,9 @@ class actuType extends AbstractType
 
         $builder
             ->add('titre', TextType::class, array('attr'=>array('label_class'=>'red')))
-            ->add('contenu')
+            ->add('contenu', TextareaType::class)
             ->add('date', 'date')
             ->add('image', FileType::class)
-            ->add('image2', FileType::class)
         ;
     }
     

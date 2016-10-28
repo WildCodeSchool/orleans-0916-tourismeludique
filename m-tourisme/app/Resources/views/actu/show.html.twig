@@ -33,7 +33,7 @@
                 </tr>
                 <tr>
                     <th>Contenu</th>
-                    <td class="contenu">{{ actu.contenu }}</td>
+                    <td class="contenu">{{ actu.contenu|raw }}</td>
                 </tr>
                 <tr>
                     <th>Date</th>
@@ -41,7 +41,8 @@
                 </tr>
                 <tr>
                     <th>Image</th>
-                    <td><img src="{{ asset('upload/' ~ actu.image) }}" alt=""/></td>
+                    <td><img src="{{ asset('upload/' ~ actu.image) }}" class="image" alt="Image illustration de
+                    l'actualité"/></td>
                 </tr>
             </tbody>
         </table>
