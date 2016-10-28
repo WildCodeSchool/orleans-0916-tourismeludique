@@ -13,17 +13,17 @@
 
 {% block body %}
     {% block header %}
-        <img src="{{ asset("image/Logo_mTourismeLudique_red(1).png") }}"/>
+        <img src="{{ asset('image/Logo_mTourismeLudique_red(1).png') }}"/>
     {% endblock %}
 
     {% block content %}
-        <h1>Bonjour Sylvain,</h1>
+        <h2>Bonjour Sylvain,</h2>
 
         <p>
             Vous avez reçu un message de {{ prenom }} {{ nom }} {{ entreprise }}. <br>
 
             Voici le contenu de son message :<br>
-            {{ message }} <br>
+            <blockquote>" {{ message }} "</blockquote>
 
             Son adresse mail est la suivante : {{ email }}
         </p>
