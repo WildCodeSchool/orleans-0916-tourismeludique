@@ -32,6 +32,15 @@
         {{ include('MTLBundle:Default:navBar.html.twig') }}
     {% endblock %}
     {% block philo %}
+
+        {% if app.session.flashBag.has('success') %}
+            <div class="alert alert-success message_flash">
+                {% for msg in app.session.flashBag.get('success') %}
+                    {{ msg }}
+                {% endfor %}
+            </div>
+        {% endif %}
+
         {{ include('MTLBundle:Default:notre_philosophie.html.twig') }}
     {% endblock %}
     {% block trois_points %}

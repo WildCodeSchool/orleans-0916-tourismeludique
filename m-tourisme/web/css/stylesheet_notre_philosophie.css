@@ -81,5 +81,14 @@
     text-align: center;
 }
 
+/* message flash */
+.message_flash {
+    text-align: center;
+    box-shadow: 1px 1px 5px #DBD0D0;
+    border-radius: 8px ;
+    width:60%;
+    margin:auto;
+    font-size: 1.5em;
+}
 
 
