@@ -1,4 +1,4 @@
-<div class="container-fluid " id="ancreProduit" xmlns="http://www.w3.org/1999/html">
+<div class="container-fluid " id="ancreProduit" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
     <div class="row">
         <div class="col-lg-12">
             <h1 class="titreGeo">GéoMOTifs</h1>
@@ -7,41 +7,44 @@
 </div>
 
 <div class="container-fluid">
-        <div class="col-lg-6">
-            <div class="row">
-                <div class="col-lg-12">
-                    <video class="vid" playsinline autoplay muted loop>
-                        <source src="{{ asset('videos/orleanshg.mp4') }}" type="video/mp4">
-                    </video>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <a class="linkYT" target="_blank" href="https://www.youtube.com/channel/UCj_DmGMNzw3DTMUMyYoyoyQ">Voir la vidéo sur youtube</a>
-                    </div>
-                </div>
-            </div>
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 embed-responsive embed-responsive-4by3">
+            <video class="embed-responsive-item" playsinline autoplay muted loop>
+                <source src="{{ asset('videos/orleanshg.mp4') }}" type="video/mp4">
+            </video>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg- col-md-6 col-sm-12 col-xs-12">
             <h2 class="titreProduit">Développez un nouveau thème de visite</h2><br/>
             <p class="txtGeo">
-                Territoire, Ville, monument, lieu de visite...<br/>
+                Territoire, Ville, monument, lieu de visite...
+            </p>
+            <p class="txtGeo">
                 <span class="geomotifs">GéoMOTifs</span> a vocation à développer un nouvel axe de valorisation du
                 <strong class="motAccroche">patrimoine</strong> par les <strong class="motAccroche">détails</strong>
                 (<strong class="motAccroche">ornementation, architecture</strong>...).
                 Ils sont omniprésents, on ne les voit pas, mais sans eux notre <strong class="motAccroche">patrimoine</strong>
-                    aurait moins de saveurs.
-                <br/>
+                aurait moins de saveurs.
+            </p>
+            <p class="txtGeo">
                 Vous disposez d'un <strong class="motAccroche">patrimoine</strong> éligible et souhaitez renouveler l'intérêt pour votre
                 destination ? Attirer de nouveaux publics ?
-                Développer la notoriété grâce à une matière visuelle par essence ?<br/>
+                Développer la notoriété grâce à une matière visuelle par essence ?
+            </p>
+            <p class="txtGeo">
                 Adhérez à <span class="geomotifs">GéoMOTifs !</span> l'offre <strong class="motAccroche">ludique</strong>
                 de visite in-situ entièrement dédiée à la <strong class="motAccroche">valorisation des détails</strong> !
             </p>
         </div>
     </div>
-    <hr class="separe">
 </div>
-
+    <hr class="separe">
+<!--
+<div class="row">
+    <div class="col-lg-12 col-md-6 col-sm-6 col-xs-12 ">
+        <a class="linkYT" target="_blank" href="https://www.youtube.com/channel/UCj_DmGMNzw3DTMUMyYoyoyQ">Voir la vidéo sur youtube</a>
+    </div>
+</div>
+-->
 <div class="container-fluid">
     <div class="row">
         <div class="col-lg-12">
@@ -49,14 +52,14 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
             <a href="https://play.google.com/store/apps/details?id=com.mazedia.wezit.geomotifs" target="_blank">
-                <img src="{{ asset('image/logoGooglePlay.png') }}" class="img-responsive android" alt="Telecharger dans Google Play">
+                <img src="{{ asset('image/logoGooglePlay.png') }}" class="img-responsive android center-block" alt="Telecharger dans Google Play">
             </a>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
             <a href="https://itunes.apple.com/fr/app/geomotifs/id935219020" target="_blank">
-                <img src="{{ asset('image/logoAppStore.png') }}" class="img-responsive itunes" alt="Telecharger dans l'appstore">
+                <img src="{{ asset('image/logoAppStore.png') }}" class="img-responsive itunes center-block" alt="Telecharger dans l'appstore">
             </a>
         </div>
     </div>
@@ -84,22 +87,23 @@
     </div>
     <div class="row">
         <div class="col-lg-12">
-            <p class="txtFB">Et devenez accros aux motifs en contribuant sur notre page Facebook</p>
+            <a href="https://www.facebook.com/geomotifs" target="_blank"><p class="txtFB">Et devenez accros aux motifs en contribuant sur notre page Facebook</p></a>
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-12 FacebookGeo">
+        <div class="col-lg-12 col-md-12 col-sm-12 hidden-xs FacebookGeo">
             <div class="fb-page" data-href="https://www.facebook.com/geomotifs" data-tabs="timeline,events,messages"
-                 data-width="500" data-height="6    00" data-small-header="false" data-adapt-container-width="true"
+                 data-width="500" data-height="600" data-small-header="false" data-adapt-container-width="false"
                  data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook
-                 .com/geomotifs" class="fb-xfbml-parse-ignore "><a href="https://www.facebook.com/geomotifs">Géomotifs</a></blockquote></div>
+                 .com/geomotifs" class="fb-xfbml-parse-ignore "><a href="https://www.facebook.com/geomotifs">Géomotifs</a></blockquote>
+            </div>
         </div>
     </div>
     <hr class="separe">
 </div>
 <div class="container-fluid">
     <div class="row">
-        <div class="col-lg-offset-2 col-lg-3">
+        <div class="col-lg-offset-2 col-md-offset-2 col-sm-offset-2 col-xs-offset-2 col-lg-3 col-md-3 col-sm-3 col-xs-3">
             <div class="row">
                 <div class="col-lg-12">
                     <p class="remerciement">Inspiré de:</p>
@@ -108,11 +112,11 @@
             <div class="row">
                 <div class="col-lg-12">
                     <a href="http://www.eyrolles.com/Loisirs/Livre/vocabulaire-illustre-de-l-ornement-9782212128598">
-                        <img src="{{ asset('image/produit-vocabulaire.jpg') }}" alt="livre vocabulaire illustré de l'Ornement"></a>
+                        <img src="{{ asset('image/produit-vocabulaire.jpg') }}" class="img-responsive" alt="livre vocabulaire illustré de l'Ornement"></a>
                 </div>
             </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
             <div class="row">
                 <div class="col-lg-12">
                     <p class="remerciement">Réalisé par:</p>
@@ -121,11 +125,11 @@
             <div class="row">
                 <div class="col-lg-12">
                     <a href="http://www.museographie.mazedia.fr/">
-                        <img src="{{ asset('image/produit-mazedia-V2.png') }}" alt="Agence Mazedia"></a>
+                        <img src="{{ asset('image/produit-mazedia-V2.png') }}" class="img-responsive" alt="Agence Mazedia"></a>
                 </div>
             </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
             <div class="row">
                 <div class="col-lg-12">
                     <p class="remerciement">Avec le soutien de:</p>
@@ -134,10 +138,10 @@
             <div class="row">
                 <div class="col-lg-12">
                     <a href="http://www.regioncentre-valdeloire.fr/accueil.html">
-                        <img src="{{ asset('image/Region-Centre-Val-de-Loire-2015.png') }}" alt="Région centre Val de Loire"></a>
+                        <img src="{{ asset('image/Region-Centre-Val-de-Loire-2015.png') }}" class="img-responsive" alt="Région centre Val de Loire"></a>
                 </div>
             </div>
         </div>
-        <div class="col-lg-offset-1"></div>
+        <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1"></div>
     </div>
 </div>
