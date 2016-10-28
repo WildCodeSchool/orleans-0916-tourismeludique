@@ -29,20 +29,22 @@
                         {{ form_start(edit_form) }}
                             {{ form_row(edit_form.titre, { 'attr': {'class': 'form-control input-lg'}}) }}<br/>
                             {{ form_row(edit_form.contenu, { 'attr': {'class': 'summernote'}}) }}<br/>
-                            {{ form_row(edit_form.date, {value : "now"|date("d/m/Y")}) }}<br/>
-                            {{ form_widget(edit_form.image, { 'attr': {'class': ' btn btn-warning '}})
+                            {{ form_row(edit_form.date, {value : "now"|date("d/m/Y")}, { 'attr': {'class': ' btn
+                            btn-warning '}}) }}<br/>
+                            {{ form_row(edit_form.image, { 'attr': {'class': ' btn btn-warning image'}})
                             }}<br/>
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <input type="submit"   class="btn btn-success btn-lg
+                            block-center" value="Edit" />
+                        </div>
+                    </div>
                         {{ form_end(edit_form) }}
-                </div>
+                    </div>
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-xs-4">
                             <a  class="btn btn-primary btn-lg" href="{{ path('actu_index') }}">Revenir à la liste</a>
-                        </div>
-                        <div class="col-xs-4">
-                            {{ form_start(edit_form) }}
-                                <input type="submit" class="btn btn-success btn-lg" value="Edit" />
-                            {{ form_end(edit_form) }}
                         </div>
                         <div class="col-xs-4">
                             {{ form_start(delete_form) }}
@@ -59,7 +61,12 @@
         <script>
 
         $(document).ready(function() {
-        $('.summernote').summernote();
+        $('.summernote').summernote({
+            height: 300,                 // set editor height
+            minHeight: null,             // set minimum height of editor
+            maxHeight: null,             // set maximum height of editor
+            focus: true                  // set focus to editable area after initializing summernote
+        });
 
 
         });

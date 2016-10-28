@@ -105,11 +105,20 @@ class actuController extends Controller
         $editForm->handleRequest($request);
 
         if ($editForm->isSubmitted() && $editForm->isValid()) {
+
+            $file = $actu->getImage();
+            $fileName = md5(uniqid()).'.'.$file->guessExtension();
+            $file->move(
+                $this->getParameter('upload_directory'),
+                $fileName
+            );
+            $actu->setImage($fileName);
+
             $em = $this->getDoctrine()->getManager();
             $em->persist($actu);
             $em->flush();
 
-            return $this->redirectToRoute('actu_edit', array('id' => $actu->getId()));
+            return $this->redirectToRoute('actu_show', array('id' => $actu->getId()));
         }
 
         return $this->render('actu/edit.html.twig', array(
