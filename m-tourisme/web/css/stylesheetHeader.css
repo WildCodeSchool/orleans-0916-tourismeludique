@@ -44,9 +44,10 @@ Header p {
 
 .logo_text p {
     letter-spacing: 8px;
-    line-height: 0.5;
-    font-size: 250%;
+    line-height: 1.2;
+    font-size: 220%;
 }
+
 
 @media screen and (max-width:1580px ){
     Header h1 {
@@ -115,8 +116,8 @@ Header p {
 
     .logo_text p {
         letter-spacing: 8px;
-        line-height: 0.5;
-        font-size: 250%;
+        line-height: 1.5;
+        font-size: 200%;
     }
 }
 
