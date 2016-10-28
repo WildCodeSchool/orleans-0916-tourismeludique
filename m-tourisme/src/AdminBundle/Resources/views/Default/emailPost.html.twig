@@ -1,1 +1,36 @@
-message
+{% extends 'layoutEmail.html.twig' %}
+{% block stylesheets %}
+    <!-- Bootstrap -->
+    <link href="{{ asset('css/bootstrap.min.css')}}" rel="stylesheet">
+    <!-- CSS Perso -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/styleEmail.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/headerAdminStyle.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('css/stylesheetFooter.css')}}">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/fonts.css')}}">
+{% endblock %}
+
+{% block body %}
+    {% block header %}
+        <img src="{{ asset("image/Logo_mTourismeLudique_red(1).png") }}"/>
+    {% endblock %}
+
+    {% block content %}
+        <h1>Bonjour Sylvain,</h1>
+
+        <p>
+            Vous avez reçu un message de {{ prenom }} {{ nom }} ({{ entreprise }}). <br>
+
+            Voici le contenu de son message :<br>
+            {{ message }} <br>
+
+            Son adresse mail est la suivante : {{ email }}
+        </p>
+    {% endblock %}
+
+    {% block footer %}
+
+    {% endblock %}
+
+{% endblock %}
