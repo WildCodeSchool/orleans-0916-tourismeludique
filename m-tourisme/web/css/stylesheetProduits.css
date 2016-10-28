@@ -1,14 +1,21 @@
 .vid {
     height: 50vh;
-    margin-left: 10%;
     border-radius: 5%;
     border: 2px solid #EE6616;
-
+}
+.embed-responsive {
+    height: 0%;
 }
 
 .txtGeo {
     text-align: left;
-    margin-right: 10%;
+}
+
+.txtGeo::first-letter {
+    font-size: 150%;
+    font-family: 'santorregular';
+    font-weight: bold;
+    color: #EE6616;
 }
 
 .linkYT {
@@ -30,15 +37,6 @@
     color: #EE6616;
 }
 
-
-.titreNosProduits {
-    font-family: DIN-Bold;
-    color: #EE6616;
-    margin-top: 25%;
-    opacity: 0.5;
-    transform: rotate(-90deg);
-}
-
 .titreGeo {
     text-align: center;
     margin-bottom: 5%;
@@ -58,11 +56,7 @@
 
 .citation {
     font-style: italic;
-    font-size: 90%;
-}
-
-.android {
-    margin-left: 50%;
+    font-size: 120%;
 }
 
 .citationLeft {
@@ -97,6 +91,8 @@
     margin-bottom: 3%;
     font-size: 200%;
     text-align: center;
+    text-decoration: none;
+    color: black;
 }
 
 .fb-page {

@@ -10,7 +10,8 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\ParamConverter;
 use AdminBundle\Entity\actu;
 use AdminBundle\Entity\Contact;
 use Symfony\Component\HttpFoundation\Request;
-
+use Swift_Mailer;
+use Swift_Message;
 use AdminBundle\Form\ContactType;
 
 class DefaultController extends Controller
@@ -33,32 +34,42 @@ class DefaultController extends Controller
 
             // create mail transport config
 //            $transport = \Swift_MailTransport::newInstance();
+            if ($request->isMethod('POST')) {
+                $request = Request::createFromGlobals();
 
-            // create the message
-            $message = \Swift_Message::newInstance()
-                ->setSubject('Mail envoyé depuis votre site m-Tourisme Ludique')
-                ->setFrom(array('munier.louise@gmail.com' => 'Expéditeur'))
-                ->setTo(array('munier.louise0@gmail.com' => 'Destinataire'))
-                ->setCharset('UTF-8')
-                ->setContentType('text/html')
-                ->setBody(
-                    $this->renderView(
-                        'Emails/emailPost.html.twig'
-//                        , array('form' => $form)
-//                        array('nom' => $nom,
-//                              'prenom' => $prenom,
-//                              'entreprise' => $entreprise,
-//                              'email' => $email,
-//                              'message' => $message
-//                            )
-                    ));
+                $nom = $form["nom"]->getData();
+                $prenom = $form["prenom"]->getData();
+                $entreprise = $form["entreprise"]->getData();
+                $email = $form["email"]->getData();
+                $message = $form["message"]->getData();
 
-            // send mail
+                // create the message
+                $message = \Swift_Message::newInstance()
+                    ->setSubject('Mail envoyé depuis votre site m-Tourisme Ludique')
+                    ->setFrom(array('munier.louise@gmail.com' => 'Un visiteur'))
+                    ->setTo(array('munier.louise@gmail.com' => 'm-Tourisme Ludique'))
+                    ->setCharset('UTF-8')
+                    ->setContentType('text/html')
+                    ->setBody(
+                        $this->renderView('AdminBundle:Default:emailPost.html.twig'
+                            , array('form' => $form,
+                                    'nom' => $nom,
+                                    'prenom' => $prenom,
+                                    'entreprise' => $entreprise,
+                                    'email' => $email,
+                                    'message' => $message
+                            )
+                        ));
+
+                // send mail
 //            $mailer = \Swift_Mailer::newInstance($transport);
 //            $mailer->send($message);
-            $this->get('mailer')->send($message);
+                $this->get('mailer')->send($message);
 
-//            $this->get('session')->getFlashBag()->add('success', 'Votre message à bien été envoyé. Nous vous ferrons un retour dans les plus brefs délais');
+                $this->get('session')->getFlashBag()->add('success', 'Votre message à bien été envoyé. Nous vous ferrons un retour dans les plus brefs délais');
+            }
+
+
 
 
             return $this->redirectToRoute('accueil');
