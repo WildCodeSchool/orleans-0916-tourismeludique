@@ -49,12 +49,6 @@ class actu
      */
     private $image;
 
-    /**
-     * @var string
-     *
-     * @ORM\Column(name="Image2", type="text", nullable=true)
-     */
-    private $image2;
 
     /**
      * Get id
@@ -164,29 +158,6 @@ class actu
     public function setId($id)
     {
         $this->id = $id;
-    }
-
-    /**
-     * Set image2
-     *
-     * @param string $image2
-     * @return actu
-     */
-    public function setImage2($image2)
-    {
-        $this->image2 = $image2;
-
-        return $this;
-    }
-
-    /**
-     * Get image2
-     *
-     * @return string
-     */
-    public function getImage2()
-    {
-        return $this->image2;
     }
 
 }

@@ -69,6 +69,7 @@ class actuController extends Controller
             'actu' => $actu,
             'form' => $form->createView(),
         ));
+
     }
 
     /**

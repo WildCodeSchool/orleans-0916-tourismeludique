@@ -30,7 +30,7 @@
                     <div class="col-lg-12">
 
                             {# <h2 class="titreActu">Actualité n° {{ actu.id }}</h2> #}
-                            <p class="contenu">{{ actu.contenu }}</p>
+                            <p class="contenu">{{ actu.contenu | raw}}</p>
                             <img src="{{ asset('upload/' ~ actu.image) }}" class="img-responsive img-actu"><br/>
                             <p class="date">{{ actu.date | date("d-m-Y") }}</p><br/>
 
