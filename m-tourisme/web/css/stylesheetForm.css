@@ -91,9 +91,10 @@
     font-weight: bold;
     text-align: center;
     padding-top: 5%;
-    font-family: santorregular,'DIN';
+    font-family: 'santorregular','DIN';
     font-size: 220%;
     width:200%;
+    color: #EE6616;
 }
 
 .btn{

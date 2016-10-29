@@ -13,7 +13,7 @@ Header {
 }
 
 Header h1 {
-    font-family: 'santorregular', 'DIN-Bold', 'Courgette';
+        font-family: 'santorregular', 'DIN-Bold', 'Courgette';
     font-weight: bold;
     color: white;
 }
