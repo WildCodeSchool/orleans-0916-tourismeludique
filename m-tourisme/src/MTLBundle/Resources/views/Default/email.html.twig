@@ -3,7 +3,7 @@
     {{ form_start(form, {'method' : 'POST'})}}
 
         <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
-            <h2 class="accrocheForm">Un projet, une idée, contactez-nous :</h2></br>
+            <h2 class="accrocheForm">Un projet, une idée? Contactez-nous :</h2></br>
 
             <div class="form-group">
         {{ form_errors(form.nom) }}
@@ -37,9 +37,7 @@
 
             <p class="texte_require">* Champs obligatoires</p>
 
-            <div class="form-group">
-                <button type="submit" name="validation" class="btn btn-warning catForm">Envoyer</button>
-            </div>
+            <button type="submit" name="validation" class="btn btn-warning catForm form-submit">Envoyer</button>
 
         </div>
     {{ form_end(form) }}
