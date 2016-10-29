@@ -13,6 +13,7 @@ use Symfony\Component\HttpFoundation\Request;
 use Swift_Mailer;
 use Swift_Message;
 use AdminBundle\Form\ContactType;
+use Symfony\Component\HttpFoundation\Session\Session;
 
 class DefaultController extends Controller
 {
@@ -66,11 +67,10 @@ class DefaultController extends Controller
 //            $mailer->send($message);
                 $this->get('mailer')->send($message);
 
-                $this->get('session')->getFlashBag()->add('success', 'Votre message à bien été envoyé. Nous vous ferrons un retour dans les plus brefs délais');
+                $this->get('session')
+                    ->getFlashBag()
+                    ->add('success', 'Votre message à bien été envoyé. Nous vous ferrons un retour dans les plus brefs délais. Merci!');
             }
-
-
-
 
             return $this->redirectToRoute('accueil');
         }
