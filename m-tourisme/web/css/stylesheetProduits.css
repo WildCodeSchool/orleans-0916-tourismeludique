@@ -1,10 +1,5 @@
-.vid {
-    height: 50vh;
-    border-radius: 5%;
-    border: 2px solid #EE6616;
-}
-.embed-responsive {
-    height: 0%;
+video {
+    border-radius: 1%;
 }
 
 .txtGeo {
