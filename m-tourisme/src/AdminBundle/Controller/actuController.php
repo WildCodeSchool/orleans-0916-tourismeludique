@@ -49,18 +49,32 @@ class actuController extends Controller
 
         if ($form->isSubmitted() && $form->isValid()) {
 
-            $actu = $form->getData();
+           // $actu = $form->getData();
             $file = $actu->getImage();
-            $fileName = md5(uniqid()).'.'.$file->guessExtension();
-            $file->move(
-                $this->getParameter('upload_directory'),
-                $fileName
-            );
-            $actu->setImage($fileName);
+            if (!$file) {
+                $fileName = md5(uniqid()) . '.' . $file->guessExtension();
+                $file->move(
+                    $this->getParameter('upload_directory'),
+                    $fileName
+                );
+                $actu->setImage($fileName);
 
-            $em = $this->getDoctrine()->getManager();
-            $em->persist($actu);
-            $em->flush();
+                $em = $this->getDoctrine()->getManager();
+                $em->persist($actu);
+                $em->flush();
+
+                return $this->redirectToRoute('actu_show', array('id' => $actu->getId()));
+
+            } else {
+               // creation d'un message flash d'erreur (pb d'upload (verifiez la taille))
+                $this->addFlash(
+                    'notice',
+                    'problème upload'
+                );
+                // affichage du message d'erreur en retournant sur la page de création de news
+                return $this->redirectToRoute('actu_new', array('id' => $actu->getId()));
+
+            }
 
             return $this->redirectToRoute('actu_show', array('id' => $actu->getId()));
         }
