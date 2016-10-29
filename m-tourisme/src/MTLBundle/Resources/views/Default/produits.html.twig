@@ -7,12 +7,16 @@
 </div>
 
 <div class="container-fluid">
+    <!-- Section vidéo et description -->
     <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 videocontainer">
-                <video playsinline autoplay muted loop>
-                <source src="{{ asset('videos/orleanshg.mp4') }}" type="video/mp4">
-                </video>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="embed-responsive embed-responsive-4by3">
+                    <video class="embed-responsive-item" playsinline autoplay muted loop>
+                        <source src="{{ asset('videos/orleanshg.mp4') }}" type="video/mp4">
+                    </video>
+            </div>
         </div>
+
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <h2 class="titreProduit">Développez un nouveau thème de visite</h2><br/>
             <p class="txtGeo">
@@ -36,8 +40,8 @@
             </p>
         </div>
     </div>
-</div>
     <hr class="separe">
+</div>
 <!--
 <div class="row">
     <div class="col-lg-12 col-md-6 col-sm-6 col-xs-12 ">
@@ -45,6 +49,7 @@
     </div>
 </div>
 -->
+<!-- Section Download -->
 <div class="container-fluid">
     <div class="row">
         <div class="col-lg-12">
@@ -63,17 +68,21 @@
             </a>
         </div>
     </div>
-        <div class="row citation">
-            <div class="col-lg-12">
-                <p class="citationLeft">"GéoMOTifs, une chasse aux décors ludique touristique et culturelle 100% originale"</p>
-            </div>
+    <div class="row citation">
+        <div class="col-lg-12">
+            <p class="citationLeft">"GéoMOTifs, une chasse aux décors ludique touristique et culturelle 100% originale"</p>
         </div>
-        <div class="row citation">
-            <div class="col-lg-12">
-                <p class="citationRight">"Le Géocaching des mots et des formes"</p>
-            </div>
+    </div>
+    <div class="row citation">
+        <div class="col-lg-12">
+            <p class="citationRight">"Le Géocaching des mots et des formes"</p>
         </div>
+    </div>
     <hr class="separe">
+</div>
+
+<!-- Section FB et lien Géomotifs -->
+<div class="container-fluid">
     <div class="row">
         <div class="col-lg-12">
             <p class="txtFB">Retrouvez-nous sur notre site</p>
@@ -101,6 +110,8 @@
     </div>
     <hr class="separe">
 </div>
+
+<!-- Section remerciement -->
 <div class="container-fluid">
     <div class="row">
         <div class="col-lg-offset-2 col-md-offset-2 col-sm-offset-2 col-xs-offset-2 col-lg-3 col-md-3 col-sm-3 col-xs-3">
