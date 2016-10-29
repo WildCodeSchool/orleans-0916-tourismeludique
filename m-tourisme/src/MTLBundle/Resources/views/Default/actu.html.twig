@@ -1,7 +1,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-lg-12">
-            <h1 id="ancreActu" class="titreActu">Actualités</h1>
+            <h2 id="ancreActu" class="titreActu">Actualités</h2>
         </div>
     </div>
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -11,7 +11,6 @@
             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
             <li data-target="#carousel-example-generic" data-slide-to="2"></li>
             <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-
         </ol>
 
         <!-- Wrapper for slides -->
@@ -28,13 +27,13 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <h2 class="news">{{ actu.titre | truncate(40, true, '...')}}</h2>
+                                    <h3 class="news">{{ actu.titre | truncate(40, true, '...')}}</h3>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-xs-12 lens">
                                     <img src="{{ asset('upload/' ~ actu.image) }}" class="imgInLens img-circle center-block" alt="Image d'actu">
-                                    <img src="{{ asset('image/lens_reflect.png')}}" class="img-responsive lens-actu" alt="lentille">
+                                    <img src="{{ asset('image/lens_reflect.png')}}"  class="img-responsive lens-actu" alt="lentille">
                                 </div>
                             </div>
                             <div class="row">
