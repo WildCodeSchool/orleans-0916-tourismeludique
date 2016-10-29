@@ -31,11 +31,20 @@
     color: #EE6616;
     text-align: center;
     font-size: 120%;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left:10%;
+    background-color: rgba(255, 255, 255, 0.5);
+
+    background: -webkit-radial-gradient(circle, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0)); /* Safari */
+    background: -o-radial-gradient(circle, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); /* Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(circle, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0)); /* Firefox 3.6 to 15 */
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0)); /* Standard syntax */
 }
 
 .map {
     margin-top: 3%;
-    border: 1px solid #EE6616;
+    border: 2px solid #EE6616;
     box-shadow: 2px 2px 5px dimgrey;
 }
 
@@ -61,7 +70,15 @@
 .form-group {
     margin-right: 0%;
     width:210%;
-    padding-top: 5%;
+    margin-top: 8%;
+    box-shadow: 2px 2px 5px dimgrey;
+}
+
+.form-submit {
+    box-shadow: 2px 2px 5px dimgrey;
+    position: relative;
+    left:40%;
+    margin-top: 10%;
 }
 
 .titreForm {
@@ -74,7 +91,8 @@
     font-weight: bold;
     text-align: center;
     padding-top: 5%;
-    font-family: 'DIN';
+    font-family: santorregular,'DIN';
+    font-size: 220%;
     width:200%;
 }
 
@@ -86,6 +104,7 @@
 
 .input-lg {
     font-size: 150%;
+    padding-bottom: 2%;
 }
 
 .texte_require {
