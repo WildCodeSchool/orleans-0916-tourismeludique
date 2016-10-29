@@ -21,6 +21,11 @@
     {% block content %}
 
     {% endblock %}
+    {% for flash_message in app.session.flashBag.get('notice') %}
+        <div class="flash-notice">
+            {{ flash_message }}
+        </div>
+    {% endfor %}
 
     {% block footer %}
         {{ include('MTLBundle:Default:footer.html.twig') }}
