@@ -33,10 +33,12 @@
     {% endblock %}
     {% block philo %}
 
+        <!-- message flash de validation de l'envoi de mail contact -->
         {% if app.session.flashBag.has('success') %}
-            <div class="alert alert-success message_flash">
+            <div class="alert alert-success message_flash alert-dismissible" role="alert">
                 {% for msg in app.session.flashBag.get('success') %}
-                    {{ msg }}
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <span>{{ msg | raw }}</span>
                 {% endfor %}
             </div>
         {% endif %}
