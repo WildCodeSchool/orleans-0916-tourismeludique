@@ -1,0 +1,14 @@
+{% extends 'layoutError.html.twig' %}
+
+{% block content %}
+    <h1 class="TitreError">Page non trouvée</h1>
+
+    {% if is_granted('IS_AUTHENTICATED_FULLY') %}
+        {# ... #}
+    {% endif %}
+
+    <p class="pError">
+        La page demandé n'a pas été trouvé. Merci de vérifier l'URL
+        ou de <a class="aError" href="{{ path('accueil') }}">retourner à l'index</a>.
+    </p>
+{% endblock %}

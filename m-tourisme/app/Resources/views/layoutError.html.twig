@@ -1,0 +1,27 @@
+{% extends 'base.html.twig' %}
+
+{% block stylesheets %}
+    {# CSS Bootstrap#}
+    <link href="{{ asset('css/bootstrap.min.css')}}" rel="stylesheet">
+    {# CSS Perso#}
+    <link href="{{  asset('css/stylesheetHeader.css')}}" rel="stylesheet">
+    <link href="{{  asset('css/stylesheetError.css')}}" rel="stylesheet">
+    <link href="{{  asset('css/stylesheetFooter.css')}}" rel="stylesheet">
+    {# Fonts#}
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/fonts.css')}}">
+{% endblock %}
+
+{% block body %}
+    {% block header %}
+        {{ include('headerAdmin.html.twig') }}
+    {% endblock %}
+    {% block content %}
+
+    {% endblock %}
+
+    {% block footer %}
+        {{ include('footerAdmin.html.twig') }}
+    {% endblock %}
+
+{% endblock %}

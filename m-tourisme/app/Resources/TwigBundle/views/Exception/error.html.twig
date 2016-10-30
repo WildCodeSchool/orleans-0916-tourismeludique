@@ -1,0 +1,13 @@
+{% extends 'layoutError.html.twig' %}
+
+{% block content %}
+    <h1 class="TitreError">Oups, un erreur est survenue</h1>
+
+    {% if is_granted('IS_AUTHENTICATED_FULLY') %}
+        {# ... #}
+    {% endif %}
+
+    <p class="pError">
+        On dirait qu'il n'y a rien par ici. Merci de <a class="aError" href="{{ path('index') }}">retourner à l'index</a>.
+    </p>
+{% endblock %}
