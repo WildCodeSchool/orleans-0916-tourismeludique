@@ -8,11 +8,10 @@ and a backend for posting news
 
 Made by
 -------
-
+<a href="https://github.com/WildCodeSchool">For the Wild Code School</a> <br/>
 - <a href="https://github.com/louisemunier">Louise Munier</a>
 - <a href="https://github.com/Gy0m">Guillaume Landreau</a>
 - <a href="https://github.com/MathieuM1">Mathieu Mercier</a>
-- <a href="https://github.com/WildCodeSchool">For the Wild Code School</a>
 
 Made with
 ---------
