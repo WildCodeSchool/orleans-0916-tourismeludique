@@ -9,10 +9,10 @@ and a backend for posting news
 Made by
 -------
 
-<a href="https://github.com/louisemunier">Louise Munier</a>
-<a href="https://github.com/Gy0m">Guillaume Landreau</a>
-<a href="https://github.com/MathieuM1">Mathieu Mercier</a>
-<a href="https://github.com/WildCodeSchool">For the Wild Code School</a>
+- <a href="https://github.com/louisemunier">Louise Munier</a>
+- <a href="https://github.com/Gy0m">Guillaume Landreau</a>
+- <a href="https://github.com/MathieuM1">Mathieu Mercier</a>
+- <a href="https://github.com/WildCodeSchool">For the Wild Code School</a>
 
 Made with
 ---------
@@ -30,5 +30,5 @@ Made with
 Licence
 -------
 
-icon: <a href="https://icons8.com">Icons8.com</a>
-Pin set Vector: <a href="http://www.freepik.com/free-vector/geolocation-map-pin-set_714012.htm">Designed by Freepik</a>
+- Icon: <a href="https://icons8.com">Icons8.com</a>
+- Pin set Vector: <a href="http://www.freepik.com/free-vector/geolocation-map-pin-set_714012.htm">Designed by Freepik</a>
