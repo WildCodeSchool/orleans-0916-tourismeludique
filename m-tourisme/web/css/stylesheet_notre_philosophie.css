@@ -21,6 +21,10 @@
     color: #EE6616;
 }
 
+.noBold {
+    font-weight: normal;
+}
+
 .notre_philo {
     padding-bottom: 20px;
     padding-top: 20px;
