@@ -84,7 +84,7 @@
 .goToList {
     color: #EE6616;
     font-size: 150%;
-    margin-left: 80%;
+    text-align: right;
     text-decoration: underline;
 }
 
