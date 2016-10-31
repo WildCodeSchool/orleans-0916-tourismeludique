@@ -2,10 +2,6 @@
 {% block stylesheets %}
     <!-- Bootstrap -->
     <link href="{{ asset('css/bootstrap.min.css')}}" rel="stylesheet">
-    <!-- CSS Perso -->
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/styleEdit.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/headerAdminStyle.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{  asset('css/stylesheetFooter.css')}}">
     <!-- include libraries(jQuery, bootstrap) -->
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css" rel="stylesheet">
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
@@ -13,7 +9,10 @@
     <!-- include summernote css/js-->
     <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.2/summernote.css" rel="stylesheet">
     <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.2/summernote.js"></script>
-    <script src="lang/summernote-fr-FR.js"></script>
+    <!-- CSS Perso -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/styleEdit.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/headerAdminStyle.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{  asset('css/stylesheetFooter.css')}}">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/fonts.css')}}">
@@ -22,8 +21,8 @@
     {% block header %}
         {{  include('headerAdmin.html.twig') }}
     {% endblock %}
-            <div class="container form">
-                <div class="row">
+            <div class="container">
+                <div class="row edit">
                     <h1>Editer une Actualité</h1>
 
                         {{ form_start(edit_form) }}
@@ -32,7 +31,7 @@
                             {{ form_row(edit_form.date, {value : "now"|date("d/m/Y")}, { 'attr': {'class': ' btn
                             btn-warning '}}) }}<br/>
                     <div class="row">
-                        <div class="col-xs-8">
+                        <div class="col-xs-8 img">
                             {{ form_row(edit_form.image, { 'attr': {'class': ' btn btn-warning block-center image'}})
                             }}
                         </div>
@@ -44,17 +43,18 @@
                     </div>
                     <div class="row">
                         <div class="col-xs-4">
-                            <input type="submit"   class="btn btn-success btn-lg block-center" value="Edit" />
+                            <input type="submit"   class="btn btn-success btn-lg block-center" value="Editer" />
                         </div>
                         {{ form_end(edit_form) }}
                         <div class="col-xs-4">
-                            <a  class="btn btn-primary btn-lg" href="{{ path('actu_index') }}">Revenir à la liste</a>
-                        </div>
-                        <div class="col-xs-4">
                             {{ form_start(delete_form) }}
-                                <input type="submit" class="btn btn-danger btn-lg" value="Delete">
+                            <input type="submit" class="btn btn-danger btn-lg" value="Supprimer">
                             {{ form_end(delete_form) }}
                         </div>
+                        <div class="col-xs-4">
+                            <a  class="btn btn-primary btn-lg" href="{{ path('actu_index') }}">Revenir à la liste</a>
+                        </div>
+
                     </div>
                 </div>
                 <br/>

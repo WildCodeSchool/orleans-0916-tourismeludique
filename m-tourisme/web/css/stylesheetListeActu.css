@@ -29,10 +29,12 @@ body {
 .contenu {
     font-size: 180%;
     font-family: 'DIN-Light', 'Courgette';
+    text-align: left;
 }
 
 .date {
     font-size: 120%;
+    text-align: right;
 }
 
 .back {
