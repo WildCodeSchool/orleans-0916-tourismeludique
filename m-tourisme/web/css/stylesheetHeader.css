@@ -442,6 +442,7 @@ margin: auto;
 }
 
 .navbar {
+    border-radius: 0%;
     text-align: center;
     font-family: 'DIN';
     font-size: 200%;
