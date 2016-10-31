@@ -52,7 +52,7 @@ class actuController extends Controller
 
            // $actu = $form->getData();
             $file = $actu->getImage();
-            if (!$file) {
+            if ($file) {
                 $fileName = md5(uniqid()) . '.' . $file->guessExtension();
                 $file->move(
                     $this->getParameter('upload_directory'),
