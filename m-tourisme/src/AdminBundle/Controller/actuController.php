@@ -44,6 +44,7 @@ class actuController extends Controller
     public function newAction(Request $request)
     {
         $actu = new actu();
+        $actu->setDate(new \DateTime('now'));
         $form = $this->createForm('AdminBundle\Form\actuType', $actu);
         $form->handleRequest($request);
 
@@ -67,10 +68,8 @@ class actuController extends Controller
 
             } else {
                // creation d'un message flash d'erreur (pb d'upload (verifiez la taille))
-                $this->addFlash(
-                    'notice',
-                    'problème upload'
-                );
+                echo "attention danger";
+
                 // affichage du message d'erreur en retournant sur la page de création de news
                 return $this->redirectToRoute('actu_new', array('id' => $actu->getId()));
 

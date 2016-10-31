@@ -4,13 +4,9 @@ Header {
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
-    height: 40%;
+    height: 350px;
     text-align: center;
     color: white;
-}
-
-.header {
-    height: 50px;
 }
 
 .lien_header {
@@ -28,28 +24,28 @@ Header p {
 }
 
 .logo_header {
-    margin-top:7% ;
-    margin-bottom: 5%;
+    margin-top:4% ;
+    margin-bottom: 3%;
 }
 
 .logo_header img  {
-    width: 70%;
-    height: 70%;
+    width: 50%;
+    height: 50%;
     right: -30%;
     top: -30px;
     position: relative;
 }
 
 .logo_text {
-    padding-top: 10%;
-    padding-bottom: 7%;
+    padding-top: 4%;
+    padding-bottom: 2%;
     left: -10%;
 }
 
 .logo_text p {
     letter-spacing: 8px;
-    line-height: 0.5;
-    font-size: 250%;
+    line-height: 1.2;
+    font-size: 150%;
 }
 
 @media screen and (max-width:1580px ){
@@ -83,8 +79,8 @@ Header p {
 
     .logo_text p {
         letter-spacing: 8px;
-        line-height: 0.5;
-        font-size: 250%;
+        line-height: 1.2;
+        font-size: 150%;
     }
 }
 
@@ -119,8 +115,8 @@ Header p {
 
     .logo_text p {
         letter-spacing: 8px;
-        line-height: 0.5;
-        font-size: 250%;
+        line-height: 1.2;
+        font-size: 150%;
     }
 }
 
@@ -140,24 +136,25 @@ Header p {
     }
 
     .logo_header img  {
-        width: 100%;
-        height: 100%;
+        width: 70%;
+        height: 70%;
         right: -45%;
         top: ;
         position: relative;
     }
 
     .logo_text {
+        font-size: 70%;
         padding-top: 10%;
         padding-bottom: 7%;
-        left: -10%;
+        left: -5%;
     }
 
 
     .logo_text p {
         letter-spacing: 6px;
-        line-height: 1.5;
-        font-size: 175%;
+        line-height: 1.2;
+        font-size: 150%;
     }
 }
 
@@ -194,8 +191,8 @@ Header p {
 
     .logo_text p {
         letter-spacing: 6px;
-        line-height: 1.5;
-        font-size: 135%;
+        line-height: 1.2;
+        font-size: 110%;
     }
 }
 
@@ -210,16 +207,16 @@ Header p {
     }
 
     .logo_header {
-        margin-top:7% ;
+        margin-top:2% ;
         margin-bottom: 5%;
-        height: 200%;
+        height: 100%;
     }
 
     .logo_header img  {
-        width: 45%;
-        height: 45%;
+        width: 25%;
+        height: 25%;
         right: 25px ;
-        top: -5% ;
+        top: -85% ;
         position: relative;
     }
 
@@ -227,14 +224,16 @@ Header p {
         padding-top: 10%;
         padding-bottom: 7%;
         left: -10%;
-        top: -50px;
+        top: -140px;
+        font-size: 80%;
     }
 
 
     .logo_text p {
         letter-spacing: 6px;
         line-height: 1.5;
-        font-size: 1.8em;
+        font-size: 100%;
+
     }
 }
 
