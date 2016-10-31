@@ -2,7 +2,7 @@
 
     {{ form_start(form, {'method' : 'POST'})}}
 
-        <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
+        <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 total_form">
             <h3 class="accrocheForm">Un projet, une idée? Contactez-nous :</h3></br>
 
             <div class="form-group">
@@ -29,7 +29,7 @@
         {{ form_widget(form.email) }}
             </div>
 
-            <div class="form-group">
+            <div class="form-group input_message">
         {{ form_errors(form.message) }}
         {#{{ form_label(form.message) }}#}
         {{ form_widget(form.message) }}

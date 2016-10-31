@@ -4,6 +4,7 @@
             {#<h1>Contactez-nous</h1>#}
         {#</div>#}
 
+        <!-- partie gauche -->
         <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 leftSide">
             <div class="row">
 
@@ -20,7 +21,7 @@
                 </div>
 
                 <!-- Logo Lab'O  -->
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-xs-12">
                     <a href="http://www.le-lab-o.fr/" target="_blank"><img src="{{ asset ('image/labO_logo_vect.png')}}" class="img-responsive logolabo" alt="logo Le Lab'O"></a>
                 </div>
 
@@ -28,7 +29,8 @@
 
         </div>
 
-        <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
+        <!-- partie droite : formulaire -->
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
 
             {% block contact %}
                 {{ include('MTLBundle:Default:email.html.twig') }}
