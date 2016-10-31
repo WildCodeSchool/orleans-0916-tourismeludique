@@ -2,7 +2,7 @@
     background-image: url(../image/game-image-opaque.jpg);;
     background-attachment: fixed;
     background-size: cover;
-    height: 60vh;
+    height: 60%;
     width: 100%;
 }
 
@@ -10,8 +10,8 @@
     font-style: italic;
     font-family: 'DIN';
     text-align: center;
-    margin-top: 8%;
-    font-size: 300%;
+    margin-top: 4%;
+    font-size: 400%;
     color: #000;
 }
 
@@ -23,5 +23,5 @@
 .guillemetsdown1 {
     width: 50%;
     height: 70%;
-    margin-top: 20%;
+    margin-top: 30%;
 }
