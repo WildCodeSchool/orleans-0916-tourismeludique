@@ -11,26 +11,23 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css/fonts.css')}}">
 {% endblock %}
 
+
+<!-- Contenu de l'email -->
 {% block body %}
-    {% block header %}
-        <img src="{{ asset('image/Logo_mTourismeLudique_red(1).png') }}"/>
-    {% endblock %}
 
     {% block content %}
-        <h2>Bonjour Sylvain,</h2>
+        <h2 class="title_mail">Bonjour Sylvain,</h2>
 
-        <p>
-            Vous avez reçu un message de {{ prenom }} {{ nom }} {{ entreprise }}. <br>
-
+        <p>Vous avez reçu un message de
+                    {{ prenom }}
+                {% filter upper %}
+                    {{ nom }}
+                {% endfilter %}
+                <em>{{ entreprise }}</em>.<br>
             Voici le contenu de son message :<br>
             <blockquote>" {{ message }} "</blockquote>
-
             Son adresse mail est la suivante : {{ email }}
         </p>
-    {% endblock %}
-
-    {% block footer %}
-
     {% endblock %}
 
 {% endblock %}
