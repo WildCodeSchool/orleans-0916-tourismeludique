@@ -60,6 +60,8 @@ video {
     margin-top: 5%;
     margin-left: 5%;
     text-align: left;
+    color: rgb(241, 81, 27);
+    /*text-shadow: 1px 1px 1px rgba(78, 78, 78, 0.5);*/
 }
 
 .citationRight {
@@ -67,6 +69,8 @@ video {
     margin-bottom: 2%;
     margin-right: 5%;
     text-align: right;
+    color: rgb(241, 81, 27);
+    /*text-shadow: 1px 1px 3px rgba(78, 78, 78, 0.4);*/
 }
 
 .separe {

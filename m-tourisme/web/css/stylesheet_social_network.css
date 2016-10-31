@@ -110,8 +110,8 @@ ul#banner_social.bouton_home {
 
 .glyphicon-menu-up {
     font-size: 40px;
-    color: #4e4e4eff;
-    border: 2px solid #4e4e4eff;
+    color: rgb(78, 78, 78);
+    border: 2px solid rgb(78, 78, 78);
     border-radius: 5px 5px 5px 5px;
     padding: 2px;
 }
@@ -126,6 +126,6 @@ ul#logo_home {
 }
 
 .glyphicon-menu-up:hover {
-    color: #f1511bff;
-    border-color: #f1511bff;
+    color: rgb(241, 81, 27);
+    border-color: rgb(241, 81, 27);
 }

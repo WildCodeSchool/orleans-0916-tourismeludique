@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="500mm"
+   height="500mm"
+   viewBox="0 0 1771.6535 1771.6535"
+   id="svg4344"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="Logo_mTourismeLudique_picto_N.svg"
+   inkscape:export-filename="/home/wilder6/Logo_mTourismeLudique_picto_N4.png"
+   inkscape:export-xdpi="102"
+   inkscape:export-ydpi="102">
+  <defs
+     id="defs4346" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.38254353"
+     inkscape:cx="1110.4972"
+     inkscape:cy="1042.8163"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4349">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,719.29134)">
+    <g
+       id="g4904"
+       transform="matrix(14.825515,0,0,14.825515,-4487.563,-4768.2729)">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#000000;fill-opacity:1"
+         id="path7"
+         d="m 393.5403,324.44387 c -0.224,7.609 -3.19,14.884 -8.426,20.558 l -1.193,1.287 -22.082,22.091 -21.977,-21.977 -1.295,-1.41 c -5.449,-5.896 -8.449,-13.531 -8.449,-21.476 0,-8.477 3.301,-16.442 9.289,-22.431 5.99,-5.999 13.955,-9.291 22.432,-9.291 15.072,0 27.713,10.565 30.926,24.678 l 14.449,0 c -3.39,-22.011 -22.414,-38.869 -45.375,-38.869 -12.676,0 -24.162,5.137 -32.468,13.443 -8.307,8.308 -13.444,19.791 -13.444,32.47 0,12.015 4.655,22.922 12.213,31.105 l -0.064,0.057 1.286,1.286 c 0.01,0.01 0.019,0.019 0.028,0.029 l 32.449,32.449 32.432,-32.43 c 0.01,-0.01 0.029,-0.02 0.039,-0.03 0.008,-0.019 0.018,-0.026 0.027,-0.038 l 1.258,-1.267 -0.057,-0.057 c 7.363,-7.972 11.959,-18.532 12.191,-30.179 l -14.189,0 z" />
+      <circle
+         style="fill:#000000;fill-opacity:1"
+         id="circle9"
+         r="4.941"
+         cy="353.06686"
+         cx="361.8833" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#000000;fill-opacity:1"
+         id="path49"
+         d="m 377.4603,326.80487 0,-9.579 c 0,-5.766 -2.721,-8.567 -8.316,-8.567 -2.803,0 -5.111,1.121 -6.594,2.371 -1.705,-2.104 -4.283,-2.371 -6.166,-2.371 -2.551,0 -4.475,0.824 -6.031,1.837 l 0,-1.837 -3.709,0 0,23.787 3.709,0 0,-17.456 c 1.219,-1.211 3.152,-2.663 6.283,-2.663 1.268,0 2.203,0.293 2.781,0.872 0.959,0.964 0.953,2.69 0.949,4.078 l -0.002,15.169 3.627,0 0,-15.22 c 0,-1.248 0.18,-2.112 0.604,-2.888 0.291,-0.533 1.797,-2.055 4.799,-2.055 3.662,0 4.398,2.02 4.398,5.277 l 0,10.499 c 0,2.437 1.982,4.345 4.512,4.345 l 0.639,0 0.939,-2.986 -0.936,-0.201 c -1.34,-0.29 -1.486,-0.99 -1.486,-2.412 z" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#000000;fill-opacity:1"
+         id="path101"
+         d="m 393.1013,318.57787 c 0.18,1.229 0.283,2.481 0.318,3.752 l 14.191,0 c -0.023,-1.264 -0.086,-2.517 -0.209,-3.752 l -14.3,0 z" />
+    </g>
+  </g>
+</svg>
