@@ -68,6 +68,7 @@
     margin-top: 10%;
 }
 
+/* classe des champs */
 .form-group {
     margin-right: 0%;
     width:210%;
@@ -75,6 +76,7 @@
     box-shadow: 2px 2px 5px dimgrey;
 }
 
+/* class du bouton submit */
 .form-submit {
     box-shadow: 2px 2px 5px dimgrey;
     position: relative;
@@ -88,6 +90,7 @@
     font-family: 'DIN';
 }
 
+/* titre H3 du formulaire */
 .accrocheForm {
     font-weight: bold;
     text-align: center;
@@ -112,4 +115,143 @@
 .texte_require {
     color: grey;
     font-size: 130%;
+}
+
+@media screen and (max-width:1600px ) {
+    /* titre H3 du formulaire */
+    .accrocheForm {
+        font-weight: bold;
+        text-align: center;
+        padding-top: 5%;
+        font-family: 'santorregular','DIN';
+        font-size: 200%;
+        width:200%;
+        color: #EE6616;
+    }
+}
+
+@media screen and (max-width:1500px ) {
+    /* titre H3 du formulaire */
+    .accrocheForm {
+        font-weight: bold;
+        text-align: center;
+        padding-top: 5%;
+        font-family: 'santorregular','DIN';
+        font-size: 180%;
+        width:200%;
+        color: #EE6616;
+    }
+}
+
+@media screen and (max-width:1300px ) {
+    .total_form {
+        margin-left:5%;
+    }
+
+    /* classe des champs */
+    .form-group {
+        width:200%;
+        box-shadow: 2px 2px 5px dimgrey;
+    }
+
+    /* class du bouton submit */
+    .form-submit {
+        box-shadow: 2px 2px 5px dimgrey;
+        position: relative;
+        left:40%;
+        margin-top: 10%;
+    }
+    /* titre H3 du formulaire */
+    .accrocheForm {
+        font-weight: bold;
+        text-align: center;
+        padding-top: 5%;
+        font-family: 'santorregular','DIN';
+        font-size: 160%;
+        width:200%;
+        color: #EE6616;
+    }
+
+    .btn{
+        margin-left: 40%;
+        background-color: #EE6616;
+        font-size: 110%;
+    }
+
+    .input-lg {
+        font-size: 110%;
+        padding-bottom: 2%;
+    }
+}
+
+@media screen and (max-width:1200px ) {
+
+    .total_form {
+        margin:0;
+    }
+
+    /* classe des champs */
+    .form-group {
+        width:95%;;
+        box-shadow: 2px 2px 5px dimgrey;
+        margin: 5%;
+        border-radius: 7%;
+    }
+
+    .input_message {
+
+    }
+
+    /* class du bouton submit */
+    .form-submit {
+        box-shadow: 2px 2px 5px dimgrey;
+        left:45%;
+        margin-top: 0 ;
+    }
+
+
+    /* titre H3 du formulaire */
+    .accrocheForm {
+        width: 100%;
+        font-family: 'santorregular','DIN';
+        font-size: 220%;
+    }
+
+    .btn{
+        margin-left: 0%;
+        background-color: #EE6616;
+        font-size: 150%;
+    }
+
+    .input-lg {
+        font-size: 130%;
+        padding-bottom: 2%;
+        margin-top: -2%;
+        margin-bottom: -2%;
+        /*padding-top: 2%;*/
+        /*padding-bottom: 2%;*/
+        height: 50%;
+    }
+
+    .logolabo {
+        width: 20%;
+        height: 20%;
+        margin-top: -10%;
+        margin-bottom: -10%;
+    }
+
+    .texte_require {
+        padding-top: 0%;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width:700px ) {
+    .logolabo {
+        width: 20%;
+        height: 20%;
+        margin-top: -2%;
+        margin-bottom: 2%;
+        margin-left: 40%;
+    }
 }
