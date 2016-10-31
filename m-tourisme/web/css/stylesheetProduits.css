@@ -42,8 +42,9 @@ video {
 }
 
 .titreProduit {
-    font-size: 200%;
+    font-size: 210%;
     text-align: center;
+    font-family: 'DIN-Bold', 'Courgette', Arial;
 }
 
 .motAccroche {
@@ -62,8 +63,8 @@ video {
 }
 
 .citationRight {
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 1%;
+    margin-bottom: 2%;
     margin-right: 5%;
     text-align: right;
 }
@@ -77,8 +78,9 @@ video {
 
 .titreDownload {
     margin-bottom: 3%;
-    font-size: 200%;
+    font-size: 210%;
     text-align: center;
+    font-family: 'DIN-Bold', 'Courgette', Arial;
 }
 
 .txtFB {
@@ -90,7 +92,7 @@ video {
 }
 
 .fb-page {
-    margin-left: 32%;
+    margin-left: 37%;
 }
 
 .remerciement {

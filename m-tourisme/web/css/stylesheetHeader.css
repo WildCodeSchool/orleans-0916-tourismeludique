@@ -246,20 +246,19 @@ Header p {
     /***** fin balise textes logo MTL *****/
 }
 
-@media (max-width: @screen-sm-max) {
 
-}
-
-@media (max-width: @screen-xs-max) {
+@media screen and (max-width: 800px ) {
     /***** balise du logo MTL *****/
     .logo_header {
         margin-top:6% ;
     }
 
     .logo_header img  {
-        width: 50%;
-        height: 50%;
-        position: relative;
+        width: 55%;
+        height: 55%;
+        right: -5em;
+        top: 2em;
+        position:relative;
     }
     /***** fin balise logo MT *****/
 
@@ -270,9 +269,82 @@ Header p {
     }
 
     .logo_text p {
-        letter-spacing: 5px;
-        line-height: 0.8;
-        font-size: 100%;
+        letter-spacing: 2px;
+        line-height: 1.2;
+        font-size: 110%;
+    }
+
+    /* Titre H1 "Tourisme Ludique" */
+    .marque {
+        font-size: 300%;
+        font-family: 'santorregular', 'DIN-Bold', 'Courgette';
+        font-weight: bold;
+        color: white;
+    }
+    /***** fin balise textes logo MTL *****/
+}
+
+@media screen and (max-width: 750px ) {
+    /***** balise du logo MTL *****/
+    .logo_header {
+        margin-top:6% ;
+    }
+
+    .logo_header img  {
+        width: 40%;
+        height: 40%;
+        margin: 0;
+        left: 30%;
+    }
+    /***** fin balise logo MT *****/
+
+    /***** balise textes logo MTL *****/
+    .logo_text {
+        padding-top: 10%;
+        padding-bottom: 7%;
+    }
+
+    .logo_text p {
+        letter-spacing: 2px;
+        line-height: 1.5em;
+        font-size: 150%;
+    }
+
+    /* Titre H1 "Tourisme Ludique" */
+    .marque {
+        font-size: 450%;
+        font-family: 'santorregular', 'DIN-Bold', 'Courgette';
+        font-weight: bold;
+        color: white;
+    }
+    /***** fin balise textes logo MTL *****/
+}
+
+@media screen and (max-width: 680px ) {
+    /***** balise du logo MTL *****/
+    .logo_header {
+        margin-top:6% ;
+    }
+
+    .logo_header img  {
+        width: 40%;
+        height: 40%;
+        margin: 0;
+        left: 30%;
+        margin-bottom: -5%;
+    }
+    /***** fin balise logo MT *****/
+
+    /***** balise textes logo MTL *****/
+    .logo_text {
+        padding-top: 10%;
+        padding-bottom: 7%;
+    }
+
+    .logo_text p {
+        letter-spacing: 2px;
+        line-height: 1.5em;
+        font-size: 150%;
     }
 
     /* Titre H1 "Tourisme Ludique" */
@@ -285,14 +357,84 @@ Header p {
     /***** fin balise textes logo MTL *****/
 }
 
+@media screen and (max-width: 500px ) {
+    /***** balise du logo MTL *****/
+    .logo_header {
+        margin-top:6% ;
+    }
+
+    .logo_header img  {
+        width: 40%;
+        height: 40%;
+        margin: 0;
+        left: 30%;
+        margin-bottom: -5%;
+    }
+    /***** fin balise logo MT *****/
+
+    /***** balise textes logo MTL *****/
+    .logo_text {
+        padding-top: 10%;
+        padding-bottom: 7%;
+    }
+
+    .logo_text p {
+        letter-spacing: 2px;
+        line-height: 1.2em;
+        font-size: 120%;
+    }
+
+    /* Titre H1 "Tourisme Ludique" */
+    .marque {
+        font-size: 300%;
+        font-family: 'santorregular', 'DIN-Bold', 'Courgette';
+        font-weight: bold;
+        color: white;
+    }
+    /***** fin balise textes logo MTL *****/
+}
+
+@media screen and (max-width: 410px ) {
+    /***** balise du logo MTL *****/
+    .logo_header {
+        margin-top:6% ;
+    }
+
+    .logo_header img  {
+        width: 40%;
+        height: 40%;
+        margin: 0;
+        left: 30%;
+        margin-bottom: -5%;
+    }
+    /***** fin balise logo MT *****/
+
+    /***** balise textes logo MTL *****/
+    .logo_text {
+        padding-top: 10%;
+        padding-bottom: 7%;
+    }
+
+    .logo_text p {
+        letter-spacing: 2px;
+        line-height: 1.2em;
+        font-size: 100%;
+    }
+
+    /* Titre H1 "Tourisme Ludique" */
+    .marque {
+        font-size: 250%;
+        font-family: 'santorregular', 'DIN-Bold', 'Courgette';
+        font-weight: bold;
+        color: white;
+    }
+    /***** fin balise textes logo MTL *****/
+}
+
 .logoHeader {
 width: 12%;
 height: 12%;
 margin: auto;
-}
-
-.marque {
-    font-size: ;
 }
 
 .slogan {
@@ -312,10 +454,6 @@ margin: auto;
     opacity: 0.7;
     width: 100%;
     color: white;
-}
-
-.titreMenu {
-
 }
 
 .navbar .navbar-nav {
