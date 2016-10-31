@@ -52,7 +52,8 @@ class actuController extends Controller
 
            // $actu = $form->getData();
             $file = $actu->getImage();
-            if (!$file) {
+            var_dump($file);
+            if ($file) {
                 $fileName = md5(uniqid()) . '.' . $file->guessExtension();
                 $file->move(
                     $this->getParameter('upload_directory'),
@@ -68,7 +69,7 @@ class actuController extends Controller
 
             } else {
                // creation d'un message flash d'erreur (pb d'upload (verifiez la taille))
-                echo "attention danger";
+                echo "attention danger";exit();
 
                 // affichage du message d'erreur en retournant sur la page de création de news
                 return $this->redirectToRoute('actu_new', array('id' => $actu->getId()));
