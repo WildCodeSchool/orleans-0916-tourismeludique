@@ -55,3 +55,8 @@ img {
     width: 35%;
     height: 32%;
 }
+
+p {
+    font-family: 'DIN-Light', 'Courgette';
+    font-size: 180%;
+}

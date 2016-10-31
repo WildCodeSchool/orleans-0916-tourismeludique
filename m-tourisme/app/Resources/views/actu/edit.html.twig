@@ -31,18 +31,22 @@
                             {{ form_row(edit_form.contenu, { 'attr': {'class': 'summernote'}}) }}<br/>
                             {{ form_row(edit_form.date, {value : "now"|date("d/m/Y")}, { 'attr': {'class': ' btn
                             btn-warning '}}) }}<br/>
-                            {{ form_row(edit_form.image, { 'attr': {'class': ' btn btn-warning image'}})
-                            }}<br/>
+                    <div class="row">
+                        <div class="col-xs-8">
+                            {{ form_row(edit_form.image, { 'attr': {'class': ' btn btn-warning block-center image'}})
+                            }}
+                        </div>
+                        <br/>
+                        <div class="col-xs-4">
+                            <div class="alert alert-warning" role="alert">Attention choisir des photos de format carré</div>
+                        </div>
+                    </div>
                     <div class="row">
                         <div class="col-xs-4">
                             <input type="submit"   class="btn btn-success btn-lg
                             block-center" value="Edit" />
                         </div>
-                    </div>
                         {{ form_end(edit_form) }}
-                    </div>
-                <div class="container-fluid">
-                    <div class="row">
                         <div class="col-xs-4">
                             <a  class="btn btn-primary btn-lg" href="{{ path('actu_index') }}">Revenir à la liste</a>
                         </div>
@@ -51,8 +55,6 @@
                                 <input type="submit" class="btn btn-danger btn-lg" value="Delete">
                             {{ form_end(delete_form) }}
                         </div>
-
-
                     </div>
                 </div>
                 <br/>
