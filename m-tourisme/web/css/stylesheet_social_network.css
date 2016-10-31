@@ -6,6 +6,7 @@
     z-index:1000;
 }
 
+/* design des logos réseaux sociaux */
 ul#banner_social img {
     width : 50px;
     height: 50px;
@@ -20,14 +21,16 @@ ul#banner_social img {
 }
 
 .img_hover {
-    background-color: #4e4e4eff;
+    /*background-color: #4e4e4eff;*/
+    background-color: rgb(78, 78, 78);
     margin: 3px 3px 3px 3px;
     border-radius: 5px 5px 5px 5px;
 }
 
 /* Option d'affichage des logos orange au survol du logo */
 .img_hover:hover {
-    background-color: #f1511bff;
+    /*background-color: #f1511bff;*/
+    background-color: rgb(241, 81, 27);
     margin: 3px 3px 3px 3px;
     border-radius: 5px 5px 5px 5px;
 }
