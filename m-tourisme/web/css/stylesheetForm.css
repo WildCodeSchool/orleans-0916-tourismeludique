@@ -185,22 +185,34 @@
 }
 
 @media screen and (max-width:1200px ) {
+
+    .total_form {
+        margin:0;
+    }
+
     /* classe des champs */
     .form-group {
-        width:90%;
+        width:95%;;
         box-shadow: 2px 2px 5px dimgrey;
+        margin: 5%;
+        border-radius: 7%;
+    }
+
+    .input_message {
+
     }
 
     /* class du bouton submit */
     .form-submit {
         box-shadow: 2px 2px 5px dimgrey;
-        left:40%;
-        margin-top: ;
+        left:45%;
+        margin-top: 0 ;
     }
+
+
     /* titre H3 du formulaire */
     .accrocheForm {
         width: 100%;
-        padding-top: %;
         font-family: 'santorregular','DIN';
         font-size: 220%;
     }
@@ -208,7 +220,7 @@
     .btn{
         margin-left: 0%;
         background-color: #EE6616;
-        font-size: 110%;
+        font-size: 150%;
     }
 
     .input-lg {
@@ -219,7 +231,6 @@
         /*padding-top: 2%;*/
         /*padding-bottom: 2%;*/
         height: 50%;
-
     }
 
     .logolabo {
@@ -230,6 +241,17 @@
     }
 
     .texte_require {
-        top: 5%;
+        padding-top: 0%;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width:700px ) {
+    .logolabo {
+        width: 20%;
+        height: 20%;
+        margin-top: -2%;
+        margin-bottom: 2%;
+        margin-left: 40%;
     }
 }
