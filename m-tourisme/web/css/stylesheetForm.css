@@ -246,6 +246,36 @@
     }
 }
 
+@media screen and (max-width:1000px ) {
+    .logolabo {
+        width: 20%;
+        height: 20%;
+        margin-top: -2%;
+        margin-bottom: 2%;
+        margin-left: 40%;
+    }
+
+    .input-lg {
+        font-size: 150%;
+        padding-bottom: 2%;
+        height: 30%;
+    }
+
+@media screen and (max-width:800px ) {
+    .logolabo {
+        width: 20%;
+        height: 20%;
+        margin-top: -2%;
+        margin-bottom: 2%;
+        margin-left: 40%;
+    }
+
+    .input-lg {
+        font-size: 150%;
+        padding-bottom: 2%;
+        height: 20%;
+    }
+
 @media screen and (max-width:700px ) {
     .logolabo {
         width: 20%;
@@ -253,5 +283,11 @@
         margin-top: -2%;
         margin-bottom: 2%;
         margin-left: 40%;
+    }
+
+    .input-lg {
+        font-size: 150%;
+        padding-bottom: 2%;
+        height: 20%;
     }
 }
