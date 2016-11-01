@@ -54,7 +54,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-xs-12">
-                                    <p class="txtActu center-block">{{ actu.contenu|truncate(100, true,'...') | raw}}</p>
+                                    <p class="txtActu center-block">{{ actu.contenu|truncate(90, true,'...') | raw}}</p>
                                 </div>
                             </div>
                             <div class="row">
@@ -64,7 +64,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-xs-12">
-                                    <p class="date center-block">{{ actu.date | date("d-m-Y") }}</p><br/>
+                                    <p class="date center-block">Le {{ actu.date | date("d-m-Y") }}</p><br/>
                                 </div>
                             </div>
                         </div>
