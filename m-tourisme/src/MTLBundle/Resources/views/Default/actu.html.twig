@@ -31,9 +31,11 @@
                                     <h3 class="news">{{ actu.titre | truncate(25, true, '...')}}</h3>
                                 </div>
                             </div>
+                            <br/><br/>
                             <div class="row">
                                 <div class="col-xs-12 lens">
-                                    <img src="{{ asset('upload/' ~ actu.image) }}" class="imgInLens img-circle center-block" alt="Image d'actu">
+                                    <div style="background-image: url({{ asset('upload/' ~ actu.image) }})"
+                                    class="imgInLens center-block circle-avatar" alt="Image d'actu"></div>
                                     <a href="{{ path('afficher_actu', {'id': actu.id}) }}"><img src="{{ asset
                                     ('image/lens_reflect.png')}}"  class="img-responsive lens-actu" alt="lentille"></a>
                                 </div>

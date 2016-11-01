@@ -25,21 +25,22 @@
     <div class="container new">
 
 
-                <h1>Création d'une actualité</h1>
+            <h1>Création d'une actualité</h1>
 
                 {{ form_start(form) }}
 
                     {{ form_row(form.titre, { 'attr': {'class': 'form-control input-lg'}}) }}<br/>
-                    {{ form_row(form.contenu, { 'attr': {'class': 'summernote'}}) }}<br/>
+                    {{ form_label(form.contenu) }}<br/>
+            <div class="contenu">{{ form_widget(form.contenu, { 'attr': {'class': 'summernote'}}) }}</div><br/>
                     {{ form_row(form.date) }}<br/>
             <div class="row">
                 <div class="col-xs-8 img">
-                    {{ form_row(form.image, { 'attr': {'class': ' btn btn-warning'}}) }}<br/>
+                    {{ form_label(form.image, 'Image Lentille') }}
+                    {{ form_widget(form.image, { 'attr': {'class': ' btn btn-warning'}}) }}<br/>
 
                 </div>
                 <div class="col-xs-4">
-                    <div class="alert alert-warning" role="alert">Attention choisir des photos de format
-                        carré et de taille inférieure à 2Mo</div>
+                    <div class="alert alert-warning" role="alert">Attention choisir des photos de taille inférieure à 2Mo</div>
                 </div>
             </div>
 
