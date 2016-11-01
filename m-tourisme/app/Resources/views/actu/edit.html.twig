@@ -27,18 +27,19 @@
 
                         {{ form_start(edit_form) }}
                             {{ form_row(edit_form.titre, { 'attr': {'class': 'form-control input-lg'}}) }}<br/>
-                            {{ form_row(edit_form.contenu, { 'attr': {'class': 'summernote'}}) }}<br/>
+                            {{ form_label(edit_form.contenu) }}
+                    <div class="contenu">{{ form_widget(edit_form.contenu, { 'attr': {'class': 'summernote'}}) }}</div><br/>
                             {{ form_row(edit_form.date, {value : "now"|date("d/m/Y")}, { 'attr': {'class': ' btn
                             btn-warning '}}) }}<br/>
                     <div class="row">
                         <div class="col-xs-8 img">
-                            {{ form_row(edit_form.image, { 'attr': {'class': ' btn btn-warning block-center image'}})
-                            }}
+                            {{ form_label(edit_form.image, 'Image Lentille') }}
+                            {{ form_widget(edit_form.image, { 'attr': {'class': ' btn btn-warning block-center
+                            image'}}) }}
                         </div>
                         <br/>
                         <div class="col-xs-4">
-                            <div class="alert alert-warning" role="alert">Attention choisir des photos de format
-                                carré et de taille inférieure à 2Mo</div>
+                            <div class="alert alert-warning" role="alert">Attention choisir des photos de taille inférieure à 2Mo</div>
                         </div>
                     </div>
                     <div class="row">

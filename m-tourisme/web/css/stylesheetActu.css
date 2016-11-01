@@ -22,17 +22,17 @@
 
 .lens-actu {
     position: absolute;
-    top: 15%;
-    margin-left: 25%;
-    width: 40%;
+    top: -6%;
+    margin-left: 27%;
+    width: 38%;
     z-index: 1;
 }
 
 .imgInLens {
     position: relative;
     max-width: 35%;
-    margin-top: 10%;
-    margin-left: 30%;
+    margin-top: 25%;
+    margin-left: 25%;
 
 }
 
@@ -119,4 +119,32 @@ p {
 h1 {
     text-align: center;
     font-size: 150%;
+}
+
+div.circle-avatar{
+    /* make it responsive */
+    max-width: 100%;
+    width:35%;
+    height:auto;
+    display:block;
+    /* div height to be the same as width*/
+    padding-top: 35%;
+
+    /* make it a cirkle */
+    border-radius:50%;
+
+    /* Centering on image`s center*/
+    background-position-y: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+
+    /* it makes the clue thing, takes smaller dimention to fill div */
+    background-size: cover;
+
+    /* it is optional, for making this div centered in parent*/
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
