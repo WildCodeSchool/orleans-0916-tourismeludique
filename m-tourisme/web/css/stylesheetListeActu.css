@@ -27,9 +27,23 @@ body {
 }
 
 .contenu {
-    font-size: 180%;
-    font-family: 'DIN-Light', 'Courgette';
     text-align: left;
+    font-size: 180%;
+}
+
+a.link {
+    text-decoration: none;
+    color: #000;
+}
+
+a.link:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+a.link:visited {
+    text-decoration: none;
+    color: #000;
 }
 
 .date {
@@ -58,10 +72,7 @@ img {
     height: 32%;
 }
 
-p {
-    font-family: 'DIN-Light', 'Courgette';
-    font-size: 180%;
-}
+
 
 h1 {
     font-family: 'DIN-Light', 'Courgette';
