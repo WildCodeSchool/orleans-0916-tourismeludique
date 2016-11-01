@@ -1,4 +1,4 @@
-{% extends 'layout.html.twig' %}
+{% extends 'layoutActu.html.twig' %}
 
     {% block stylesheets %}
         <!-- Bootstrap -->
@@ -11,7 +11,6 @@
         <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="{{ asset('css/fonts.css')}}">
     {% endblock %}
-
 
     {% block listeActu %}
         <div class="sectionListeActu">
@@ -26,8 +25,7 @@
                         {% for actu in actus %}
                             <h2 class="titreActu">{{ actu.titre |truncate(40, true,'...')}}</h2><br/>
                         <a class="link" href="{{ path('afficher_actu', {'id': actu.id}) }}"><p class="contenu">{{ actu
-                                .contenu
-                                |truncate(100, true,'...') | raw }}</p></a><br/>
+                                .contenu|truncate(100, true,'...') | raw }}</p></a><br/>
                             <a href="{{ path('afficher_actu', {'id': actu.id}) }}"><img src="{{ asset('upload/' ~ actu.image) }}"
                                                                                         class="img-responsive img-actu"></a><br/>
                             <a href="{{ path('afficher_actu', {'id': actu.id}) }}">En lire plus...</a><br/>
@@ -46,5 +44,8 @@
             </div>
         </div>
     {% endblock %}
+
+
+
 
 
