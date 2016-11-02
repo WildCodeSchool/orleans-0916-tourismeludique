@@ -1,0 +1,54 @@
+.block_login {
+    /*background-image: url("../image/shattered2.png");*/
+}
+
+.login_page {
+    align-content: center;
+}
+
+.title_login {
+    text-align: center;
+    align-content: center;
+    color: rgb(241, 81, 27);
+    font-family: 'santorregular', 'DIN', Arial;
+}
+
+.titleMTL {
+    font-weight: bold;
+}
+
+.form_login {
+    margin-top: 5%;
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    padding: 20px 20px 20px 20px;
+}
+
+.login_champs {
+    margin-bottom: 10px;
+    padding-left: 25%;
+    color: dimgrey;
+}
+
+.login_submit {
+    padding-left: 45%;
+    padding-right: 45%;
+    color: grey;
+}
+
+.link_login {
+    color: rgba(255, 255, 255, 1);
+}
+
+.input_submit {
+    color: rgb(241, 81, 27);
+    font-weight: bold;
+    font-family: DIN-Regular, Arial;
+}
+
+/* bouton login en haut à gauche */
+.btn_login {
+    background-color: rgba(241, 81, 27, 0.7);
+    margin-left: 2%;
+    margin-top: 2%;
+}

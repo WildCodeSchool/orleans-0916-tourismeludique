@@ -34,7 +34,10 @@ class DefaultController extends Controller
         if ($form->isSubmitted() && $form->isValid()) {
 
             // create mail transport config
-//            $transport = \Swift_MailTransport::newInstance();
+//            $transport = \Swift_MailTransport::newInstance('smtp.example.org', 25)
+//                ->setUsername('username')
+//                ->setPassword('password');
+
             if ($request->isMethod('POST')) {
                 $request = Request::createFromGlobals();
 
@@ -47,7 +50,7 @@ class DefaultController extends Controller
                 // create the message
                 $message = \Swift_Message::newInstance()
                     ->setSubject('Mail envoyé depuis votre site m-Tourisme Ludique')
-                    ->setFrom(array('munier.louise@gmail.com' => 'Un visiteur'))
+                    ->setFrom(array($email => 'Un visiteur'))
                     ->setTo(array('munier.louise@gmail.com' => 'm-Tourisme Ludique'))
                     ->setCharset('UTF-8')
                     ->setContentType('text/html')
@@ -101,9 +104,6 @@ class DefaultController extends Controller
      */
     public function showActuAction(actu $actu)
     {
-//        $oneactu = $this->getDoctrine()
-//            ->getRepository('AdminBundle:actu')
-//            ->findOneById($id);
         return $this->render('MTLBundle:Default:oneActu.html.twig', array(
             'actu' => $actu,
         ));
