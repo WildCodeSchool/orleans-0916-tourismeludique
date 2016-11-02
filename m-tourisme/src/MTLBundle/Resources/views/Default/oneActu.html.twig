@@ -3,13 +3,20 @@
     {% block stylesheets %}
         <!-- Bootstrap -->
         <link href="{{ asset('css/bootstrap.min.css')}}" rel="stylesheet">
+
         <!-- CSS Perso -->
         <link rel="stylesheet" type="text/css" href="{{  asset('css/stylesheetOneActu.css')}}">
         <link rel="stylesheet" type="text/css" href="{{ asset('css/stylesheetHeader.css')}}">
         <link rel="stylesheet" type="text/css" href="{{  asset('css/stylesheetFooter.css')}}">
+
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="{{ asset('css/fonts.css')}}">
+        
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="{{ asset('js/bootstrap.min.js')}}"></script>
     {% endblock %}
 
     {% block listeActu %}
