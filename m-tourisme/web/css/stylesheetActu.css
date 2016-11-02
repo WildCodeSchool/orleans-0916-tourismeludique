@@ -24,7 +24,7 @@
 .lens-actu {
     position: absolute;
     top: -6%;
-    margin-left: 27%;
+    margin-left: 28%;
     width: 38%;
     z-index: 1;
 }
@@ -126,11 +126,11 @@ h1 {
 div.circle-avatar{
     /* make it responsive */
     max-width: 100%;
-    width:35%;
+    width:36%;
     height:auto;
     display:block;
     /* div height to be the same as width*/
-    padding-top: 35%;
+    padding-top: 36%;
 
     /* make it a cirkle */
     border-radius:50%;
