@@ -9,7 +9,6 @@ embed-responsive {
 
 .txtGeo {
     text-align: left;
-    padding-left: 3%;
     padding-right: 5%;
     font-size: 150%;
 }
@@ -50,7 +49,7 @@ embed-responsive {
 
 .citation {
     font-style: italic;
-    font-size: 120%;
+    font-size: 150%;
 }
 
 .citationLeft {
@@ -85,12 +84,13 @@ embed-responsive {
 }
 
 .txtFB {
-    margin-bottom: 3%;
+    margin-bottom: 1%;
     font-size: 200%;
     text-align: center;
     text-decoration: none;
     color: black;
 }
+
 
 .facebook {
     color: blue;
@@ -100,4 +100,9 @@ embed-responsive {
 .remerciement {
     color: #EE6616;
     padding-top: 5%;
+    padding-right: 45%;
+}
+
+.espace {
+    width: 500px;
 }
