@@ -39,7 +39,7 @@
 .titreActu {
     text-align: center;
     font-size: 300%;
-    margin-bottom: 3%;
+    margin-bottom: 0%;
     margin-top: 3%;
     color: #EE6616;
     font-family: 'santorregular', 'DIN-Bold', 'Courgette';
@@ -53,6 +53,7 @@
 }
 
 .txtActu {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin-top: 20%;
     text-align: center;
     font-size: 150%;
@@ -83,13 +84,18 @@
 }
 
 .goToList {
-    color: #EE6616;
+    color: rgb(78, 78, 78);
     font-size: 150%;
     text-align: right;
+    text-decoration: underline;
 }
 
 .goToList:hover {
     color: #EE6616;
+}
+
+.goToList_div {
+    margin-top: -2%;
 }
 
 .carousel-control.left {
@@ -108,6 +114,7 @@
 p {
     text-align: center;
     font-size: 150%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h1 {

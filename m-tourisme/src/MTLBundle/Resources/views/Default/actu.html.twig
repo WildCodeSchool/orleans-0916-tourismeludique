@@ -4,7 +4,19 @@
             <h2 id="ancreActu" class="titreActu">Actualités</h2>
             <a class="goToList" href="listeactu">Voir toutes nos actualités</a>
         </div>
+
+        <div class="col-lg-2 col-lg-offset-10 goToList_div">
+        <a class="goToList" href="listeactu">Voir toutes nos actualités</a>
+        </div>
     </div>
+
+    {#<!-- lien vers la iste des actus -->#}
+    {#<div class="row">#}
+        {#<div class="col-lg-2 col-lg-offset-10">#}
+            {#<a class="goToList" href="listeactu">Voir toutes nos actualités</a>#}
+        {#</div>#}
+    {#</div>#}
+
 
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
@@ -43,7 +55,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-xs-12">
-                                    <p class="txtActu center-block">{{ actu.contenu|truncate(100, true,'...') | raw}}</p>
+                                    <p class="txtActu center-block">{{ actu.contenu|truncate(90, true,'...') | raw}}</p>
                                 </div>
                             </div>
                             <div class="row">
@@ -53,7 +65,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-xs-12">
-                                    <p class="date center-block">{{ actu.date | date("d-m-Y") }}</p><br/>
+                                    <p class="date center-block">Le {{ actu.date | date("d-m-Y") }}</p><br/>
                                 </div>
                             </div>
                         </div>
