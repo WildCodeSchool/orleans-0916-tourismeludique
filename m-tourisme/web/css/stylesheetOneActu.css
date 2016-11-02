@@ -63,6 +63,15 @@ a.link:visited {
     margin-left: 32%;
 }
 
+.img-actu:hover {
+    transform: scale(3);
+    z-index: 999;
+    border: solid 1px #EE6616;
+    border-radius: 3px;
+    box-shadow: 5px 5px 10px black;
+    transition-duration: 1s;
+}
+
 hr {
     color: #EE6616;
     border: 0;
@@ -81,3 +90,4 @@ h1 {
     font-family: 'DIN-Light', 'Courgette';
     font-size: 180%;
 }
+

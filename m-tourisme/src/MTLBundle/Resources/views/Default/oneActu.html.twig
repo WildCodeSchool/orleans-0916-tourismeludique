@@ -32,7 +32,8 @@
 
                             {# <h2 class="titreActu">Actualité n° {{ actu.id }}</h2> #}
                             <p class="contenu">{{ actu.contenu | raw}}</p><br/>
-                            <img src="{{ asset('upload/' ~ actu.image) }}" class="img-responsive img-actu"><br/>
+                            <img src="{{ asset('upload/' ~ actu.image) }}" class="img-responsive
+                            img-actu"><br/>
                             <p class="date">Le  {{ actu.date | date("d-m-Y") }}</p><br/>
 
                     </div>
