@@ -104,8 +104,12 @@ embed-responsive {
 
 .remerciement {
     color: #EE6616;
-    padding-top: 5%;
-    padding-right: 45%;
+   /* padding-top: 5%;
+    padding-right: 45%; */
+}
+
+.sponsors {
+    margin: 0 auto;
 }
 
 .espace {
