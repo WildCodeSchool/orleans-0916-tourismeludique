@@ -1,5 +1,9 @@
 {% extends 'base.html.twig' %}
 
+{% block stylesheets %}
+    <link rel="stylesheet" type="text/css" href="{{  asset('css/stylesheetFooter.css')}}">
+{% endblock %}
+
 {% block body %}
     {% block header %}
         {{ include('MTLBundle:Default:header.html.twig') }}

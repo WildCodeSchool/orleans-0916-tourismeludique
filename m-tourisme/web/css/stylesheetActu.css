@@ -14,6 +14,7 @@
 
 .lens:hover .lens-actu {
     animation: focus 1s ease-in-out 0s ;
+
 }
 
 .lens:hover .imgInLens {
