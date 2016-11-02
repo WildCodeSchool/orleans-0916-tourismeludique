@@ -3,6 +3,8 @@ h1 {
     font-family: 'santorregular', 'DIN-Bold', 'Courgette';
     font-size: 3.5em;
     padding-left: 100px;
+    border: 2px solid rgba(255, 255, 255, 0);
+
 }
 
 table {
