@@ -101,9 +101,6 @@ class DefaultController extends Controller
      */
     public function showActuAction(actu $actu)
     {
-//        $oneactu = $this->getDoctrine()
-//            ->getRepository('AdminBundle:actu')
-//            ->findOneById($id);
         return $this->render('MTLBundle:Default:oneActu.html.twig', array(
             'actu' => $actu,
         ));
