@@ -12,7 +12,7 @@
 }
 
 .txt-presentation {
-    font-size: 180%;
+    font-size: 150%;
     margin-bottom: 1%;
 }
 
@@ -49,7 +49,6 @@
     list-style: none;
 }
 
-
 /* trois points */
 
 .titre_trois_points {
@@ -60,11 +59,11 @@
 
 .titrePoint {
     font-family: DIN-Bold;
-    font-size: 200%;
+    font-size: 180%;
 }
 
 .txtPoint {
-    font-size: 130%;
+    font-size: 150%;
     margin-bottom: 60px;
 }
 

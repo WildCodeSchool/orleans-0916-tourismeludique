@@ -31,7 +31,7 @@ body {
 }
 
 .contenu {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'DIN-Light', 'Courgette';
     text-align: left;
     font-size: 180%;
 }
@@ -82,4 +82,9 @@ img {
 h1 {
     font-family: 'DIN-Light', 'Courgette';
     font-size: 180%;
+}
+
+p {
+    font-size: 140%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }

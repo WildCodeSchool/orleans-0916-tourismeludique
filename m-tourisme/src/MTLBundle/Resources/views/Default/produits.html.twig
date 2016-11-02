@@ -1,7 +1,7 @@
 <div class="container-fluid " id="ancreProduit" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
     <div class="row">
         <div class="col-lg-12">
-            <h2 class="titreGeo">GéoMOTifs</h2>
+            <h2>GéoMOTifs</h2>
         </div>
     </div>
 </div>
@@ -9,19 +9,21 @@
 <div class="container-fluid">
     <!-- Section vidéo et description -->
     <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="embed-responsive embed-responsive-4by3">
-                    <video class="embed-responsive-item" playsinline autoplay muted loop>
+        <div class="col-lg-offset-1 col-md-offset-1 col-lg-5 col-md-5 col-sm-offset-2 col-xs-offset-2 col-sm-8
+        col-xs-8">
+            <div class="center-block embed-responsive embed-responsive-4by3">
+                    <video class="embed-responsive-item center-block" playsinline autoplay muted loop>
                         <source src="{{ asset('videos/orleanshg.mp4') }}" type="video/mp4">
                     </video>
             </div>
+
             <div class="row">
-                <div class="col-lg-12 col-md-6 col-sm-6 col-xs-12 ">
+                <div class="col-lg-12 col-md-5 col-sm-11 col-xs-11 ">
                     <a class="linkYT" target="_blank" href="https://www.youtube.com/channel/UCj_DmGMNzw3DTMUMyYoyoyQ">Voir la vidéo sur youtube</a>
                 </div>
             </div>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="col-lg-offset-1 col-md-offset-1 col-lg-5 col-md-5 col-sm-12 col-xs-12">
             <h3 class="titreProduit">Développez un nouveau thème de visite</h3><br/>
             <p class="txtGeo">
                 Territoire, Ville, monument, lieu de visite...
@@ -72,6 +74,7 @@
                     100% originale</q></cite></p>
         </div>
     </div>
+    <br/>
     <div class="row citation">
         <div class="col-lg-12">
             <p class="citationRight"><cite><q>Le <strong class="motAccroche">Géocaching</strong> des mots et des
@@ -84,26 +87,20 @@
 <!-- Section FB et lien Géomotifs -->
 <div class="container-fluid">
     <div class="row">
-        <div class="col-lg-12">
+        <div class="col-xs-12 col-lg-6 col-md-6 col-sm-6 center-block">
+            <br/><br/><br/><br/><br/><br/><br/>
+            <div class="espace"></div>
             <p class="txtFB">Retrouvez-nous sur notre site</p>
+            <a href="http://www.geomotifs.fr/" target="_blank"><img  class="center-block"
+                                                                     src="{{ asset('image/logo-geomotifs.png') }}" alt="site de Géomotifs"></a>
+            <a href="https://www.facebook.com/geomotifs" target="_blank"><p class="txtFB">Et devenez accros aux
+                    détails<br/> en contribuant sur notre page <span class="facebook">Facebook</span></p></a>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-12 linkGeomotifs">
-            <a href="http://www.geomotifs.fr/" target="_blank"><img  class="img-responsive center-block" src="{{ asset
-                ('image/logo-geomotifs.png') }}" alt="site de Géomotifs"></a>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-12">
-            <a href="https://www.facebook.com/geomotifs" target="_blank"><p class="txtFB">Et devenez accros aux motifs en contribuant sur notre page Facebook</p></a>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-offset-4 col-md-offset-4 col-sm-offset-4 col-lg-4 col-md-4 col-sm-4 hidden-xs">
+
+        <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-4 col-md-4 col-sm-4 hidden-xs">
             <div class="fb-page" data-href="https://www.facebook.com/geomotifs" data-tabs="timeline,events,messages"
-                 data-width="500" data-height="500" data-small-header="false" data-adapt-container-width="false"
-                 data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook
+                 data-width="500" data-height="500" data-small-header="true" data-adapt-container-width="true"
+                 data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook
                  .com/geomotifs" class="fb-xfbml-parse-ignore "><a href="https://www.facebook.com/geomotifs">Géomotifs</a></blockquote>
             </div>
         </div>
@@ -118,12 +115,12 @@
     <div class="row">
         <div class="col-lg-offset-2 col-md-offset-2 col-sm-offset-2 col-xs-offset-2 col-lg-3 col-md-3 col-sm-3 col-xs-3">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-xs-12">
                     <p class="remerciement">Inspiré de:</p>
                 </div>
             </div>    
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-xs-12">
                     <a href="http://www.eyrolles.com/Loisirs/Livre/vocabulaire-illustre-de-l-ornement-9782212128598" target="_blank">
                         <img src="{{ asset('image/produit-vocabulaire.jpg') }}" class="img-responsive" alt="livre vocabulaire illustré de l'Ornement"></a>
                 </div>
@@ -131,12 +128,12 @@
         </div>
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-xs-12">
                     <p class="remerciement">Une application réalisée par:</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-xs-12">
                     <a href="http://www.museographie.mazedia.fr/" target="_blank">
                         <img src="{{ asset('image/produit-mazedia-V2.png') }}" class="img-responsive" alt="Agence Mazedia"></a>
                 </div>
@@ -144,12 +141,12 @@
         </div>
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-xs-12">
                     <p class="remerciement">Avec le soutien de:</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-xs-12">
                     <a href="http://www.regioncentre-valdeloire.fr/accueil.html" target="_blank">
                         <img src="{{ asset('image/Region-Centre-Val-de-Loire-2015.png') }}" class="img-responsive" alt="Région centre Val de Loire"></a>
                 </div>
