@@ -18,3 +18,13 @@ body {
     padding-right: 0px;
     padding-left: 0px;
 }
+
+h2 {
+    text-align: center;
+    font-size: 300%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    color: #EE6616;
+    font-family: 'santorregular', 'DIN-Bold', 'Courgette';
+    font-weight: bold;
+}
