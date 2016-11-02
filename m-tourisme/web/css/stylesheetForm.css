@@ -42,6 +42,19 @@
     background: radial-gradient(circle, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0)); /* Standard syntax */
 }
 
+.linkAdresse {
+    color: #EE6616;
+    text-decoration: none;
+}
+
+.linkAdresse:hover{
+    color: #EE6616;
+}
+
+.linkAdresse:focus{
+    color: #EE6616;
+}
+
 .map {
     margin-top: 3%;
     border: 2px solid #EE6616;
@@ -236,8 +249,6 @@
     .logolabo {
         width: 20%;
         height: 20%;
-        margin-top: -10%;
-        margin-bottom: -10%;
     }
 
     .texte_require {
@@ -250,7 +261,7 @@
     .logolabo {
         width: 20%;
         height: 20%;
-        margin-top: -2%;
+        margin-top: 5%;
         margin-bottom: 2%;
         margin-left: 40%;
     }
@@ -265,7 +276,7 @@
     .logolabo {
         width: 20%;
         height: 20%;
-        margin-top: -2%;
+        margin-top: 5%;
         margin-bottom: 2%;
         margin-left: 40%;
     }
@@ -280,7 +291,7 @@
     .logolabo {
         width: 20%;
         height: 20%;
-        margin-top: -2%;
+        margin-top: 5%;
         margin-bottom: 2%;
         margin-left: 40%;
     }

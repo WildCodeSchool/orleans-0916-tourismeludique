@@ -1,5 +1,10 @@
 video {
-    border-radius: 1%;
+    border-radius: 3%;
+}
+
+embed-responsive {
+    margin: 0 auto;
+    width: 100px;
 }
 
 .txtGeo {
@@ -26,7 +31,6 @@ video {
 .linkYT:focus {
     color: #EE6616;
 }
-
 
 .geomotifs {
     font-weight: bold;
