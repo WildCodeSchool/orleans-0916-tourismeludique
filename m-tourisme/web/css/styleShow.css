@@ -1,10 +1,9 @@
-h1 {
+.show_actu_title {
     text-align: center;
     font-family: 'santorregular', 'DIN-Bold', 'Courgette';
     font-size: 3.5em;
     padding-left: 100px;
     border: 2px solid rgba(255, 255, 255, 0);
-
 }
 
 table {

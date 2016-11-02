@@ -22,8 +22,13 @@
         {{  include('headerAdmin.html.twig') }}
     {% endblock %}
             <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h1 class="edit_actu_title">Editer une Actualité</h1>
+                    </div>
+                </div>
+                <br/>
                 <div class="row edit">
-                    <h1 class="edit_actu_title">Editer une Actualité</h1>
 
                         {{ form_start(edit_form) }}
                             {{ form_row(edit_form.titre, { 'attr': {'class': 'form-control input-lg'}}) }}<br/>
