@@ -92,6 +92,11 @@ embed-responsive {
     color: black;
 }
 
+.facebook {
+    color: blue;
+    font-style: italic;
+}
+
 .remerciement {
     color: #EE6616;
     padding-top: 5%;
