@@ -1,7 +1,8 @@
-h1 {
+.new_actu_title {
     text-align: center;
     font-family: 'santorregular', 'DIN-Bold', 'Courgette';
     font-size: 3.5em;
+    border: 2px solid rgba(255, 255, 255, 0);
 }
 
 ul {
