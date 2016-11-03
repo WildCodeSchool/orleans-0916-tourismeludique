@@ -487,4 +487,7 @@ margin: auto;
     color: white;
 }
 
+.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+    margin-right: 0px;
+}
 /*********************************************** / HEADER *************************************************************/
