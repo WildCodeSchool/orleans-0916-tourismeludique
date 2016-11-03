@@ -25,7 +25,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -45,23 +45,27 @@
      id="namedview4192"
      showgrid="false"
      inkscape:zoom="0.75592814"
-     inkscape:cx="521.875"
+     inkscape:cx="526.50507"
      inkscape:cy="521.875"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer2" />
+     inkscape:current-layer="layer1" />
   <g
      inkscape:groupmode="layer"
      id="layer1"
-     inkscape:label="fond">
+     inkscape:label="fond"
+     style="display:inline">
     <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.22501719;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect4217"
-       width="1042.4021"
-       height="1047.6936"
-       x="0.012508589"
-       y="-1.3103684" />
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.24589822;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4190"
+       width="992.11194"
+       height="992.11194"
+       x="25.157614"
+       y="25.157614"
+       ry="496.05597"
+       inkscape:export-xdpi="102"
+       inkscape:export-ydpi="102" />
   </g>
   <g
      inkscape:groupmode="layer"

@@ -50,7 +50,7 @@ class DefaultController extends Controller
                 // create the message
                 $message = \Swift_Message::newInstance()
                     ->setSubject('Mail envoyé depuis votre site m-Tourisme Ludique')
-                    ->setFrom(array($email => 'Un visiteur'))
+                    ->setFrom(array('munier.louise@gmail.com' => 'Un visiteur'))
                     ->setTo(array('munier.louise@gmail.com' => 'm-Tourisme Ludique'))
                     ->setCharset('UTF-8')
                     ->setContentType('text/html')
@@ -72,7 +72,7 @@ class DefaultController extends Controller
 
                 $this->get('session')
                     ->getFlashBag()
-                    ->add('success', 'Votre message à bien été envoyé. Nous vous ferrons un retour dans les plus brefs délais. Merci!');
+                    ->add('success', 'Votre message à bien été envoyé. Nous vous ferons un retour dans les plus brefs délais. Merci!');
             }
 
             return $this->redirectToRoute('accueil');
