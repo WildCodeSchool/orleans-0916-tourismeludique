@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="500mm"
+   height="500mm"
+   viewBox="0 0 1771.6535 1771.6535"
+   id="svg4344"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="Logo_mTourismeLudique_picto_B&amp;orange.svg"
+   inkscape:export-filename="/home/wilder6/Logo_mTourismeLudique_picto_N4.png"
+   inkscape:export-xdpi="102"
+   inkscape:export-ydpi="102">
+  <defs
+     id="defs4346" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.38254353"
+     inkscape:cx="1107.8831"
+     inkscape:cy="1042.8163"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4349">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="fond">
+    <rect
+       style="opacity:1;fill:#f1511b;fill-opacity:1;stroke:#ffffff;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4198"
+       width="1780.1893"
+       height="1788.0316"
+       x="3.4110448e-09"
+       y="-5.9219561"
+       ry="0" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,719.29134)">
+    <circle
+       cx="877.54327"
+       cy="466.12518"
+       r="73.252869"
+       id="circle9"
+       style="fill:#ffffff;fill-opacity:1" />
+    <path
+       d="m 1108.4803,76.777602 0,-142.013608 c 0,-85.483924 -40.3402,-127.010184 -123.28894,-127.010184 -41.55592,0 -75.77321,16.6194 -97.75945,35.15129 -25.2775,-31.19288 -63.49768,-35.15129 -91.41412,-35.15129 -37.81989,0 -66.34418,12.21622 -89.41269,27.23447 l 0,-27.23447 -54.98783,0 0,352.65452 54.98783,0 0,-258.794187 c 18.07231,-17.953703 46.73003,-39.480343 93.14872,-39.480343 18.79875,0 32.6606,4.34387 41.22975,12.92785 14.21767,14.29179 14.12872,39.880631 14.06942,60.458445 l -0.0297,224.888235 53.77214,0 0,-225.644336 c 0,-18.502243 2.66859,-31.311488 8.95461,-42.816084 4.31422,-7.902 26.64145,-30.46644 71.14765,-30.46644 54.29106,0 65.20266,29.94754 65.20266,78.234246 l 0,155.653082 c 0,36.129782 29.3841,64.416862 66.8927,64.416862 l 9.4735,0 13.9211,-44.26899 -13.8766,-2.97993 c -19.8662,-4.29939 -22.0308,-14.677255 -22.0308,-35.759138 z"
+       id="path49"
+       style="fill:#ffffff;fill-opacity:1"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 1340.3662,-45.19191 c 2.6686,18.220558 4.1956,36.7821031 4.7145,55.625333 l 210.3889,0 c -0.341,-18.7394513 -1.275,-37.315822 -3.0985,-55.625333 l -212.0049,0 z"
+       id="path101"
+       style="fill:#ffffff;fill-opacity:1"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
