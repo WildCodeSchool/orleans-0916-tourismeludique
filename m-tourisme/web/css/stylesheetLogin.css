@@ -1,20 +1,20 @@
-.block_login {
-    /*background-image: url("../image/shattered2.png");*/
-}
-
 .login_page {
     align-content: center;
 }
 
 .title_login {
     text-align: center;
-    align-content: center;
     color: rgb(241, 81, 27);
     font-family: 'santorregular', 'DIN', Arial;
 }
 
 .titleMTL {
     font-weight: bold;
+}
+
+.title_connexion {
+    font-size: 220%;
+    font-weight: normal;
 }
 
 .form_login {
@@ -38,6 +38,12 @@
 
 .link_login {
     color: rgba(255, 255, 255, 1);
+    background-color: rgba(241, 81, 27, 0.7);
+    margin-left: 10px;
+    margin-top: 20px;
+    padding: 15px 15px 15px 15px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 
 .input_submit {
@@ -48,7 +54,5 @@
 
 /* bouton login en haut à gauche */
 .btn_login {
-    background-color: rgba(241, 81, 27, 0.7);
-    margin-left: 2%;
-    margin-top: 2%;
+
 }
