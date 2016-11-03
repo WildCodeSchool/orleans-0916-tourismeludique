@@ -125,11 +125,32 @@
             <ul id="logo_home">
 
                 <li>
-                    <a href="#" id="home">
+                    <a href="#" id="home" class="go_top">
                         <span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span>
                     </a>
                 </li>
             </ul>
         </div>
+
+        <!-- code pour faire apparaître le bouton dès que l'on scroll -->
+        <script>
+            $(document).ready(function(){
+                // Condition d'affichage du bouton
+                $(window).scroll(function(){
+                    if ($(this).scrollTop() > 100){
+                        $('.go_top').fadeIn();
+                    }
+                    else{
+                        $('.go_top').fadeOut();
+                    }
+                });
+                // Evenement au clic
+                $('.go_top').click(function(){
+                    $('html, body').animate({scrollTop : 0},800);
+                    return false;
+                });
+            });
+        </script>
+
 
 {% endblock %}
