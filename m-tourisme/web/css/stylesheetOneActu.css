@@ -167,11 +167,12 @@ a.lightbox-close {
 a.lightbox-close:before {
     content: "";
     display: block;
-    height: 30%;
+    height: 36px;
     width: 1px;
     background: black;
     position: absolute;
-
+    left: 26px;
+    top:12px;
     -webkit-transform:rotate(45deg);
     -moz-transform:rotate(45deg);
     -o-transform:rotate(45deg);
@@ -183,12 +184,12 @@ a.lightbox-close:before {
 a.lightbox-close:after {
     content: "";
     display: block;
-    height: 30px;
+    height: 36px;
     width: 1px;
     background: black;
     position: absolute;
     left: 26px;
-    top:10px;
+    top:12px;
     -webkit-transform:rotate(-45deg);
     -moz-transform:rotate(-45deg);
     -o-transform:rotate(-45deg);
