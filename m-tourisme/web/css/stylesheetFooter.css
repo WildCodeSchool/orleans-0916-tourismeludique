@@ -63,5 +63,15 @@
     color: #EE6616;
 }
 .container-fluid {
-padding-right: 0px;
-padding-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.logo_wild {
+    width: 80px;
+}
+.logo_wild2 {
+    width: 50px;
+}
+.block_foot {
+    margin-top: 25px;
+}
