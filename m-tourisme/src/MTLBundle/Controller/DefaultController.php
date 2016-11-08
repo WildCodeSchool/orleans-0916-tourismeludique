@@ -24,7 +24,7 @@ class DefaultController extends Controller
     {
         $actus = $this->getDoctrine()
             ->getRepository('AdminBundle:actu')
-            ->findAll();
+            ->findby(array(), array('id'=>'DESC'));
 
         $contact = new Contact();
         $form = $this->createForm(ContactType::class, $contact);
@@ -90,7 +90,7 @@ class DefaultController extends Controller
     {
         $actus = $this->getDoctrine()
             ->getRepository('AdminBundle:actu')
-            ->findAll();
+            ->findby(array(), array('id'=>'DESC'));
         return $this->render('MTLBundle:Default:listeActu.html.twig', array(
             'actus' => $actus,
         ));

@@ -132,8 +132,8 @@ a.lightbox img {
     left:0;
     right:0;
     bottom: 0;
-    max-height: 0%;
-    max-width: 0%;
+    max-height: 80%;
+    max-width: 80%;
     border: 3px solid white;
     box-shadow: 0px 0px 8px rgba(0,0,0,.3);
     box-sizing: border-box;
@@ -155,7 +155,7 @@ a.lightbox-close {
     text-decoration: none;
     position: absolute;
     top: -80px;
-    right: 20;
+    right: 0;
     -webkit-transition: .5s ease-in-out;
     -moz-transition: .5s ease-in-out;
     -o-transition: .5s ease-in-out;
@@ -205,8 +205,8 @@ a.lightbox-close:after {
 }
 
 .lightbox-target:target img {
-    max-height: 100%;
-    max-width: 100%;
+    max-height: 200%;
+    max-width: 200%;
 }
 
 .lightbox-target:target a.lightbox-close {
