@@ -9,6 +9,36 @@
     font-family: 'DIN';
 }
 
+/*Suppression image fixe pour iphone et ipad*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+    .sectionForm {
+        background-attachment: scroll;
+    }
+}
+
+/*Suppression image fixe pour Retina*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .sectionForm {
+        background-attachment: scroll;
+    }
+}
+
+/*Suppression image fixe pour ipad 1&2*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 1){
+    .sectionForm {
+        background-attachment: scroll;
+    }
+}
+
+
 .leftSide {
     text-align: center;
     font-size: 150%;
@@ -207,6 +237,7 @@
         padding-bottom: 2%;
         height: 30%;
     }
+}
 
 @media screen and (max-width:800px ) {
     .logolabo {
@@ -222,8 +253,9 @@
         padding-bottom: 2%;
         height: 20%;
     }
+}
 
-@media screen and (max-width:700px ) {
+@media screen and (max-width: 700px ) {
     .logolabo {
         width: 20%;
         height: 20%;
@@ -238,7 +270,7 @@
         height: 20%;
     }
 
-    .btn{
+    .btn {
         margin-left: -7%;
         background-color: #EE6616;
         font-size: 150%;
