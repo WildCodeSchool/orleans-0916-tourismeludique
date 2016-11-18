@@ -38,10 +38,41 @@ and (-webkit-min-device-pixel-ratio: 1){
     }
 }
 
+/* Iphone 4 et 4S */
 @media only screen
 and (min-device-width: 320px)
 and (max-device-width: 480px)
 and (-webkit-min-device-pixel-ratio: 2) {
+    Header {
+        background-attachment: scroll;
+    }
+}
+
+/* Iphone 5 et 5S */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    Header {
+        background-attachment: scroll;
+    }
+}
+
+/*Iphone 6 */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    Header {
+        background-attachment: scroll;
+    }
+}
+
+/* Iphone 6+ */
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px)
+and (-webkit-min-device-pixel-ratio: 3) {
     Header {
         background-attachment: scroll;
     }
