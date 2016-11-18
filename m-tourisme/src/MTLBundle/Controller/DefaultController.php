@@ -46,12 +46,14 @@ class DefaultController extends Controller
                 $entreprise = $form["entreprise"]->getData();
                 $email = $form["email"]->getData();
                 $message = $form["message"]->getData();
+                $contact = $form->getData();
+
 
                 // create the message
                 $message = \Swift_Message::newInstance()
                     ->setSubject('Mail envoyé depuis votre site m-Tourisme Ludique')
-                    ->setFrom(array('munier.louise@gmail.com' => 'Un visiteur'))
-                    ->setTo(array('munier.louise@gmail.com' => 'm-Tourisme Ludique'))
+                    ->setFrom(array('slambert@mtourisme-ludique.fr' => 'Un visiteur'))
+                    ->setTo(array('slambert@mtourisme-ludique.fr' => 'm-Tourisme Ludique'))
                     ->setCharset('UTF-8')
                     ->setContentType('text/html')
                     ->setBody(
@@ -61,7 +63,8 @@ class DefaultController extends Controller
                                     'prenom' => $prenom,
                                     'entreprise' => $entreprise,
                                     'email' => $email,
-                                    'message' => $message
+                                    'message' => $message,
+                                    'contact' => $contact
                             )
                         ));
 
