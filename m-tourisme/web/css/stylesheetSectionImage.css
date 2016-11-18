@@ -53,6 +53,9 @@ and (max-device-width : 1024px)  {
 	.sectionImage {
 		background-attachment: scroll;
 	}
+	.textImage1 {
+		font-size: 100%;
+	}
 }
 
 /*Suppression image fixe pour Retina*/
