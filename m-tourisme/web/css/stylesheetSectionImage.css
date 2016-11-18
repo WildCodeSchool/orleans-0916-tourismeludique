@@ -53,9 +53,6 @@ and (max-device-width : 1024px)  {
 	.sectionImage {
 		background-attachment: scroll;
 	}
-	.textImage1 {
-		font-size: 100%;
-	}
 }
 
 /*Suppression image fixe pour Retina*/
@@ -86,6 +83,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
 	.sectionImage {
 		background-attachment: scroll;
 	}
+	.textImage {
+		font-size: 200%;
+	}
 }
 
 /* Iphone 5 et 5S */
@@ -95,6 +95,9 @@ and (max-device-width: 568px)
 and (-webkit-min-device-pixel-ratio: 2) {
 	.sectionImage {
 		background-attachment: scroll;
+	}
+	.textImage {
+		font-size: 200%;
 	}
 }
 
@@ -106,6 +109,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
 	.sectionImage {
 		background-attachment: scroll;
 	}
+	.textImage {
+		font-size: 200%;
+	}
 }
 
 /* Iphone 6+ */
@@ -115,5 +121,8 @@ and (max-device-width: 736px)
 and (-webkit-min-device-pixel-ratio: 3) {
 	.sectionImage {
 		background-attachment: scroll;
+	}
+	.textImage {
+		font-size: 200%;
 	}
 }
