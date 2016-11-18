@@ -121,12 +121,13 @@ a.link:visited {
 }
 
 .date {
-    font-size: 120%;
+    font-size: 100%;
     text-align: right;
 }
 
-.back {
+.backHome {
     text-align: left;
+    font-size: 100%;
 }
 
 .img-actu {

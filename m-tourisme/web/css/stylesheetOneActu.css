@@ -124,11 +124,11 @@ a.link:visited {
 }
 
 .back {
-    text-align: left;
+    text-align: right;
 }
 
-.backAcceuil {
-    text-align: right;
+.backAccueil {
+    text-align: left;
 }
 
 .img-actu {
