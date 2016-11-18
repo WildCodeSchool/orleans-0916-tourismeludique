@@ -36,10 +36,11 @@
 
             <p class="texte_require">* Champs obligatoires</p>
             <div class="col-lg-12">
-                <button type="submit" name="validation" class="btn btn-warning catForm form-submit">Envoyer</button>
+                {#<button type="submit" name="validation" class="btn btn-warning catForm form-submit">Envoyer</button>#}
+        {{ form_end(form) }}
             </div>
         </div>
-    {{ form_end(form) }}
+
 
 {% endblock %}
 

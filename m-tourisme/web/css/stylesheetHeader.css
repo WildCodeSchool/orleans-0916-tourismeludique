@@ -9,6 +9,36 @@ Header {
     color: white;
 }
 
+/*Suppression image fixe pour iphone et ipad*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+    Header {
+        background-attachment: scroll;
+    }
+}
+
+/*Suppression image fixe pour Retina*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    Header {
+        background-attachment: scroll;
+    }
+}
+
+/*Suppression image fixe pour ipad 1&2*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 1){
+    Header {
+        background-attachment: scroll;
+    }
+}
+
+
 /* lien dirigeant vers la page d'accueil */
 .lien_header {
     text-decoration: none;
@@ -135,7 +165,7 @@ Header p {
 @media screen and (max-width:1250px ) {
     /***** balise du logo MTL *****/
     .logo_header {
-        margin-top: ;
+        margin-top:0;
     }
 
     .logo_header img  {

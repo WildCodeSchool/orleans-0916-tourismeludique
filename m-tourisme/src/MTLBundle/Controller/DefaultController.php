@@ -46,6 +46,8 @@ class DefaultController extends Controller
                 $entreprise = $form["entreprise"]->getData();
                 $email = $form["email"]->getData();
                 $message = $form["message"]->getData();
+                $contact = $form->getData();
+
 
                 // create the message
                 $message = \Swift_Message::newInstance()
@@ -61,7 +63,8 @@ class DefaultController extends Controller
                                     'prenom' => $prenom,
                                     'entreprise' => $entreprise,
                                     'email' => $email,
-                                    'message' => $message
+                                    'message' => $message,
+                                    'contact' => $contact
                             )
                         ));
 

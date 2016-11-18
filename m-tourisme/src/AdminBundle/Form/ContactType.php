@@ -36,7 +36,7 @@ class ContactType extends AbstractType
             ->add('entreprise', TextType::class, array('required' => false, 'attr'=>array('placeholder'=>'Votre entreprise, société, organisme, ...', 'class'=>'form-control input-lg', 'aria-label'=> 'Votre Raison sociale')))
             ->add('email', EmailType::class, array('attr'=>array('placeholder'=>'Votre email * (ex: durantjerome@mail.com)', 'class'=>'form-control input-lg', 'aria-label'=> 'Votre Email')))
             ->add('message', TextareaType::class, array('attr'=>array('placeholder'=>'Votre message *', 'class'=>'form-control input-lg', 'aria-label'=> 'Votre Message')))
-        ;
+            ->add('save', SubmitType::class, array('label' => 'Envoyer', 'attr'=>array('value'=> 'Envoyer', 'name'=>'submit', 'class'=>'btn btn-warning catform form-submit')));
     }
 
     /**
