@@ -50,8 +50,8 @@ class DefaultController extends Controller
                 // create the message
                 $message = \Swift_Message::newInstance()
                     ->setSubject('Mail envoyé depuis votre site m-Tourisme Ludique')
-                    ->setFrom(array('slambert@mtourisme-ludique.fr' => 'Un visiteur'))
-                    ->setTo(array('slambert@mtourisme-ludique.fr' => 'm-Tourisme Ludique'))
+                    ->setFrom(array('contact@mtourisme-ludique.fr' => 'Un visiteur'))
+                    ->setTo(array('contact@mtourisme-ludique.fr' => 'm-Tourisme Ludique'))
                     ->setCharset('UTF-8')
                     ->setContentType('text/html')
                     ->setBody(

@@ -76,6 +76,8 @@
 
 .date {
     color: #EE6616;
+    font-style: italic;
+    font-size: 80%;
     text-align: right;
     margin-left: 35%;
 }
