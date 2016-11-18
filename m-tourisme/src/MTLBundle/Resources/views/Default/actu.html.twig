@@ -11,13 +11,6 @@
     </div>
 
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-        </ol>
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
@@ -33,7 +26,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                             <div class="row">
                                 <div class="col-xs-12">
-                                    <h3 class="news">{{ actu.titre | truncate(25, true, '...')}}</h3>
+                                    <h3 class="news">{{ actu.titre | truncate(17, true, '...')}}</h3>
                                 </div>
                             </div>
                             <br/><br/>
@@ -47,7 +40,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-xs-12">
-                                    <p class="txtActu center-block">{{ actu.contenu|truncate(90, true,'...') | raw}}</p>
+                                    <p class="txtActu center-block">{{ actu.contenu|truncate(59, true,'...') | raw}}</p>
                                 </div>
                             </div>
                             <div class="row">
