@@ -38,6 +38,14 @@ and (-webkit-min-device-pixel-ratio: 1){
     }
 }
 
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    Header {
+        background-attachment: scroll;
+    }
+}
 
 /* lien dirigeant vers la page d'accueil */
 .lien_header {
