@@ -35,6 +35,36 @@
     width: 100%;
 }
 
+/*Suppression image fixe pour iphone et ipad*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+    #background {
+        background-attachment: scroll;
+    }
+}
+
+/*Suppression image fixe pour Retina*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    #background {
+        background-attachment: scroll;
+    }
+}
+
+/*Suppression image fixe pour ipad 1&2*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 1){
+    #background {
+        background-attachment: scroll;
+    }
+}
+
+
 .modal-body {
     color: #0f0f0f;
     text-align: left;
