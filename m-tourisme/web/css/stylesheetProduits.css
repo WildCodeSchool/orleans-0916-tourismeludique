@@ -2,7 +2,7 @@ video {
     border-radius: 3%;
 }
 
-embed-responsive {
+.embed-responsive {
     margin: 0 auto;
     width: 100px;
 }
