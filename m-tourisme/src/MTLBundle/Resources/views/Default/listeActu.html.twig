@@ -30,7 +30,7 @@
                 <div class="row">
                     <div class="col-xs-12">
                         {% for actu in actus %}
-                            <h2 class="titreActu">{{ actu.titre |truncate(40, true,'...')}}</h2><br/>
+                            <h2 class="titreActu" id="{{ actu.id }}">{{ actu.titre |truncate(40, true,'...')}}</h2><br/>
                         <a class="link" href="{{ path('afficher_actu', {'id': actu.id}) }}"><p class="contenu">{{ actu
                                 .contenu|truncate(100, true,'...') | raw }}</p></a><br/>
                             <a href="{{ path('afficher_actu', {'id': actu.id}) }}"><img src="{{ asset('upload/' ~ actu.image) }}"
