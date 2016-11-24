@@ -2,7 +2,6 @@
 	background-image: url(../image/BESTOF31.jpg);
 	background-attachment: fixed;
 	background-size: cover;
-	height: 70%;
     width: 100%;
 	margin-top: 5%;
 }
@@ -12,7 +11,7 @@
 	font-family: 'DIN';
 	text-align: center;
 	margin: auto;
-	font-size: 450%;
+	font-size: 300%;
 	color: #000;
 	padding: 0px;
 }
