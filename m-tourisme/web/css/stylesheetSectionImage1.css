@@ -24,7 +24,9 @@
 .guillemetsdown1 {
     width: 50%;
     height: 70%;
-    margin-top: 30%;
+    margin-top: 40%;
+    margin-bottom: 5%;
+
 }
 
 /*Suppression image fixe pour iphone et ipad*/
@@ -32,6 +34,7 @@
 and (min-device-width : 768px)
 and (max-device-width : 1024px)  {
     .sectionImage1 {
+        background-size: auto!important;
         background-attachment: scroll;
     }
     .textImage1 {
@@ -45,6 +48,7 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (-webkit-min-device-pixel-ratio: 2) {
     .sectionImage1 {
+        background-size: auto!important;
         background-attachment: scroll;
     }
     .textImage1 {
@@ -58,6 +62,7 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (-webkit-min-device-pixel-ratio: 1){
     .sectionImage1 {
+        background-size: auto!important;
         background-attachment: scroll;
     }
     .textImage1 {
@@ -71,6 +76,7 @@ and (min-device-width: 320px)
 and (max-device-width: 480px)
 and (-webkit-min-device-pixel-ratio: 2) {
     .sectionImage1 {
+        background-size: auto!important;
         background-attachment: scroll;
     }
     .textImage1 {
@@ -84,10 +90,11 @@ and (min-device-width: 320px)
 and (max-device-width: 568px)
 and (-webkit-min-device-pixel-ratio: 2) {
     .sectionImage1 {
+        background-size: auto!important;
         background-attachment: scroll;
     }
     .textImage1 {
-        font-size: 1500%;
+        font-size: 200%;
     }
 }
 
@@ -97,6 +104,7 @@ and (min-device-width: 375px)
 and (max-device-width: 667px)
 and (-webkit-min-device-pixel-ratio: 2) {
     .sectionImage1 {
+        background-size: auto!important;
         background-attachment: scroll;
     }
     .textImage1 {
@@ -110,6 +118,7 @@ and (min-device-width: 414px)
 and (max-device-width: 736px)
 and (-webkit-min-device-pixel-ratio: 3) {
     .sectionImage1 {
+        background-size: auto!important;
         background-attachment: scroll;
     }
     .textImage1 {
@@ -123,6 +132,7 @@ and (min-device-width: 320px)
 and (max-device-width: 568px)
 and (-webkit-min-device-pixel-ratio: 2) {
     .sectionImage1 {
+        background-size: auto!important;
         background-attachment: scroll;
     }
     .textImage1 {

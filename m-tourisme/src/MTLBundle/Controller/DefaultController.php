@@ -18,7 +18,7 @@ use Symfony\Component\HttpFoundation\Session\Session;
 class DefaultController extends Controller
 {
     /**
-     * @Route("/index", name="accueil")
+     * @Route("/", name="accueil")
      */
     public function listeActuIndexAction(Request $request)
     {

@@ -49,6 +49,7 @@
 and (min-device-width : 768px)
 and (max-device-width : 1024px)  {
 	.sectionImage {
+		background-size: contain!important;
 		background-attachment: scroll;
 	}
 }
@@ -59,6 +60,7 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (-webkit-min-device-pixel-ratio: 2) {
 	.sectionImage {
+		background-size: contain!important;
 		background-attachment: scroll;
 	}
 }
@@ -69,6 +71,7 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (-webkit-min-device-pixel-ratio: 1){
 	.sectionImage {
+		background-size: contain!important;
 		background-attachment: scroll;
 	}
 }
@@ -79,6 +82,7 @@ and (min-device-width: 320px)
 and (max-device-width: 480px)
 and (-webkit-min-device-pixel-ratio: 2) {
 	.sectionImage {
+		background-size: contain!important;
 		background-attachment: scroll;
 	}
 	.textImage {
@@ -92,6 +96,7 @@ and (min-device-width: 320px)
 and (max-device-width: 568px)
 and (-webkit-min-device-pixel-ratio: 2) {
 	.sectionImage {
+		background-size: contain!important;
 		background-attachment: scroll;
 	}
 	.textImage {
@@ -105,7 +110,7 @@ and (min-device-width: 375px)
 and (max-device-width: 667px)
 and (-webkit-min-device-pixel-ratio: 2) {
 	.sectionImage {
-		background-attachment: scroll;
+		background-size: contain!important;		background-attachment: scroll;
 	}
 	.textImage {
 		font-size: 200%;
@@ -118,6 +123,7 @@ and (min-device-width: 414px)
 and (max-device-width: 736px)
 and (-webkit-min-device-pixel-ratio: 3) {
 	.sectionImage {
+		background-size: 100%!important;
 		background-attachment: scroll;
 	}
 	.textImage {
